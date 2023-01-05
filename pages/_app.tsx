@@ -1,5 +1,6 @@
-//import 'styles/globals.scss';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'styles/scss/globals.scss';
+
 import type { AppProps } from 'next/app'
 
 import { Montserrat, IBM_Plex_Serif } from '@next/font/google'

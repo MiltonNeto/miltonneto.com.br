@@ -1,0 +1,36 @@
+.greetings {
+  background: url(/images/header-bg.jpg) center center;
+  background-size: cover;
+  padding: 80px 0 70px 0;
+  color: #FFF;
+}
+.greetings .subline {
+  color: #b3b3b3;
+  margin-top: 10px;
+}
+
+.mainNavigation {
+  background-color: #FFF;
+  height: 60px;
+}
+.mainNavigation .homeLink {
+  background-color: #0c4a6e;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: -50px;
+  position: absolute;
+}
+.mainNavigation .linkList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+}
+.mainNavigation .linkList .linkListItem {
+  margin-left: 1.5em;
+}

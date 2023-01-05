@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#appBody {
+  background-color: #F9F9FA;
+  font-family: "Montserrat";
+  color: #666;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.sectionTitle {
+  font-size: 1.8em;
+  font-weight: 600;
+  font-style: italic;
+}
