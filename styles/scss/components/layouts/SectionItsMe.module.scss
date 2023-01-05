@@ -1,0 +1,12 @@
+@import '../../variables';
+
+
+.contentText{
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.contentImage{
+    border-radius: 35px;
+    box-shadow: $DefaultShadow;
+}

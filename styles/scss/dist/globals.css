@@ -26,4 +26,63 @@ section {
   font-size: 1.8em;
   font-weight: 600;
   font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sectionTitle .sectionTitleIcon {
+  margin-right: 1em;
+}
+
+.quote {
+  border-left: solid 5px #da00bd;
+  padding-left: 15px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.subcontent {
+  margin-top: 30px;
+}
+.subcontent .subtitle {
+  font-size: 1.2em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.boxList {
+  display: flex;
+  flex-direction: column;
+}
+.boxList .boxListItem {
+  padding-left: 1em;
+  background-color: #FFF;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px #eeeeee;
+  border-radius: 14px;
+  border: solid 1px #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boxList .boxListItem .itemName {
+  font-weight: bold;
+}
+.boxList .boxListItem img {
+  height: 30px;
+  border-radius: 10px;
+}
+.boxList .boxListItem .boxListRightSide {
+  margin-left: 1em;
 }
