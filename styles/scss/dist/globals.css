@@ -32,7 +32,7 @@ section {
   margin-bottom: 20px;
 }
 .sectionTitle .sectionTitleIcon {
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .quote {
@@ -58,6 +58,9 @@ section {
   align-items: center;
   margin-bottom: 20px;
 }
+.subcontent .subtitle img {
+  margin-right: 0.5em;
+}
 
 .boxList {
   display: flex;
@@ -72,12 +75,14 @@ section {
   border: solid 1px #f8f8f8;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 0.8em;
 }
 .boxList .boxListItem .itemName {
   font-weight: bold;
+  font-size: 1em;
 }
 .boxList .boxListItem img {
   height: 30px;

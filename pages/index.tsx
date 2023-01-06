@@ -1,5 +1,5 @@
 import SectionItsMe from "../components/sections/SectionItsMe"
-import SectionWhatIDo from "../components/sections/SectionWhatIDo"
+import SectionPortfolio from "../components/sections/SectionPortfolio"
 import SectionHowTo from "../components/sections/SectionHowTo"
 import SectionResume from "../components/sections/SectionResume"
 
@@ -9,7 +9,7 @@ export default function Home() {
         <div id="appBody">
             <main>
                 <SectionItsMe/>
-                <SectionWhatIDo/>
+                <SectionPortfolio/>
                 <SectionHowTo/>
                 <SectionResume/>
             </main>

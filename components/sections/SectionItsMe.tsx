@@ -1,4 +1,4 @@
-import styles from '../../styles/scss/components/layouts/SectionItsMe.module.scss';
+import styles from '../../styles/scss/components/sections/Itsme.module.scss'
 
 import Image from "next/image";
 import { Container, Row, Col } from "reactstrap";
@@ -43,24 +43,24 @@ export default function SectionItsMe(){
                                 <Image src='/images/logos/unisul.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className='boxListRightSide'>
                                     <h5 className='itemName'>Produção Multimídia</h5>
-                                    <span className="date">Unisul - 2016 -- 2018</span>
-                                    <span >Superior</span>
+                                    <span className="date">Unisul - 2016 -- 2018</span><br/>
+                                    <span className='educationLevel'>Superior</span>
                                 </div>
                             </li>
                             <li className='boxListItem'>
                             <Image src='/images/logos/uniritter.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className='boxListRightSide'>
                                     <h5 className='itemName'>User Experience</h5>
-                                    <span className="date">Uniritter - 2018 -- 2020</span>
-                                    <span >Pós-graduação(Especialização)</span>
+                                    <span className="date">Uniritter - 2018 -- 2020</span><br/>
+                                    <span className='educationLevel' >Pós-graduação(Especialização)</span>
                                 </div>
                             </li>
                             <li className='boxListItem'>
                             <Image src='/images/logos/Mackenzie.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className='boxListRightSide'>
                                     <h5 className='itemName'>Neurociências e psicologia aplicada</h5>
-                                    <span>Mackenzie - 2022 -- 2023</span>
-                                    <span >Pós-graduação(Especialização)</span>
+                                    <span>Mackenzie - 2022 -- 2023</span><br/>
+                                    <span className='educationLevel' >Pós-graduação(Especialização)</span>
                                 </div>
                             </li>
                         </ul>

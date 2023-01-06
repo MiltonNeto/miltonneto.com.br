@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var SectionItsMe_module_scss_1 = require("../../styles/scss/components/layouts/SectionItsMe.module.scss");
+var Itsme_module_scss_1 = require("../../styles/scss/components/sections/Itsme.module.scss");
 var image_1 = require("next/image");
 var reactstrap_1 = require("reactstrap");
 function SectionItsMe() {
@@ -10,13 +10,13 @@ function SectionItsMe() {
                 React.createElement(image_1["default"], { src: "/images/icones/alien-color.png", width: '48', height: '48', alt: "Quem sou eu na fila do p\u00E3o?", className: 'sectionTitleIcon' }),
                 React.createElement("span", null, "Quem sou eu")),
             React.createElement(reactstrap_1.Row, null,
-                React.createElement(reactstrap_1.Col, { xxl: "8", className: SectionItsMe_module_scss_1["default"].contentText },
+                React.createElement(reactstrap_1.Col, { xxl: "8", className: Itsme_module_scss_1["default"].contentText },
                     React.createElement("p", null, "Tenho 40 anos, sou designer de experi\u00EAncias e interfaces. H\u00E1 aproximadamente 16 anos dedico meu trabalho \u00E0 cria\u00E7\u00E3o e desenvolvimento de produtos digitais."),
                     React.createElement("br", null),
                     React.createElement("p", null, "Minha experi\u00EAncia se divide entre consultorias, ag\u00EAncia digital e ambiente corporativo, criando, desenhando, participando do planejamento de neg\u00F3cios online desde o briefing at\u00E9 a publica\u00E7\u00E3o e a mensura\u00E7\u00E3o dos resultados, buscar a melhor experi\u00EAncia, independente de qual o objetivo do produto, facilitar a vida do usu\u00E1rio e tornar as coisas mais simples. Tenho um perfil muito anal\u00EDtico no desenvolvimento de solu\u00E7\u00F5es e procuro me aperfei\u00E7oar e qualificar constantemente."),
                     React.createElement("div", { className: "quote" }, "\"Evoluir a cada entrega \u00E9 meu objetivo, por isso digo que meu melhor trabalho \u00E9 sempre o pr\u00F3ximo.\"")),
                 React.createElement(reactstrap_1.Col, { xxl: "4" },
-                    React.createElement(image_1["default"], { src: '/images/eu.jpg', width: "550", height: "412", alt: 'Oi, esse sou eu ', className: SectionItsMe_module_scss_1["default"].contentImage }))),
+                    React.createElement(image_1["default"], { src: '/images/eu.jpg', width: "550", height: "412", alt: 'Oi, esse sou eu ', className: Itsme_module_scss_1["default"].contentImage }))),
             React.createElement(reactstrap_1.Row, { className: 'subcontent' },
                 React.createElement(reactstrap_1.Col, { xxl: "6" },
                     React.createElement("h4", { className: "subtitle" },
@@ -28,19 +28,22 @@ function SectionItsMe() {
                             React.createElement("div", { className: 'boxListRightSide' },
                                 React.createElement("h5", { className: 'itemName' }, "Produ\u00E7\u00E3o Multim\u00EDdia"),
                                 React.createElement("span", { className: "date" }, "Unisul - 2016 -- 2018"),
-                                React.createElement("span", null, "Superior"))),
+                                React.createElement("br", null),
+                                React.createElement("span", { className: 'educationLevel' }, "Superior"))),
                         React.createElement("li", { className: 'boxListItem' },
                             React.createElement(image_1["default"], { src: '/images/logos/uniritter.jpg', width: '30', height: '30', alt: "Universidade Unisul" }),
                             React.createElement("div", { className: 'boxListRightSide' },
                                 React.createElement("h5", { className: 'itemName' }, "User Experience"),
                                 React.createElement("span", { className: "date" }, "Uniritter - 2018 -- 2020"),
-                                React.createElement("span", null, "P\u00F3s-gradua\u00E7\u00E3o(Especializa\u00E7\u00E3o)"))),
+                                React.createElement("br", null),
+                                React.createElement("span", { className: 'educationLevel' }, "P\u00F3s-gradua\u00E7\u00E3o(Especializa\u00E7\u00E3o)"))),
                         React.createElement("li", { className: 'boxListItem' },
                             React.createElement(image_1["default"], { src: '/images/logos/Mackenzie.jpg', width: '30', height: '30', alt: "Universidade Unisul" }),
                             React.createElement("div", { className: 'boxListRightSide' },
                                 React.createElement("h5", { className: 'itemName' }, "Neuroci\u00EAncias e psicologia aplicada"),
                                 React.createElement("span", null, "Mackenzie - 2022 -- 2023"),
-                                React.createElement("span", null, "P\u00F3s-gradua\u00E7\u00E3o(Especializa\u00E7\u00E3o)"))))),
+                                React.createElement("br", null),
+                                React.createElement("span", { className: 'educationLevel' }, "P\u00F3s-gradua\u00E7\u00E3o(Especializa\u00E7\u00E3o)"))))),
                 React.createElement(reactstrap_1.Col, { xxl: "6" },
                     React.createElement("h4", { className: "subtitle" },
                         React.createElement(image_1["default"], { src: '/images/icones/translator-color.png', width: '35', height: '35', alt: "subTitleIcon" }),
