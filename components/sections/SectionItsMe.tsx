@@ -1,4 +1,4 @@
-import styles from '../../styles/scss/components/sections/Itsme.module.scss'
+import styles from '../../styles/scss/components/sections/ItsMe.module.scss'
 
 import Image from "next/image";
 import { Container, Row, Col } from "reactstrap";
