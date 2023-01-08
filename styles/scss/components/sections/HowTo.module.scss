@@ -18,3 +18,17 @@
         }        
     }
 }
+
+.verticalBoxList{
+    display: flex;
+    flex-direction: column;
+    .verticalBoxItem{
+        margin-bottom: 1em;
+        background-color: #FFF;
+        box-shadow: $TinyShadow;
+        padding: 1em;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,5 +1,5 @@
 import styles from '../../styles/scss/components/sections/HowTo.module.scss'
-import { Container, Row } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import Image from "next/image";
 
 export default function SectionHowTo(){
@@ -7,7 +7,7 @@ export default function SectionHowTo(){
         <Container>
             <section id="HowTo">
             <h3 className="sectionTitle">
-                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço"/>
+                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço" className='sectionTitleIcon'/>
                 <span>Como eu faço</span>
             </h3>
             
@@ -43,140 +43,141 @@ export default function SectionHowTo(){
                 </div>
             </Row>
 
-            <div className="row">
+            <Row>
                 <div className="quote">
                     Trabalhar a inovação, facilitar a vida das pessoas, conceituar, testar, não tratar as pessoas somente como números são parte da nossa rotina.
                 </div>
-            </div>
+            </Row>
 
-            <div className="row">
-                    <div>
-                        <h4 className="classSubtitle">
-                            <img alt="subTitleIcon"/>
-                            <span>Ferramentas</span>
-                        </h4>
-                        <ul>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Figma</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Adobe Photoshop</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Illustrator</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">XD</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Premiere</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">After Effects</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Notion</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Miro</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Zeplin</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Invision</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Sass</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Bootstrap</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">React Js</span>
-                            </li>
-                            <li>
-                                <img alt="logo Tech"/>
-                                <span name="tech">Next Js</span>
-                            </li>
-                            
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="classSubtitle">
-                            <img alt="subTitleIcon"/>
-                            <span>Skills</span>
-                        </h4>
-                        <ul>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">UX Design</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">UX Strategy</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">UI Design</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">UX Research</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Arquitetura de informação</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Storytelling</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Web Design</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Prototipação</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Gamificação</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Métodos ágeis</span>
-                            </li>
-                            <li>
-                                <img alt="Tech Level"/>
-                                <span name="tech">Design Thinking</span>
-                            </li>
-                            
-                            
-                        </ul>
-                    </div>
+            <Row className='subcontent'>
+                <Col xxl="6">
+                    <h4 className="subtitle">
+                        <Image src="/images/icones/tools-color.png" width="35" height="35" alt="subTitleIcon"/>
+                        <span>Ferramentas</span>
+                    </h4>
                     
-                <div className="row">
+                    <ul className={styles.verticalBoxList}>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Figma</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Adobe Photoshop</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Illustrator</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>XD</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Premiere</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>After Effects</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Notion</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Miro</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Zeplin</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Invision</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Sass</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Bootstrap</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>React Js</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="logo Tech"/>
+                            <span>Next Js</span>
+                        </li>
+                        
+                    </ul>
+                </Col>
+
+                <Col xxl="6">
+                    <h4 className="subtitle">
+                        <img src='/images/icones/skills-color.png' width="35" height="35" alt="subTitleIcon"/>
+                        <span>Skills</span>
+                    </h4>
+                    <ul className={styles.verticalBoxList}>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>UX Design</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>UX Strategy</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>UI Design</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>UX Research</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Arquitetura de informação</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Storytelling</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Web Design</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Prototipação</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Gamificação</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Métodos ágeis</span>
+                        </li>
+                        <li className={styles.verticalBoxItem}>
+                            <img alt="Tech Level"/>
+                            <span>Design Thinking</span>
+                        </li>
+                        
+                        
+                    </ul>
+                </Col>
+                    
+                <Row>
                     <div className="quote">
                         Às vezes em um projeto, precisamos exercitar uma visão mais macro. É como um jogo de tabuleiro "VOLTE DUAS CASAS" e tente enxergar o que pode estar faltando!
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Row>
         </section>
     </Container>
     )
