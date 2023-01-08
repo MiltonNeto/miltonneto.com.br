@@ -16,3 +16,39 @@
 .boxList .box .boxIcon {
   margin-bottom: 1em;
 }
+
+.verticalBoxList {
+  display: flex;
+  flex-direction: column;
+}
+.verticalBoxList .verticalBoxItem {
+  margin-bottom: 1em;
+  background-color: #FFF;
+  box-shadow: 0 3px 6px #eeeeee;
+  padding: 1em;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.verticalBoxList .verticalBoxItem img {
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.skillBoxList {
+  display: flex;
+  flex-direction: column;
+}
+.skillBoxList .skillBoxItem {
+  margin-bottom: 1em;
+  background-color: #FFF;
+  box-shadow: 0 3px 6px #eeeeee;
+  padding: 1em;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.skillBoxList .progressColor {
+  background: linear-gradient(90deg, #5f46bc 0%, #ad00af 100%);
+}

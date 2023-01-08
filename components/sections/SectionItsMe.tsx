@@ -56,7 +56,7 @@ export default function SectionItsMe(){
                                 </div>
                             </li>
                             <li className='boxListItem'>
-                            <Image src='/images/logos/Mackenzie.jpg' width='30' height='30' alt="Universidade Unisul" />
+                            <Image src='/images/logos/mackenzie.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className='boxListRightSide'>
                                     <h5 className='itemName'>Neurociências e psicologia aplicada</h5>
                                     <span>Mackenzie - 2022 -- 2023</span><br/>
@@ -87,7 +87,7 @@ export default function SectionItsMe(){
                                 </div>
                             </li>
                         <li className='boxListItem'>
-                        <Image src='/images/icones/ES-Spain-flag-icon.png' width='30' height='30' alt="Universidade Unisul" />
+                        <Image src='/images/icones/ES-Spain-Flag-icon.png' width='30' height='30' alt="Universidade Unisul" />
                                 <div className='boxListRightSide'>
                                     <h5 className='itemName'>Espanhol</h5>
                                     <span>Intermediário-Avançado</span>

@@ -30,5 +30,27 @@
         border-radius: 14px;
         display: flex;
         flex-direction: row;
+        align-items: center;
+        img{
+            margin-right: 10px;
+            border-radius: 8px;
+        }
+    }
+}
+
+.skillBoxList{
+    display: flex;
+    flex-direction: column;
+    .skillBoxItem{
+        margin-bottom: 1em;
+        background-color: #FFF;
+        box-shadow: $TinyShadow;
+        padding: 1em;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;        
+    }
+    .progressColor{
+        background: linear-gradient(90deg, #5f46bc 0%, #ad00af 100%);
     }
 }

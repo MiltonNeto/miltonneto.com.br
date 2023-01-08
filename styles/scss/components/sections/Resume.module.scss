@@ -1,0 +1,40 @@
+@import '../../variables';
+
+
+.resumeList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .resumeListItem{
+        margin-right: 1em;
+        flex-grow: 2;
+        margin-bottom: 30px;
+        .box{
+            background-color: #FFF;
+            box-shadow: $TinyShadow;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 10px;
+            border-radius: 14px;
+            border: solid 1px #f8f8f8;
+            img{
+                border-radius: 8px;
+            }
+            .boxRight{
+                margin-left: 10px;
+            }
+        }
+        .tasks{
+            display: flex;
+            flex-direction: column;                
+            margin-top: 1em;
+            li{
+                font-size: 0.85em;
+                margin-bottom: 5px;
+                list-style:circle;
+                margin-left: 40px;
+            }
+        }
+    }
+}

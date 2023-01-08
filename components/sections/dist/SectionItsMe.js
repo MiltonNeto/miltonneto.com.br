@@ -38,7 +38,7 @@ function SectionItsMe() {
                                 React.createElement("br", null),
                                 React.createElement("span", { className: 'educationLevel' }, "P\u00F3s-gradua\u00E7\u00E3o(Especializa\u00E7\u00E3o)"))),
                         React.createElement("li", { className: 'boxListItem' },
-                            React.createElement(image_1["default"], { src: '/images/logos/Mackenzie.jpg', width: '30', height: '30', alt: "Universidade Unisul" }),
+                            React.createElement(image_1["default"], { src: '/images/logos/mackenzie.jpg', width: '30', height: '30', alt: "Universidade Unisul" }),
                             React.createElement("div", { className: 'boxListRightSide' },
                                 React.createElement("h5", { className: 'itemName' }, "Neuroci\u00EAncias e psicologia aplicada"),
                                 React.createElement("span", null, "Mackenzie - 2022 -- 2023"),
@@ -60,7 +60,7 @@ function SectionItsMe() {
                                 React.createElement("h5", { className: 'itemName' }, "Ingl\u00EAs"),
                                 React.createElement("span", null, "Avan\u00E7ado"))),
                         React.createElement("li", { className: 'boxListItem' },
-                            React.createElement(image_1["default"], { src: '/images/icones/ES-Spain-flag-icon.png', width: '30', height: '30', alt: "Universidade Unisul" }),
+                            React.createElement(image_1["default"], { src: '/images/icones/ES-Spain-Flag-icon.png', width: '30', height: '30', alt: "Universidade Unisul" }),
                             React.createElement("div", { className: 'boxListRightSide' },
                                 React.createElement("h5", { className: 'itemName' }, "Espanhol"),
                                 React.createElement("span", null, "Intermedi\u00E1rio-Avan\u00E7ado")))))))));

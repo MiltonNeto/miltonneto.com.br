@@ -1,9 +1,10 @@
 import styles from '../../styles/scss/components/sections/HowTo.module.scss'
-import { Container, Row, Col } from "reactstrap"
+import { Container, Row, Col, Progress } from "reactstrap"
 import Image from "next/image";
 
 export default function SectionHowTo(){
     return(
+
         <Container>
             <section id="HowTo">
             <h3 className="sectionTitle">
@@ -58,59 +59,59 @@ export default function SectionHowTo(){
                     
                     <ul className={styles.verticalBoxList}>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/figma.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Figma</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/photoshop.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Adobe Photoshop</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/illustrator.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Illustrator</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/xd.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>XD</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/premiere.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Premiere</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/after.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>After Effects</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/notion.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Notion</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/miro.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Miro</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/zeplin.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Zeplin</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/invision.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Invision</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/sass.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Sass</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/bootstrap.jpg' width='30' height='30' alt="Universidade Unisul" />
                             <span>Bootstrap</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/react.svg' width='30' height='30' alt="Universidade Unisul" />
                             <span>React Js</span>
                         </li>
                         <li className={styles.verticalBoxItem}>
-                            <img alt="logo Tech"/>
+                            <Image src='/images/logos/next.png' width='30' height='30' alt="Universidade Unisul" />
                             <span>Next Js</span>
                         </li>
                         
@@ -122,50 +123,51 @@ export default function SectionHowTo(){
                         <img src='/images/icones/skills-color.png' width="35" height="35" alt="subTitleIcon"/>
                         <span>Skills</span>
                     </h4>
-                    <ul className={styles.verticalBoxList}>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                    
+                    <ul className={styles.skillBoxList}>
+                        <li className={styles.skillBoxItem}>
                             <span>UX Design</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={90} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>UX Strategy</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={90} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>UI Design</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={85} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>UX Research</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={65} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Arquitetura de informação</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={70} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Storytelling</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={85} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Web Design</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={95} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Prototipação</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={80} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Gamificação</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={70} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Métodos ágeis</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={65} />
                         </li>
-                        <li className={styles.verticalBoxItem}>
-                            <img alt="Tech Level"/>
+                        <li className={styles.skillBoxItem}>
                             <span>Design Thinking</span>
+                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={75} />
                         </li>
                         
                         

@@ -1,0 +1,37 @@
+.resumeList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resumeList .resumeListItem {
+  margin-right: 1em;
+  flex-grow: 2;
+  margin-bottom: 30px;
+}
+.resumeList .resumeListItem .box {
+  background-color: #FFF;
+  box-shadow: 0 3px 6px #eeeeee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 14px;
+  border: solid 1px #f8f8f8;
+}
+.resumeList .resumeListItem .box img {
+  border-radius: 8px;
+}
+.resumeList .resumeListItem .box .boxRight {
+  margin-left: 10px;
+}
+.resumeList .resumeListItem .tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.resumeList .resumeListItem .tasks li {
+  font-size: 0.85em;
+  margin-bottom: 5px;
+  list-style: circle;
+  margin-left: 40px;
+}
