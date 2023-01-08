@@ -18,15 +18,15 @@ export default function SectionWhatIDo(){
                     <span>Meu portfolio</span>
                 </h4>
 
-                    <div className="cards">
-                        <div className="card">
-                            <img alt="card Image"/>
-                            <ul className="cardSkills">
+                    <div className={styles.cards}>
+                        <div className={styles.card}>
+                            <Image src='/images/alexa.jpg' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <ul className={styles.cardSkills}>
                                 <li>Skill 1</li>
                                 <li>Skill 2</li>
                                 <li>Skill 3</li>
                             </ul>
-                            <div className="cardAction">
+                            <div className={styles.cardAction}>
                                 Conheça o Projeto
                             </div>
                         </div>
@@ -38,15 +38,15 @@ export default function SectionWhatIDo(){
                     <Image src="/images/icones/article-color.png" width="35" height="35" alt="Conheça meus trabalhos" />
                     <span>Artigos</span>
                 </h4>
-                <div className="cards">
-                    <div className="card">
-                        <div className="cardText"/>
-                            <h6>Título do cartão</h6>
+                <div className={styles.cards}>
+                    <div className={styles.card}>
+                        <div className={styles.cardText}>
+                            <h6 className={styles.cardTextTitle}>Título do cartão</h6>
                             <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
                         </div>
-                        
-                        <div className="cardAction">
-                            Leia o artigo completo
+                            <div className={styles.cardAction}>
+                                Leia o artigo completo
+                            </div>
                         </div>
                     </div>
                     

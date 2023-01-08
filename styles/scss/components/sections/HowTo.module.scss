@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.boxList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    .box{
+        background: linear-gradient(0deg, #5f46bc 0%, #ad00af 100%);
+        border-radius: 14px;
+        box-shadow: $TinyShadow;
+        padding: 1.5em;
+        color: #FFF;
+        text-align: center;
+        .boxIcon{
+            margin-bottom: 1em;
+        }        
+    }
+}

@@ -1,42 +1,47 @@
-import { Container } from "reactstrap"
+import styles from '../../styles/scss/components/sections/HowTo.module.scss'
+import { Container, Row } from "reactstrap"
+import Image from "next/image";
 
 export default function SectionHowTo(){
     return(
         <Container>
             <section id="HowTo">
-            <h3 className="sectionTitle"><img alt="sectionIcon"/><span>Como eu faço</span></h3>
+            <h3 className="sectionTitle">
+                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço"/>
+                <span>Como eu faço</span>
+            </h3>
             
-            <div className="row">
-                <div className="contentText">
+            <Row className="contentText">
                 Trabalhar com design de experiências digitais, é muito mais do que fazer telas bonitas, muitas vezes nem envolve "fazer telas". Nosso trabalho é criar soluções para serviços online e offline, tendo como direcionamento, os desejos, necessidades e "dores" de usuários para tornar o produtos, serviço, etc, mais fáceis, familiares ou agradáveis de serem usados.
+            </Row>
+            <Row>
+                <div className={styles.boxList}>
+                    <div className={styles.box}>
+                        <Image src="/images/icones/experiencias.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">Experimentação</h6>
+                    </div>
+                    <div className={styles.box}>
+                    <Image src="/images/icones/prototype.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">Prototipagem</h6>
+                    </div>
+                    <div className={styles.box}>
+                    <Image src="/images/icones/jornadas.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">User Journey</h6>
+                    </div>
+                    <div className={styles.box}>
+                    <Image src="/images/icones/strategy.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">Estratégias</h6>
+                    </div>
+                    <div className={styles.box}>
+                    <Image src="/images/icones/architecture.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">Storytelling</h6>
+                    </div>
+                    <div className={styles.box}>
+                    <Image src="/images/icones/mentoria.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <h6 className="boxText">Mentoria</h6>
+                    </div>
                 </div>
-            </div>
-            <div className="row">
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">Experimentação</h6>
-                </div>
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">Prototipagem</h6>
-                </div>
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">User Journey</h6>
-                </div>
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">Estratégias</h6>
-                </div>
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">Storytelling</h6>
-                </div>
-                <div className="box">
-                    <img className="boxIcon" alt="box Icon"/>
-                    <h6 className="boxText">Mentoria</h6>
-                </div>
-            </div>
+            </Row>
 
             <div className="row">
                 <div className="quote">

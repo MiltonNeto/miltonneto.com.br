@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+var Portfolio_module_scss_1 = require("../../styles/scss/components/sections/Portfolio.module.scss");
 var reactstrap_1 = require("reactstrap");
 var image_1 = require("next/image");
 function SectionWhatIDo() {
@@ -12,23 +13,23 @@ function SectionWhatIDo() {
                 React.createElement("h4", { className: "subtitle" },
                     React.createElement(image_1["default"], { src: "/images/icones/portfolio-color.png", width: "35", height: "35", alt: "Conhe\u00E7a meus trabalhos" }),
                     React.createElement("span", null, "Meu portfolio")),
-                React.createElement("div", { className: "cards" },
-                    React.createElement("div", { className: "card" },
-                        React.createElement("img", { alt: "card Image" }),
-                        React.createElement("ul", { className: "cardSkills" },
+                React.createElement("div", { className: Portfolio_module_scss_1["default"].cards },
+                    React.createElement("div", { className: Portfolio_module_scss_1["default"].card },
+                        React.createElement(image_1["default"], { src: '/images/alexa.jpg', width: '410', height: '270', alt: "Imagem de projeto", className: Portfolio_module_scss_1["default"].cardImage }),
+                        React.createElement("ul", { className: Portfolio_module_scss_1["default"].cardSkills },
                             React.createElement("li", null, "Skill 1"),
                             React.createElement("li", null, "Skill 2"),
                             React.createElement("li", null, "Skill 3")),
-                        React.createElement("div", { className: "cardAction" }, "Conhe\u00E7a o Projeto")))),
+                        React.createElement("div", { className: Portfolio_module_scss_1["default"].cardAction }, "Conhe\u00E7a o Projeto")))),
             React.createElement(reactstrap_1.Row, { className: "subcontent" },
                 React.createElement("h4", { className: "subtitle" },
                     React.createElement(image_1["default"], { src: "/images/icones/article-color.png", width: "35", height: "35", alt: "Conhe\u00E7a meus trabalhos" }),
                     React.createElement("span", null, "Artigos")),
-                React.createElement("div", { className: "cards" },
-                    React.createElement("div", { className: "card" },
-                        React.createElement("div", { className: "cardText" }),
-                        React.createElement("h6", null, "T\u00EDtulo do cart\u00E3o"),
-                        React.createElement("p", null, "Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.")),
-                    React.createElement("div", { className: "cardAction" }, "Leia o artigo completo"))))));
+                React.createElement("div", { className: Portfolio_module_scss_1["default"].cards },
+                    React.createElement("div", { className: Portfolio_module_scss_1["default"].card },
+                        React.createElement("div", { className: Portfolio_module_scss_1["default"].cardText },
+                            React.createElement("h6", { className: Portfolio_module_scss_1["default"].cardTextTitle }, "T\u00EDtulo do cart\u00E3o"),
+                            React.createElement("p", null, "Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.")),
+                        React.createElement("div", { className: Portfolio_module_scss_1["default"].cardAction }, "Leia o artigo completo")))))));
 }
 exports["default"] = SectionWhatIDo;
