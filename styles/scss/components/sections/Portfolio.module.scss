@@ -3,7 +3,7 @@
 .cards{
     display: flex;
     flex-direction: row;
-    max-width: 410px;
+    justify-content: space-between;
 }
 
 .card{
@@ -11,6 +11,18 @@
     box-shadow: $TinyShadow;
     border-radius: 14px;
     border: solid 1px #f8f8f8;
+    transition: $DefaultTransition;
+    max-width: 410px;
+    &:hover{
+        box-shadow: 0 10px 15px rgba(218, 0, 189, 0.2);
+        cursor: pointer;
+    }
+
+    &:hover .cardAction{
+        color: #da00bd;
+        cursor: pointer;    
+    }
+
     .cardImage{
         border-radius: 14px 14px 0 0;
     }

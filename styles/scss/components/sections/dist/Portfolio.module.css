@@ -1,7 +1,7 @@
 .cards {
   display: flex;
   flex-direction: row;
-  max-width: 410px;
+  justify-content: space-between;
 }
 
 .card {
@@ -9,6 +9,16 @@
   box-shadow: 0 3px 6px #eeeeee;
   border-radius: 14px;
   border: solid 1px #f8f8f8;
+  transition: 0.3s ease-in-out all;
+  max-width: 410px;
+}
+.card:hover {
+  box-shadow: 0 10px 15px rgba(218, 0, 189, 0.2);
+  cursor: pointer;
+}
+.card:hover .cardAction {
+  color: #da00bd;
+  cursor: pointer;
 }
 .card .cardImage {
   border-radius: 14px 14px 0 0;

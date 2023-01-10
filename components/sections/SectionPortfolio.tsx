@@ -3,6 +3,8 @@ import styles from '../../styles/scss/components/sections/Portfolio.module.scss'
 import { Container, Row } from "reactstrap";
 import Image from "next/image";
 
+import Link from 'next/link';
+
 export default function SectionWhatIDo(){
     return(
         <Container>
@@ -19,17 +21,37 @@ export default function SectionWhatIDo(){
                 </h4>
 
                     <div className={styles.cards}>
-                        <div className={styles.card}>
+                        <Link href="/ProjectAlexa" className={styles.card}>
                             <Image src='/images/alexa.jpg' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
+                                <li>Figma</li>
+                                <li>Alexa</li>
+                                <li>Miro</li>
                             </ul>
                             <div className={styles.cardAction}>
                                 Conheça o Projeto
                             </div>
-                        </div>
+                        </Link>
+                        <Link href="/ProjectAda" className={styles.card}>
+                            <Image src='/images/projetos/ada/thumb-ada.png' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                                <li>Photoshop</li>
+                                <li>XD</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                                Conheça o Projeto
+                            </div>
+                        </Link>
+                        <Link href="/ProjectUXChapter" className={styles.card}>
+                            <Image src='/images/projetos/chapter/thumb-chapter.png' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                                Conheça o Projeto
+                            </div>
+                        </Link>
                     </div>
             </Row>
 
@@ -39,17 +61,36 @@ export default function SectionWhatIDo(){
                     <span>Artigos</span>
                 </h4>
                 <div className={styles.cards}>
-                    <div className={styles.card}>
+                    <Link href="https://www.linkedin.com/pulse/o-boom-do-ux-mas-quem-%C3%A9-esse-profissional-milton-neto/" target='_blank' className={styles.card}>
                         <div className={styles.cardText}>
-                            <h6 className={styles.cardTextTitle}>Título do cartão</h6>
-                            <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <h6 className={styles.cardTextTitle}>O boom do UX, mas quem é esse profissional?</h6>
+                            <p>A busca de mercado pela posição de User Experience é crescente e notória, e de acordo com essa procura, aumenta junto, o número de profissionais...</p>
                         </div>
-                            <div className={styles.cardAction}>
-                                Leia o artigo completo
-                            </div>
+                        <div className={styles.cardAction}>
+                            Ler o artigo completo
                         </div>
-                    </div>
+                    </Link>
+                    <Link href="https://www.linkedin.com/pulse/montando-portf%C3%B3lio-de-ux-milton-neto/" target="_blank" className={styles.card}>
+                        <div className={styles.cardText}>
+                            <h6 className={styles.cardTextTitle}>Montando Portfólio de UX</h6>
+                            <p>Cada dia mais vemos oportunidades surgindo para a nossa profissão, mesmo em tempos de pandemia temos diariamente vagas e mais vagas sendo anunciadas...</p>
+                        </div>
+                        <div className={styles.cardAction}>
+                            Ler o artigo completo
+                        </div>
+                    </Link>
+                    <Link href="https://www.linkedin.com/pulse/o-encaixotamento-do-ux-milton-neto/" target="_blank" className={styles.card}>
+                        <div className={styles.cardText}>
+                            <h6 className={styles.cardTextTitle}>O encaixotamento do UX</h6>
+                            <p>Há algum tempo atuo como UX Lead, estando a frente de equipes e desenvolvendo profissionais que me surpreendem diariamente e muitas vezes me fazem questionar...</p>
+                        </div>
+                        <div className={styles.cardAction}>
+                            Ler o artigo completo
+                        </div>
+                    </Link>
                     
+                </div>
+                
             </Row>
             </section>
         </Container>

@@ -11,8 +11,12 @@
   background-color: $LightGray;
   font-family: Montserrat, sans-serif;
   color: $DarkGray;
+  min-height: 350px;
 }
 
+main{
+  margin-left: 70px;
+}
 
 h1{
   font-size: 2em;
