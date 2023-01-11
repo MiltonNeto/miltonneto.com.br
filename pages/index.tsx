@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/layouts/Header'
 import SectionItsMe from '../components/sections/SectionItsMe'
 import SectionPortfolio from '../components/sections/SectionPortfolio'
 import SectionHowTo from '../components/sections/SectionHowTo'
@@ -16,12 +17,13 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main>
+    <>
+      <Header />
       <SectionItsMe />
       <SectionPortfolio />
       <SectionHowTo />
       <SectionResume />
-    </main>
+    </>
 
     </>
   )

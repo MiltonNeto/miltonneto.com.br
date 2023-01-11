@@ -11,7 +11,7 @@ export default function SideNav(){
     return(
 
         <aside className={styles.mainMenu}>
-            <Link href="/" className={styles.mainLogo}>
+            <Link href="./" className={styles.mainLogo}>
                 <Image src="/images/logo-milton.svg" width="24" height="33" alt="Milton Neto Designer UI UX" />
             </Link>
 

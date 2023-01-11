@@ -43,7 +43,7 @@ export default function SectionWhatIDo(){
                                 Conheça o Projeto
                             </div>
                         </Link>
-                        <Link href="/ProjectUXChapter" className={styles.card}>
+                        <Link href="/ProjectChapterUX" className={styles.card}>
                             <Image src='/images/projetos/chapter/thumb-chapter.png' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>

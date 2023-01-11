@@ -16,9 +16,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255,255,255,0.4);
+        background:rgba(179,136,255,1) ;
         border-radius: 50%;
         margin-bottom: 1em;
+        box-shadow: inset -2px -8px 15px #5b1499;
+        
     }
     .menuBox{
         display: flex;
@@ -36,8 +38,8 @@
             display: flex;
             align-items: center;
             justify-content: center;                  
-            width: 45px;
-            height: 45px;
+            width: 55px;
+            height: 55px;
             padding: 0;
             &:hover{
                 background: #b388ff;
@@ -53,10 +55,11 @@
     border-radius: 50px;
     border: solid 1px rgba(190, 171, 181, 0.4);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Montserrat';
     color: #FFF;
     font-weight: bold;
-    text-shadow: 0 2px 8px #0f172a;
+    text-shadow: 0 2px 8px rgba(15, 23, 41, 0.6);
+    margin-left: 5px;
 }
 

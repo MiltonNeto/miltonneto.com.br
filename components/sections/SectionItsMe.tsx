@@ -27,7 +27,7 @@ export default function SectionItsMe(){
 
                     </Col>
                     <Col xxl="4">
-                        <Image src='/images/eu.jpg' width="550" height="412" alt='Oi, esse sou eu ' className={styles.contentImage} />
+                        <Image src='/images/eu.jpg' width="440" height="312" alt='Oi, esse sou eu ' className={styles.contentImage} />
                     </Col>
                 </Row>
 
