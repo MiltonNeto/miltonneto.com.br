@@ -1,15 +1,15 @@
-import Hero from "./Hero"
-import Header from "./Header"
-import Footer from "./Footer"
+import SideNav from './SideNav'
+import Header from './Header'
+import Footer from './Footer'
 
 export default function MainContainer({children}){
     
     return(
         <>
-            <Header />
-            <Hero />
-                {children}
-            <Footer />
+        <SideNav/>
+        <Header/>
+            {children}
+        <Footer/>
         </>
     )
 }

@@ -1,0 +1,59 @@
+@import '../../partials/variables';
+
+.mainMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 70px;
+    height: 100vh;
+    background-color: #0f172a;
+    padding-top: 20px;
+
+    .mainLogo{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,0.4);
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
+    .menuBox{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 70px;
+        margin-top: 130px;
+        .menuItem{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;                  
+            width: 45px;
+            height: 45px;
+            padding: 0;
+            &:hover{
+                background: red;
+            }
+            
+        }
+    }
+}
+
+.tippyBox{
+    background: rgba(192, 123, 16, 0.4);
+    backdrop-filter: blur(3px);
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: solid 1px rgba(190, 171, 181, 0.4);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+}
+
