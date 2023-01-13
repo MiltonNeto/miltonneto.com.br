@@ -1,4 +1,4 @@
-import styles from '../styles/scss/pages/ProjectAlexa.module.scss'
+import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function ProjectAlexa(){
     return(
         <>
-        <div className={styles.header}>
+        <div className={styles.header +" "+ styles.alexa} >
             <Container>
                 <h2 className={styles.projectTitle}>Skill Educacional Alexa</h2>
             </Container>

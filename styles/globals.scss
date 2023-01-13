@@ -58,6 +58,14 @@ section{
   font-size: 1.3em;
   font-weight: bold;
   font-style: italic;
+
+  .quoteSignature{
+    float: right;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+  }
 }
 
 .subcontent{
