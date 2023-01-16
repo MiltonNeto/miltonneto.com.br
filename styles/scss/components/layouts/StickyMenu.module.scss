@@ -1,0 +1,41 @@
+@import '../../partials/variables';
+
+
+@media (max-width: 767.98px){
+    .StickyMenu{
+        height: 60px;
+        background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        .StickyBody{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: inherit;
+            height: 55px;
+            background-color: black;
+            width: 100vw;    
+            .StickyBrand{
+                margin: 0 auto;
+            }    
+            .StickyLogo{
+                width: 35px;
+                height: 35px;
+            }
+            button{
+                padding: 5px;
+                .OffcanvasTrigger{
+                    color: #FFF;
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px){
+    .StickyMenu{
+        display: none;
+    }
+
+}

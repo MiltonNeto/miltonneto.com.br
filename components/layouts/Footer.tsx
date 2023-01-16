@@ -2,6 +2,7 @@ import styles from '../../styles/scss/components/layouts/Footer.module.scss'
 
 import { Container, Row, Col} from "reactstrap";
 import Image from 'next/image';
+import { BsMailbox, BsPhoneVibrate, BsWhatsapp  } from "react-icons/bs";
 
 export default function Footer(){
     return(
@@ -16,27 +17,32 @@ export default function Footer(){
                 <Row className={styles.footerBoxes}>
                     <Col xxl="6">
                     <div className={styles.box}>
-                        <Image src='/images/logos/sass.jpg' width='30' height='30' alt="Universidade Unisul" />
+                        <Image src='/images/logos/linkedin.jpg' width='30' height='30' alt="Universidade Unisul" />
                         <div className={styles.boxRight}>
                             <h5 className={styles.lineTitle}>Linkedin</h5>
                             <span className="Description">Lead UX Designer na Dentsu World Services | Estudante de Neurociência e Psicologia Aplicada</span>    
                         </div>
                     </div>
+                    <a href='#' className={styles.downloadCV}>Download CV</a>
                     </Col>
                     <Col xxl="6">
-                    <div className={styles.box}>
-                        <Image src='/images/logos/sass.jpg' width='30' height='30' alt="Universidade Unisul" />
-                        <div className={styles.boxRight}>
-                            <span className="Description">leonardi.milton@gmail.com</span>    
+                    <a href="mailto:leonardi.milton@gmail.com?subject=Contato via site" className={styles.textLink}>
+                        <div className={styles.box}>
+                            <BsMailbox className={styles.iconBox}/>
+                            <div className={styles.boxRight}>
+                                <span className="Description">leonardi.milton@gmail.com</span>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                   
-                    <div className={styles.box}>
-                    <Image src='/images/logos/sass.jpg' width='30' height='30' alt="Universidade Unisul" />
-                        <div className={styles.boxRight}>
-                            <span className="Description">+55 51 98528.5102</span>
+                    <a href="https://wa.me/5551985285102?text=Oi%20vi%20seu%20portfolio,%20podemos%20conversar?" className={styles.textLink}>
+                        <div className={styles.box}>
+                        <BsPhoneVibrate className={styles.iconBox}/><BsWhatsapp className={styles.iconBox}/>
+                            <div className={styles.boxRight}>
+                                <span className="Description">+55 51 98528.5102</span>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     </Col>
                 </Row>
                 </section>

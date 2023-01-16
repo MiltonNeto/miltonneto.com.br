@@ -8,7 +8,7 @@ export default function SectionHowTo(){
         <Container>
             <section id="HowTo">
             <h3 className="sectionTitle">
-                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço" className='sectionTitleIcon'/>
+                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço" className='sectionTitleIcon' />
                 <span>Como eu faço</span>
             </h3>
             
@@ -18,27 +18,30 @@ export default function SectionHowTo(){
             <Row>
                 <div className={styles.boxList}>
                     <div className={styles.box}>
-                        <Image src="/images/icones/experiencias.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                        <Image src="/images/icones/experiencias.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">Experimentação</h6>
                     </div>
                     <div className={styles.box}>
-                    <Image src="/images/icones/prototype.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                    <Image src="/images/icones/prototype.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">Prototipagem</h6>
                     </div>
                     <div className={styles.box}>
-                    <Image src="/images/icones/jornadas.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                    <Image src="/images/icones/jornadas.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">User Journey</h6>
                     </div>
+                </div>
+            
+                <div className={styles.boxList}>
                     <div className={styles.box}>
-                    <Image src="/images/icones/strategy.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                    <Image src="/images/icones/strategy.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">Estratégias</h6>
                     </div>
                     <div className={styles.box}>
-                    <Image src="/images/icones/architecture.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                    <Image src="/images/icones/architecture.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">Storytelling</h6>
                     </div>
                     <div className={styles.box}>
-                    <Image src="/images/icones/mentoria.png" width="152" height="176" className={styles.boxIcon} alt="box Icon"/>
+                    <Image src="/images/icones/mentoria.png" width="150" height="150" className={styles.boxIcon} alt="box Icon"/>
                         <h6 className="boxText">Mentoria</h6>
                     </div>
                 </div>

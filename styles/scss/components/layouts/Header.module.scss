@@ -1,12 +1,27 @@
 @import '../../partials/variables';
 
-.greetings{
-    background: url(/images/header-bg.jpg) center center;
-    background-size: cover;
-    padding: 80px 0 70px 0;
-    color: #FFF;
-    .subline{
-        color: #b3b3b3;
-        margin-top: 10px;
+
+@media (max-width: 767.98px){
+    .greetings{
+        background: url(/images/header-bg.jpg) center top;
+        background-size: cover;
+        padding: 80px 0 70px 0;
+        .subline{
+            color: #b3b3b3;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .greetings{
+        background: url(/images/header-bg.jpg) center center;
+        background-size: cover;
+        padding: 80px 0 70px 0;
+        color: #FFF;
+        .subline{
+            color: #b3b3b3;
+            margin-top: 10px;
+        }
     }
 }
