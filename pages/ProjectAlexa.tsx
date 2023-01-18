@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 export default function ProjectAlexa(){
     return(
-        <>
+        <div>
         <div className={styles.header +" "+ styles.alexa} >
             <Container>
                 <h2 className={styles.projectTitle}>Skill Educacional Alexa</h2>
             </Container>
         </div>
 
-        <Container>
+        <Container  className={styles.projectsBody}>
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
@@ -47,14 +47,14 @@ export default function ProjectAlexa(){
                 </Col>
             </Row>
             <Row className={styles.sectionDivision}>
-                <Col xxl="6">
+                <Col xxl="6" xs="12">
                     <h4 className={styles.sectionTitle}>Cenário</h4>
                     <p>Através de uma parceria com a AWS, uma instituição de ensino trouxe a possibilidade de uma campanha de marketing, onde novos alunos ganhariam um dispositivo Alexa Echo Dot. Na apresentação disto, levantamos a hipótese de fazer algo que fizesse sentido e agregasse valor ao brinde.
                     <br/>
                     <strong> Assim, surgiu a possibilidade de criarmos uma Skill que integrasse a Alexa ao ambiente de estudos da universidade.</strong>
                     </p>
                 </Col>
-                <Col xxl="6">
+                <Col xxl="6" xs="12">
                     <h4 className={styles.sectionTitle}>Desafio</h4>
                     <p>
                     Criar para uma ferramenta ainda pouco explorada por desenvolvedores no Brasil, uma aplicação inovadora que, segundo a própria Amazon, não existe nenhum caso prévio de algo que se assemelhasse com o que estávamos planejando.
@@ -65,7 +65,7 @@ export default function ProjectAlexa(){
             </Row>
             <Row className={styles.sectionDivision}>
             <h4 className={styles.sectionTitle}>Limitações</h4>
-                <Col xxl="12" className={styles.SideBySide}>
+                <Col xxl="12" xs="12" className={styles.SideBySide}>
                     <div className={styles.contentBox}>
                         <Image src="/images/projetos/alexa/desafio-dev.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                         Falta de Devs qualificados
@@ -85,7 +85,7 @@ export default function ProjectAlexa(){
 
             <Row className={styles.sectionDivision}>
                 <h4 className={styles.sectionTitle}>Acessibilidade</h4>
-                <Col xxl="8">
+                <Col xxl="8" xs="12">
                     <p>
                     Os dispositivos Echo, nos permitiram explorar funcionalidades e beneficiar públicos que não tínhamos anteriormente. É o caso de pessoas com deficiência visual e também com limitações de movimentos. Percebemos a necessidade de aprimorar ainda no desenvolvimento.</p>
                         <ul className={styles.sectionTopicList}>
@@ -96,7 +96,7 @@ export default function ProjectAlexa(){
                             <li>REALIZAÇÃO DE PROVAS</li>
                         </ul>
                 </Col>
-                <Col xxl="4">
+                <Col xxl="4" xs="12">
                     <div className={styles.contentBox}>
                         <Image src="/images/projetos/alexa/acessibilidade-top.png" width="160" height="160" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                     </div>
@@ -139,7 +139,7 @@ export default function ProjectAlexa(){
                 </ul>
 
                 <div className={styles.breakline}></div>
-                <Col xxl="4">
+                <Col xxl="4" xs="12">
                 <h6 className={styles.sectionTopic}>Design de produto na POC</h6>
                     <ul className={styles.sectionTopicList}>
                         <li>Identificar cursos matriculados</li>
@@ -188,25 +188,25 @@ export default function ProjectAlexa(){
             <div className={styles.breakline}></div>
             
             <h6 className={styles.sectionTopic}>Mapa do Planejamento de testes</h6>
-            <Image src="/images/projetos/alexa/test-plan.jpg" width="1230" height="812" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <img src="/images/projetos/alexa/test-plan.jpg" width="100" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             
             <div className={styles.breakline}></div>
             <h6 className={styles.sectionTopic}>Matriz RELEVÂNCIA VS ESFORÇO</h6>
             <p>Um dos resultados mais importantes dos testes foi a matriz de prioridade. Gerada na dinâmica, através de exercícios de interesse e investimento, combinada com o esforço técnico de desenvolvimento.</p>
-            <Image src="/images/projetos/alexa/matriz-RE.png" width="1230" height="750" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <img src="/images/projetos/alexa/matriz-RE.png" width="100" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
 
             <div className={styles.breakline}></div>
             <h6 className={styles.sectionTopic}>Aprimoramento da inteligência conversacional</h6>
             <p>Criar uma interface de conversação não é uma tarefa das mais simples. É necessário pensar nas tarefas que a interface fará de forma automática, e aprimorar o uso da sua inteligência. Isso serve tanto para assistentes virtuais como para chatbots, e outras tecnologias cognitivas. Uma mudança de expressão, podem dar mais efetividade, resumir muito a jornada de um usuário até o seu objetivo.</p>
 
             <div className={styles.breakline}></div>
-            <Col xxl="6">
-                <Image src="/images/projetos/alexa/Screenshot_9.png" width="600" height="400" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Col xxl="6" xs="6">
+                <img src="/images/projetos/alexa/Screenshot_9.png" width="100"alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                 Jornada Atual
             </Col>
 
-            <Col xxl="6">
-                <Image src="/images/projetos/alexa/Screenshot_1.png" width="600" height="400" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Col xxl="6" xs="6">
+                <img src="/images/projetos/alexa/Screenshot_1.png" width="100" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                 Jornada Aprimorada
             </Col>
 
@@ -218,6 +218,6 @@ export default function ProjectAlexa(){
             
             </Container>
                 <div className={styles.breakline}></div>
-        </>
+        </div>
     )
 }

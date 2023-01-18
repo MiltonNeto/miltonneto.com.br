@@ -1,71 +1,155 @@
 @import '../../partials/variables';
 
+@media (max-width: 767.98px){
+    .footer{
+        display: none;
+    }
 
-.footer{
-    background-color: #0c4a6e ;
-    padding-top: 10px ;
-    color: #FFF;
+
+    .MobileFooter{
+        background-color: #0c4a6e ;
+        padding-top: 10px ;
+        color: #FFF;
+    
+
+        .footerBoxes{
+            display: flex;
+            flex-direction: row;
+            .textLink:hover .box{
+                color:#b388ff;
+            }
+            .box{
+            background-color: rgba(255,255,255,0.1);
+            color: #FFF;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 14px;
+            transition: $DefaultTransition;
+            
+            img{
+                margin-right: 10px;
+            }
+            .lineTitle{
+                font-weight: bold;
+            }
+            }
+        }
+
+        .footerSignature{
+            color: rgba(255,255,255,0.3);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+            img{
+                margin-left: 1em ;
+                opacity: 0.3;
+            }
+        }
+
+        .iconBox{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+
+        .downloadCV{
+            background-color: rgba(255,255,255,0.1);
+            padding: 15px 25px;
+            border:solid 1px #FFF;
+            border-radius: 50px;
+            float: left;
+            font-weight: bold;
+            transition: $DefaultTransition;
+            width: 100%;
+            text-align: center;
+            &:hover{
+                background: rgba(179, 136, 255,0.6);
+                color:#FFF;
+                border: solid 1px rgba(190, 171, 181, 0.4);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+            }
+        }
+    }   
 }
 
-.footerBoxes{
-    display: flex;
-    flex-direction: row;
-    .textLink:hover .box{
-        color:#b388ff;
+@media (min-width: 768px){
+
+    .MobileFooter{
+        display: none;
     }
-    .box{
-    background-color: rgba(255,255,255,0.1);
-    color: #FFF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 1.5em;
-    margin-bottom: 1em;
-    border-radius: 14px;
-    transition: $DefaultTransition;
-    
-    img{
+
+    .footer{
+        background-color: #0c4a6e ;
+        padding-top: 10px ;
+        color: #FFF;
+    }
+
+    .footerBoxes{
+        display: flex;
+        flex-direction: row;
+        .textLink:hover .box{
+            color:#b388ff;
+        }
+        .box{
+        background-color: rgba(255,255,255,0.1);
+        color: #FFF;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 1.5em;
+        margin-bottom: 1em;
+        border-radius: 14px;
+        transition: $DefaultTransition;
+        
+        img{
+            margin-right: 10px;
+        }
+        .lineTitle{
+            font-weight: bold;
+        }
+        }
+    }
+
+    .footerSignature{
+        color: rgba(255,255,255,0.3);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+        img{
+            margin-left: 1em ;
+            opacity: 0.3;
+        }
+    }
+
+    .iconBox{
+        width: 20px;
+        height: 20px;
         margin-right: 10px;
     }
-    .lineTitle{
+
+
+    .downloadCV{
+        background-color: rgba(255,255,255,0.1);
+        padding: 15px 25px;
+        border:solid 1px #FFF;
+        border-radius: 50px;
+        float: left;
         font-weight: bold;
-    }
-    }
-}
-
-.footerSignature{
-    color: rgba(255,255,255,0.3);
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 20px;
-    img{
-        margin-left: 1em ;
-        opacity: 0.3;
-    }
-}
-
-.iconBox{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-
-.downloadCV{
-    background-color: rgba(255,255,255,0.1);
-    padding: 15px 25px;
-    border:solid 1px #FFF;
-    border-radius: 50px;
-    float: left;
-    font-weight: bold;
-    transition: $DefaultTransition;
-    &:hover{
-        background: rgba(179, 136, 255,0.6);
-        color:#FFF;
-        border: solid 1px rgba(190, 171, 181, 0.4);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        transition: $DefaultTransition;
+        &:hover{
+            background: rgba(179, 136, 255,0.6);
+            color:#FFF;
+            border: solid 1px rgba(190, 171, 181, 0.4);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        }
     }
 }

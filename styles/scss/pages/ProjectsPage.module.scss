@@ -1,5 +1,160 @@
 @import '../partials/variables';
 
+@media (max-width: 767.98px){
+    .projectsBody{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header{
+        padding: 80px 0 70px 0;
+        margin-bottom: 40px;
+        .projectTitle{
+            font-size: 2em;
+            color: #DDDDDD;
+            font-weight: bold;
+            text-shadow: 0 5px 10px rgba(0,0,0,0.6);
+        }
+    }
+    
+    .alexa{
+        background: url(/images/alexa.jpg) center center;
+        background-size: cover;
+    }
+    
+    .ada{
+        background: url(/images/projetos/ada/thumb-ada.png) center center;
+        background-size: cover;
+    }
+    
+    .UXChapter{
+        background: url(/images/projetos/chapter/thumb-chapter.png) center center;
+        background-size: cover;
+    }
+    
+    .toolsList{
+        display: flex;
+        flex-direction: column;
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            &.bluePills li{
+                background-color: cornflowerblue;
+                color: #FFF;
+            }
+            &.redPills li{
+                background-color: #ffcdd2;
+                color: #666;
+            }
+            li{
+                margin-right: 5px;
+                margin-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 50px;
+                font-size: 14px;
+            }
+            label{
+                margin-right: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .breakline{
+        width: 100%;
+        height: 40px;
+    }
+    
+    .sectionDivision{
+        padding-bottom: 20px;
+        border-bottom: solid 1px #eee;
+        margin-bottom: 40px;
+    }
+    
+    .sectionTitle{
+        font-size: 2em;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    
+    .sectionSubtitle{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    
+    .sectionTopic{
+        font-size: 1.2em;
+        color: #999999;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .sectionTopicList{
+        list-style: circle;
+        color: #999999;
+        margin-left: 15px;
+        margin-top: 20px;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    
+    .SideBySide{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .contentBox{
+        background-color: #FFF;
+        box-shadow: $TinyShadow;
+        border:solid 1px #eee;
+        color:#212121;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 250px;
+        max-height: 300px;
+        padding: 30px 20px;
+        border-radius: 14px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .techBox{
+        background-color: #FFF;
+        box-shadow: $TinyShadow;
+        border:solid 1px #eee;
+        color:#212121;
+        text-align: justify;
+        padding: 30px 20px;
+        border-radius: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .imageList{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: space-between;
+        img{
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+@media (min-width: 768px){
+
 .header{
     padding: 80px 0 70px 0;
     margin-bottom: 40px;
@@ -139,4 +294,5 @@
         height: auto;
         margin-bottom: 1em;
     }
+}
 }

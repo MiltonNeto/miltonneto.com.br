@@ -6,14 +6,14 @@ import { Container, Row, Col } from "reactstrap";
 export default function SectionItsMe(){
     return(
         <Container>
-            <section id="ItsMe">
+            <section id="ItsMe" className={styles.itsme}>
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/alien-color.png" width='48' height='48' alt="Quem sou eu na fila do pão?" className='sectionTitleIcon' />
                     <span>Quem sou eu</span>
                 </h3>
                 
                 <Row>
-                    <Col xxl="8" className={styles.contentText}>
+                    <Col xs="12" xxl="8" className={styles.contentText}>
                         <p>
                             Tenho 40 anos, sou designer de experiências e interfaces. Há aproximadamente 16 anos dedico meu trabalho à criação e desenvolvimento de produtos digitais.
                         </p>
@@ -26,7 +26,7 @@ export default function SectionItsMe(){
                         </div>
 
                     </Col>
-                    <Col xxl="4">
+                    <Col xs="12" xxl="4">
                         <Image src='/images/eu.jpg' width="440" height="312" alt='Oi, esse sou eu ' className={styles.contentImage} />
                     </Col>
                 </Row>

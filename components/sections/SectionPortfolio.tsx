@@ -22,7 +22,7 @@ export default function SectionWhatIDo(){
 
                     <div className={styles.cards}>
                         <Link href="/ProjectAlexa" className={styles.card}>
-                            <Image src='/images/alexa.jpg' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <img src='/images/alexa.jpg' alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Alexa</li>
@@ -33,7 +33,7 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         <Link href="/ProjectAda" className={styles.card}>
-                            <Image src='/images/projetos/ada/thumb-ada.png' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <img src='/images/projetos/ada/thumb-ada.png' alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Photoshop</li>
@@ -44,7 +44,7 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         <Link href="/ProjectChapterUX" className={styles.card}>
-                            <Image src='/images/projetos/chapter/thumb-chapter.png' width='410' height='270' alt="Imagem de projeto" className={styles.cardImage} />
+                            <img src='/images/projetos/chapter/thumb-chapter.png' alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                             </ul>

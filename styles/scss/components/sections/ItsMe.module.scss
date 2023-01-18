@@ -1,11 +1,20 @@
 @import '../../partials/variables';
-
-.contentText{
-    line-height: 1.8em;
-    text-align: justify;
+@media (max-width: 767.98px){
+    .contentImage{
+        border-radius: 35px;
+        box-shadow: $DefaultShadow;
+        margin-top: 20px;
+    }
 }
 
-.contentImage{
-    border-radius: 35px;
-    box-shadow: $DefaultShadow;
+@media (min-width: 768px){
+    .contentText{
+        line-height: 1.8em;
+        text-align: justify;
+    }
+
+    .contentImage{
+        border-radius: 35px;
+        box-shadow: $DefaultShadow;
+    }
 }

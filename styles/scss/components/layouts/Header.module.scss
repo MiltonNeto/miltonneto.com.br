@@ -5,10 +5,24 @@
     .greetings{
         background: url(/images/header-bg.jpg) center top;
         background-size: cover;
-        padding: 80px 0 70px 0;
+        margin-top: 60px;
+        .greetingsOverlay{
+            padding: 50px 0 50px 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(3px);
+        }
+        .mainLine{
+            font-size: 1.5em;
+            color: #FFF;
+            padding: 10px 15%;
+        }
         .subline{
-            color: #b3b3b3;
-            margin-top: 10px;
+            color: #FFFFFF;
+            padding: 0 5%;
+            font-size: 1em;
+            line-height: 150%;
         }
     }
 }
