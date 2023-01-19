@@ -231,8 +231,8 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-    .sectionTitleIcon{
-      margin-right: 0.5em;
+    span{
+      margin-left: 0.5em;
     }
   }
 
@@ -265,8 +265,8 @@
       flex-direction: row;
       align-items: center;
       margin-bottom: 20px;
-      img{
-        margin-right: 0.5em;
+      span{
+        margin-left: 0.5em;
       }    
     }
   }

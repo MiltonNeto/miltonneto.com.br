@@ -3,6 +3,7 @@ import styles from '../../styles/scss/components/layouts/Footer.module.scss'
 import { Container, Row, Col} from "reactstrap";
 import Image from 'next/image';
 import { BsMailbox, BsPhoneVibrate, BsWhatsapp  } from "react-icons/bs";
+import build from 'next/dist/build';
 
 export default function Footer(){
     return(

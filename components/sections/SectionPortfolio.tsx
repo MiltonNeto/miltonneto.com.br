@@ -1,7 +1,7 @@
 import styles from '../../styles/scss/components/sections/Portfolio.module.scss'
 
 import { Container, Row } from "reactstrap";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import Link from 'next/link';
 
@@ -10,19 +10,19 @@ export default function SectionWhatIDo(){
         <Container>
             <section id="WhatIDo">
             <h3 className="sectionTitle">
-                <Image src="/images/icones/plan-color.png" width="48" height="48" alt="O que eu faço" className="sectionTitleIcon" />
+                <Image src="/images/icones/plan-color.png" layout='fixed' width={48} height={48} alt="O que eu faço" className="sectionTitleIcon" />
                 <span>O que eu faço</span>
             </h3>
             
             <Row className="subcontent">
                 <h4 className="subtitle">
-                    <Image src="/images/icones/portfolio-color.png" width="35" height="35" alt="Conheça meus trabalhos" />
+                    <Image src="/images/icones/portfolio-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
                     <span>Meu portfolio</span>
                 </h4>
 
                     <div className={styles.cards}>
                         <Link href="/ProjectAlexa" className={styles.card}>
-                            <img src='/images/alexa.jpg' alt="Imagem de projeto" className={styles.cardImage} />
+                            <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Alexa</li>
@@ -33,7 +33,7 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         <Link href="/ProjectAda" className={styles.card}>
-                            <img src='/images/projetos/ada/thumb-ada.png' alt="Imagem de projeto" className={styles.cardImage} />
+                            <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Photoshop</li>
@@ -44,7 +44,7 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         <Link href="/ProjectChapterUX" className={styles.card}>
-                            <img src='/images/projetos/chapter/thumb-chapter.png' alt="Imagem de projeto" className={styles.cardImage} />
+                            <Image src='/images/projetos/chapter/thumb-chapter.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                             </ul>
@@ -57,7 +57,7 @@ export default function SectionWhatIDo(){
 
             <Row className="subcontent">
                 <h4 className="subtitle">
-                    <Image src="/images/icones/article-color.png" width="35" height="35" alt="Conheça meus trabalhos" />
+                    <Image src="/images/icones/article-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
                     <span>Artigos</span>
                 </h4>
                 <div className={styles.cards}>

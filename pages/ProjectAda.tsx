@@ -46,7 +46,7 @@ export default function ProjectAda(){
         <Row className={styles.sectionDivision}>
             <Col xxl="6">
                 <h4 className={styles.sectionTitle}>Desafio</h4>
-                <p>De modo geral o controle da glicemia é realizado de forma manual. Estando sujeito ao que o paciente irá considerar que deve ou não ser dado como ponto de atenção, podendo até mesmo fazer apontamentos errados para poder "burlar" sua dieta e comer AQUELE docinho a mais.
+                <p>De modo geral o controle da glicemia é realizado de forma manual. Estando sujeito ao que o paciente irá considerar que deve ou não ser dado como ponto de atenção, podendo até mesmo fazer apontamentos errados para poder 'burlar' sua dieta e comer AQUELE docinho a mais.
                 </p>
             </Col>
             <Col XXl="6">
@@ -92,22 +92,22 @@ export default function ProjectAda(){
                 </div>
             </Col>
             <Col xxl="4" xs="12">
-            <img src="/images/projetos/ada/screen-1.webp" width="380" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Image src="/images/projetos/ada/screen-1.webp" width="380" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             </Col>
 
             <div className={styles.imageList}>
-                <img src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <img src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             
             </div>
 

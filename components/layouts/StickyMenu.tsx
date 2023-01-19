@@ -2,7 +2,7 @@ import styles from '../../styles/scss/components/layouts/StickyMenu.module.scss'
 
 import { Nav, Navbar, NavbarBrand, Button} from "reactstrap"
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { BsThreeDots } from "react-icons/bs";
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -23,7 +23,7 @@ export default function StickyMenu(){
         <Nav className={styles.StickyMenu}> {/*<aside className={styles.mainMenu +".d-sm-none"}> usar este formato para adicionar classe simples com classe importada*/}
             <Navbar className={styles.StickyBody}>
             <NavbarBrand className={styles.StickyBrand} href="./">
-                <img alt="Milton Neto - UX UI Designer" src="/images/logo-milton.svg" className={styles.StickyLogo} />
+                <Image alt="Milton Neto - UX UI Designer" src="/images/logo-milton.svg" layout="responsive" width={85} height={85}className={styles.StickyLogo} />
             </NavbarBrand>
                 <Button onClick={handleShow}>
                     <BsThreeDots className={styles.OffcanvasTrigger}/>

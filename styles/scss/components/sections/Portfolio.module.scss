@@ -75,7 +75,7 @@
         border-radius: 14px;
         border: solid 1px #f8f8f8;
         transition: $DefaultTransition;
-        max-width: 410px;
+        width: 410px;
         &:hover{
             box-shadow: 0 10px 15px rgba(218, 0, 189, 0.2);
             cursor: pointer;
