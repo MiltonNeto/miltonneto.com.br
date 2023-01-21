@@ -25,9 +25,9 @@
             margin-bottom: 20px;
             width: 150px;
             .boxIcon{
-                margin-bottom: 1em;
-                max-width: 120px;
-                height: auto;
+                margin-bottom: 1em !important;
+                max-width: 120px!important;
+                height: auto !important;
             }        
         }
     }

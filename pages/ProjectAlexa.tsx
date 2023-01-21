@@ -188,12 +188,12 @@ export default function ProjectAlexa(){
             <div className={styles.breakline}></div>
             
             <h6 className={styles.sectionTopic}>Mapa do Planejamento de testes</h6>
-            <Image src="/images/projetos/alexa/test-plan.jpg" layout='responsive' width={100} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Image src="/images/projetos/alexa/test-plan.jpg" layout='responsive' width={400}  height={400} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             
             <div className={styles.breakline}></div>
             <h6 className={styles.sectionTopic}>Matriz RELEVÂNCIA VS ESFORÇO</h6>
             <p>Um dos resultados mais importantes dos testes foi a matriz de prioridade. Gerada na dinâmica, através de exercícios de interesse e investimento, combinada com o esforço técnico de desenvolvimento.</p>
-            <Image src="/images/projetos/alexa/matriz-RE.png" layout='responsive' width={100} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Image src="/images/projetos/alexa/matriz-RE.png" layout='responsive' width={400}  height={400} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
 
             <div className={styles.breakline}></div>
             <h6 className={styles.sectionTopic}>Aprimoramento da inteligência conversacional</h6>
@@ -201,12 +201,12 @@ export default function ProjectAlexa(){
 
             <div className={styles.breakline}></div>
             <Col xxl="6" xs="6">
-                <Image src="/images/projetos/alexa/Screenshot_9.png" layout='responsive' width={100} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/alexa/Screenshot_9.png" layout='responsive' width={280}  height={200} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                 Jornada Atual
             </Col>
 
             <Col xxl="6" xs="6">
-                <Image src="/images/projetos/alexa/Screenshot_1.png" layout='responsive' width={100} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/alexa/Screenshot_1.png" layout='responsive' width={280}  height={200} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                 Jornada Aprimorada
             </Col>
 

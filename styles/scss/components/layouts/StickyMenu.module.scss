@@ -22,12 +22,18 @@
             backdrop-filter: blur(3px);
             width: 100vw;    
             .StickyBrand{
-                margin: 0 auto;
+                margin: 0 auto;               
             }    
+            
             .StickyLogo{
-                width: 35px;
-                height: 35px;
+                display: none;
+                
             }
+            .StickyLogoMobile{
+                display: block;
+                
+            }
+
             button{
                 border: none;
                 padding: 5px;

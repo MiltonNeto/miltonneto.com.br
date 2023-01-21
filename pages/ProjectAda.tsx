@@ -92,7 +92,7 @@ export default function ProjectAda(){
                 </div>
             </Col>
             <Col xxl="4" xs="12">
-            <Image src="/images/projetos/ada/screen-1.webp" width="380" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+            <Image src="/images/projetos/ada/screen-1.webp" width="380" height="450" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             </Col>
 
             <div className={styles.imageList}>
