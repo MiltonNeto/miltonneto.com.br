@@ -3,6 +3,9 @@ import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 import { Container, Row, Col } from "reactstrap";
 
 import Image from 'next/image';
+import SectionPortfolio from '../components/sections/SectionPortfolio'
+
+
 
 export default function ProjectAda(){
     return(
@@ -111,6 +114,13 @@ export default function ProjectAda(){
             
             </div>
 
+            <Row className={styles.sectionDivision}></Row>
+            
+            <h3 className="sectionTitle">
+                  <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
+                  <span>Veja outros trabalhos</span>
+              </h3>
+            <SectionPortfolio />
 
         </Row>
         </Container>

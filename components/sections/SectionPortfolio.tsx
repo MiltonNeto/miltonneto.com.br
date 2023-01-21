@@ -7,13 +7,8 @@ import Link from 'next/link';
 
 export default function SectionWhatIDo(){
     return(
-        <Container>
-            <section id="WhatIDo">
-            <h3 className="sectionTitle">
-                <Image src="/images/icones/plan-color.png" layout='fixed' width={48} height={48} alt="O que eu faço" className="sectionTitleIcon" />
-                <span>O que eu faço</span>
-            </h3>
-            
+        
+            <>
             <Row className="subcontent">
                 <h4 className="subtitle">
                     <Image src="/images/icones/portfolio-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
@@ -92,7 +87,6 @@ export default function SectionWhatIDo(){
                 </div>
                 
             </Row>
-            </section>
-        </Container>
+          </>
     )
 }

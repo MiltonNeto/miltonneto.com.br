@@ -5,14 +5,7 @@ import Image from 'next/legacy/image';
 
 export default function SectionHowTo(){
     return(
-
-        <Container>
-            <section id="HowTo">
-            <h3 className="sectionTitle">
-                <Image src="/images/icones/writing-color.png" width="48" height="48" alt="Como eu faço" className='sectionTitleIcon' />
-                <span>Como eu faço</span>
-            </h3>
-            
+        <>
             <Row className="contentText">
                 Trabalhar com design de experiências digitais, é muito mais do que fazer telas bonitas, muitas vezes nem envolve "fazer telas". Nosso trabalho é criar soluções para serviços online e offline, tendo como direcionamento, os desejos, necessidades e "dores" de usuários para tornar o produtos, serviço, etc, mais fáceis, familiares ou agradáveis de serem usados.
             </Row>
@@ -182,7 +175,6 @@ export default function SectionHowTo(){
                     </div>
                 </Row>
             </Row>
-        </section>
-    </Container>
+        </>
     )
 }

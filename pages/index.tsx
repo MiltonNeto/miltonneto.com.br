@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { Container } from 'reactstrap'
+import Image from 'next/legacy/image'
 import Header from '../components/layouts/Header'
 import SectionItsMe from '../components/sections/SectionItsMe'
 import SectionPortfolio from '../components/sections/SectionPortfolio'
@@ -19,10 +21,41 @@ export default function Home() {
       <>
         <div className='main'>
           <Header />
-          <SectionItsMe />
-          <SectionPortfolio />
-          <SectionHowTo />
-          <SectionResume />
+          
+          <Container>
+            <section id="ItsMe" className="itsme">
+                <h3 className="sectionTitle">
+                    <Image src="/images/icones/alien-color.png" width='48' height='48' alt="Quem sou eu na fila do pão?" className='sectionTitleIcon' />
+                    <span>Quem sou eu</span>
+                </h3>
+                <SectionItsMe />
+            </section>
+          
+            <section id="WhatIDo">
+              <h3 className="sectionTitle">
+                  <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
+                  <span>O que eu faço</span>
+              </h3>
+              <SectionPortfolio />
+            </section>
+
+            <section id="HowTo">
+            <h3 className="sectionTitle">
+                <Image src="/images/icones/writing-color.png" width='48' height= '48' alt="Como eu faço" className='sectionTitleIcon' />
+                <span>Como eu faço</span>
+            </h3>
+              <SectionHowTo />
+            </section>
+
+            <section id="resume">
+                <h3 className="sectionTitle">
+                    <Image src="/images/icones/location-color.png" width= '48' height= '48' alt="sectionIcon" className="sectionTitleIcon"/>
+                    <span>Por onde eu já passei</span>
+                </h3>
+              <SectionResume />
+            </section>
+          </Container>
+          
         </div>
       </>
     </>

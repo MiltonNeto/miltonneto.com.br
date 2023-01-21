@@ -4,6 +4,8 @@ import { Container, Row, Col } from "reactstrap";
 
 import Image from 'next/image';
 
+import SectionPortfolio from '../components/sections/SectionPortfolio'
+
 export default function ProjectChapterUX(){
     return(
         <>
@@ -68,6 +70,15 @@ export default function ProjectChapterUX(){
             <h4 className={styles.sectionTitle}>Conhecendo o usuário</h4>
             <p>Antes de entender o que se esperava da minha posição como líder do chapter, precisava primeiro definir quem eram os meus usuários, e qual o tipo de entrega eles esperavam. Assim, fazendo uma análise do cenário, por analogia montei as seguintes definições:</p>
             </Row>
+
+            <Row className={styles.sectionDivision}></Row>
+            
+            <h3 className="sectionTitle">
+                  <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
+                  <span>Veja outros trabalhos</span>
+              </h3>
+            <SectionPortfolio />
+            
         </Container>
         </>
     )

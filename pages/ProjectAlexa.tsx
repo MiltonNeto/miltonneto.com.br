@@ -3,6 +3,7 @@ import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 import { Container, Row, Col } from "reactstrap";
 
 import Image from 'next/legacy/image';
+import SectionPortfolio from '../components/sections/SectionPortfolio'
 
 export default function ProjectAlexa(){
     return(
@@ -215,7 +216,15 @@ export default function ProjectAlexa(){
             
                 <h4 className={styles.sectionTitle}>Atuação</h4>
                 <p>Atuei como UX Lead do projeto. Responsável pela ideação das skills, pelo product design, gerenciamento, definição e revisão de jornadas de usuários, definição de prioridades, ideação, direção de testes e research, levantamento e relatorização de resultados, suporte e interface de fornecedor terceirizado e de recursos de pesquisa.</p>
-            
+
+                <Row className={styles.breakline}></Row>
+                
+                <h3 className="sectionTitle">
+                    <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
+                    <span>Veja outros trabalhos</span>
+                </h3>
+                <SectionPortfolio />
+                
             </Container>
                 <div className={styles.breakline}></div>
         </div>

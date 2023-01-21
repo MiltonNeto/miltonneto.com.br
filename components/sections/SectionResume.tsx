@@ -5,14 +5,7 @@ import Image from "next/image";
 
 export default function SectionResume(){
     return(
-        <Container>
-            <section id="resume">
-                <h3 className="sectionTitle">
-                    <Image src="/images/icones/location-color.png" width="48" height="48" alt="sectionIcon" className="sectionTitleIcon"/>
-                    <span>Por onde eu já passei</span>
-                </h3>
-            
-            
+        <>
             <Row>
                 <ul className={styles.resumeList}>
                     <Col xxl="6">
@@ -165,8 +158,6 @@ export default function SectionResume(){
                     </Col>
                 </ul>
             </Row>
-
-            </section>
-        </Container>
+        </>
     )
 }

@@ -5,13 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 export default function SectionItsMe(){
     return(
-        <Container>
-            <section id="ItsMe" className={styles.itsme}>
-                <h3 className="sectionTitle">
-                    <Image src="/images/icones/alien-color.png" width='48' height='48' alt="Quem sou eu na fila do pão?" className='sectionTitleIcon' />
-                    <span>Quem sou eu</span>
-                </h3>
-                
+            <>
                 <Row>
                     <Col xs="12" xxl="8" className={styles.contentText}>
                         <p>
@@ -96,8 +90,6 @@ export default function SectionItsMe(){
                         </ul>
                     </Col>
                 </Row>
-                
-            </section>
-        </Container>
+            </>
     )
 }
