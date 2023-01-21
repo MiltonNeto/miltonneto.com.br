@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Container } from 'reactstrap'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import Header from '../components/layouts/Header'
 import SectionItsMe from '../components/sections/SectionItsMe'
 import SectionPortfolio from '../components/sections/SectionPortfolio'
