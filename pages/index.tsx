@@ -24,7 +24,7 @@ export default function Home() {
         <div className='main'>
 
         <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-D4FGK6BR9K"
         strategy="afterInteractive"
         />
          <Script id="google-analytics" strategy="afterInteractive">
