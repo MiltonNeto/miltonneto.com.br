@@ -1879,6 +1879,11 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
+"react-microsoft-clarity@^1.1.2":
+  "integrity" "sha512-89xn2gvQSO1LjrgaKBik0bBRwkebt8biWkS4K3DsdhYdJtVVYHoAa62JDE9Wth4A+Vt0DsfUeG75OfmrD7EcIA=="
+  "resolved" "https://registry.npmjs.org/react-microsoft-clarity/-/react-microsoft-clarity-1.1.2.tgz"
+  "version" "1.1.2"
+
 "react-popper@^2.2.4":
   "integrity" "sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q=="
   "resolved" "https://registry.npmjs.org/react-popper/-/react-popper-2.3.0.tgz"
