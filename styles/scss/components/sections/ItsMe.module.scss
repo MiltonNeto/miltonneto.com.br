@@ -11,10 +11,11 @@
     .contentText{
         line-height: 1.8em;
         text-align: justify;
+        font-size: 1.2em;
     }
 
     .contentImage{
-        border-radius: 35px;
+        border-radius: 50%;
         box-shadow: $DefaultShadow;
     }
 }

@@ -18,33 +18,44 @@ export default function SectionWhatIDo(){
                     <div className={styles.cards}>
                         <Link href="/ProjectAlexa" className={styles.card}>
                             <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                                <p>
+                                Aplicação de voz, com objetivo principal de utilizar a Alexa como meio de aprendizado.
+                                </p>
+                            </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Alexa</li>
                                 <li>Miro</li>
                             </ul>
                             <div className={styles.cardAction}>
-                                Conheça o Projeto
+                                <button className={styles.buttonAction}>Conheça o Projeto</button>
                             </div>
                         </Link>
                         <Link href="/ProjectAda" className={styles.card}>
                             <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                                Controle automatizado da diabetes, de forma rápida, fácil e confiável
+                            </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Photoshop</li>
                                 <li>XD</li>
                             </ul>
                             <div className={styles.cardAction}>
-                                Conheça o Projeto
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
                             </div>
                         </Link>
                         <Link href="/ProjectChapterUX" className={styles.card}>
                             <Image src='/images/projetos/chapter/thumb-chapter.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Projeto de estudo, entendimento e evolução de Chapter de design em de time de Design Ops
+                            </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                             </ul>
                             <div className={styles.cardAction}>
-                                Conheça o Projeto
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
                             </div>
                         </Link>
                     </div>
@@ -62,7 +73,7 @@ export default function SectionWhatIDo(){
                             <p>A busca de mercado pela posição de User Experience é crescente e notória, e de acordo com essa procura, aumenta junto, o número de profissionais...</p>
                         </div>
                         <div className={styles.cardAction}>
-                            Ler o artigo completo
+                        <button className={styles.buttonAction}>Ler o artigo completo</button>
                         </div>
                     </Link>
                     <Link href="https://www.linkedin.com/pulse/montando-portf%C3%B3lio-de-ux-milton-neto/" target="_blank" className={styles.card}>
@@ -71,7 +82,7 @@ export default function SectionWhatIDo(){
                             <p>Cada dia mais vemos oportunidades surgindo para a nossa profissão, mesmo em tempos de pandemia temos diariamente vagas e mais vagas sendo anunciadas...</p>
                         </div>
                         <div className={styles.cardAction}>
-                            Ler o artigo completo
+                            <button className={styles.buttonAction}>Ler o artigo completo</button>
                         </div>
                     </Link>
                     <Link href="https://www.linkedin.com/pulse/o-encaixotamento-do-ux-milton-neto/" target="_blank" className={styles.card}>
@@ -80,7 +91,7 @@ export default function SectionWhatIDo(){
                             <p>Há algum tempo atuo como UX Lead, estando a frente de equipes e desenvolvendo profissionais que me surpreendem diariamente e muitas vezes me fazem questionar...</p>
                         </div>
                         <div className={styles.cardAction}>
-                            Ler o artigo completo
+                            <button className={styles.buttonAction}>Ler o artigo completo</button>
                         </div>
                     </Link>
                     
