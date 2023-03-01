@@ -16,6 +16,7 @@ export default function Home() {
       <title>Milton Neto - Designer e mentoria de User Experience e Interface | UX e UI</title>
       <meta name="description" content="Portfolio Digital de Milton Neto, Designer de interfaces digitais e especialista em experiência de usuário. Chega aí, vamos bater um papo sobre seu projeto!"/>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
       <link rel="icon" href="/favicon.ico" />
       
     </Head>

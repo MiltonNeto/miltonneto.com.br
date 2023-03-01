@@ -3,14 +3,14 @@
 
 @import './scss/partials/reset';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 @import './scss/partials/variables';
 
 
 @media (max-width: 767.98px){
   #appBody{
-    font-family: Montserrat;
+    font-family: Rubik;
     color: $DarkGray;
     min-height: 350px;
   }
@@ -20,7 +20,7 @@
   .offcanvas{
     background: linear-gradient(0deg, rgba(15,23,42,1) 0%, rgba(36,59,85,1) 100%);
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Rubik;
     .offcanvas-body{
       display: flex;
       flex-direction: column;
@@ -190,7 +190,7 @@
 @media (min-width: 768px){
   #appBody{
     background-color: $LightGray;
-    font-family: Montserrat;
+    font-family: Rubik;
     color: $DarkGray;
     min-height: 350px;
   }
