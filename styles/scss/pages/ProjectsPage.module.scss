@@ -309,12 +309,12 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         border-radius: 14px 0 0 14px;
         .personaInfo{
             font-size: 1.2em;
             color: #DDDDDD;
+            width: 100%;
             label{
                 font-size: 0.9em;
                 color: #666;
@@ -333,6 +333,25 @@
         .personaImage{
             border-radius: 50%;
             margin-bottom: 30px;
+        }
+    }
+    .personaSurvey{
+        padding: 75px 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2em;
+        ul{
+            .personaQuestion{
+             margin-bottom: 5px;   
+            }
+            .personaAnswer{
+                margin-bottom: 20px;
+                color: #0f172a;
+                font-weight: bold;
+                font-style: italic;
+            }
         }
     }
 }
