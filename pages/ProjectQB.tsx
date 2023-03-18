@@ -5,12 +5,12 @@ import { Container, Row, Col } from "reactstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
 
-export default function ProjectAlexa(){
+export default function ProjectQB(){
     return(
         <div>
         <div className={styles.header +" "+ styles.alexa} >
             <Container>
-                <h2 className={styles.projectTitle}>Skill Educacional Alexa</h2>
+                <h2 className={styles.projectTitle}>Questionnaire Builder</h2>
             </Container>
         </div>
 

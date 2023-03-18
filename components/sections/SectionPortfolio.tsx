@@ -16,6 +16,7 @@ export default function SectionWhatIDo(){
                 </h4>
 
                     <div className={styles.cards}>
+
                         <Link href="/ProjectAlexa" className={styles.card}>
                             <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
@@ -46,13 +47,99 @@ export default function SectionWhatIDo(){
                             <button className={styles.buttonAction}>Conheça o Projeto</button>
                             </div>
                         </Link>
-                        <Link href="/ProjectChapterUX" className={styles.card}>
+                        {/*<Link href="/ProjectChapterUX" className={styles.card}>
                             <Image src='/images/projetos/chapter/thumb-chapter.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
                              Projeto de estudo, entendimento e evolução de Chapter de design em de time de Design Ops
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            </div>
+                        </Link>
+                        */}
+                        <Link href="/ProjectMagnifiCourier" className={styles.card}>
+                            <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Proposta de projeto de app de entregas, com a exigência de incentivar sustentabilidade ecológica
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Adobe XD</li>
+                                <li>Entrevistas pessoais</li>
+                                <li>Miro</li>
+                                <li>Illustrator</li>
+                                <li>Photoshop</li>
+                                <li>Identidade visual</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            </div>
+                        </Link>
+                        <Link href="/ProjectRedesignFast" className={styles.card}>
+                            <Image src='/images/projetos/fastcompras/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Adobe Photoshop</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Veja as telas</button>
+                            </div>
+                        </Link>
+                        <Link href="/ProjectMedi" className={styles.card}>
+                            <Image src='/images/projetos/medi/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Interface de controle de casa Smarthome, focado para tablet.
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                                <li>Illustrator</li>
+                                <li>Identidade visual</li>                                
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Veja as telas</button>
+                            </div>
+                        </Link>
+                        <Link href="/ProjectQB" className={styles.card}>
+                            <Image src='/images/projetos/qb/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Aplicação de desenvolvimento de surveys de forma automatizada
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Photoshop</li>
+                                <li>Prototyping</li>
+                                <li>Workflow</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            </div>
+                        </Link>
+                        <Link href="/ProjectPiscilovers" className={styles.card}>
+                            <Image src='/images/projetos/piscilovers/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                            Design de interface de tela principal desenvolvido a partir de apanhado de ideias
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                                <li>Illustrator</li>
+                                <li>Identidade visual</li>                                
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Veja as telas</button>
+                            </div>
+                        </Link>
+                        <Link href="/ProjectB2B" className={styles.card}>
+                            <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Projeto de app de atacado de marca de moda Fitness, focado em B2B com diversas regras de implementação
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                                <li>Entrevistas pessoais</li>
+                                <li>Figjam</li>
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o Projeto</button>
