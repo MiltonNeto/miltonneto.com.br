@@ -355,4 +355,19 @@
         }
     }
 }
+
+.cardFlow{
+    background-color:#0f172a;
+    margin-bottom: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 14px;
+    .flowImage{
+        
+    }
+}
+
 }

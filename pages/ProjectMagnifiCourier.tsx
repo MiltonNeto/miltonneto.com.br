@@ -2,7 +2,7 @@ import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 
 import { Container, Row, Col } from "reactstrap";
 
-import Image from 'next/legacy/image';
+import Image from "next/legacy/image";
 import SectionPortfolio from '../components/sections/SectionPortfolio'
 
 export default function ProjectMagnifiCourier(){
@@ -257,7 +257,33 @@ export default function ProjectMagnifiCourier(){
                 <p>
                     O fluxo desenhado em wireframes:
                 </p>
+
+                <Col xxl="12" className={styles.cardFlow}>
+                    <img src='/images/projetos/magnificourier/fluxo/flow1.png' layout='responsive' alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow2.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow3.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow4.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                </Col>
                 
+                <Col xxl="12" className={styles.cardFlow}>
+                    <Image src='/images/projetos/magnificourier/fluxo/flow5.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow6.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow7.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow8.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                </Col>
+
+                <Col xxl="12" className={styles.cardFlow}>
+                    <Image src='/images/projetos/magnificourier/fluxo/flow9.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow10.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow11.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow12.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                </Col>
+                
+                <Col xxl="12" className={styles.cardFlow}>
+                    <Image src='/images/projetos/magnificourier/fluxo/flow13.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow14.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <Image src='/images/projetos/magnificourier/fluxo/flow15.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                </Col>
             </Row>
 
                 <Row className={styles.breakline}></Row>
