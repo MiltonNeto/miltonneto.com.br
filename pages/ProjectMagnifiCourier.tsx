@@ -432,26 +432,36 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
             </Row>
 
             <div className={styles.imageList}>
-                <img src="/images/projetos/magnificourier/telas/s1.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s2.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s3.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s4.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s5.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s6.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s7.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s8.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s9.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s10.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s11.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s12.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s13.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s14.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s15.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s16.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
-                <img src="/images/projetos/magnificourier/telas/s17.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s1.png" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s2.png" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s3.png" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s4.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s5.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s6.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s7.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s8.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s9.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s10.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s11.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s12.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s13.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s14.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s15.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s16.png"  alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s17.png"  alt="Tela Projeto Magnificourier"/>
                 
                 
             </div>
+
+            <Row className={styles.breakline}></Row>
+
+            <h4 className={styles.sectionTitle}>Atuação</h4>
+                <p>Nesse projeto, tive uma atuação praticamente autoral, visto que os parâmetros de conceito eram mínimos. O pitch do stakeholder do projeto foi:<br/>
+                    <strong>Precisamos de um projeto de app de serviços, que tenha um viés de preservação ambiental.</strong>
+                    <br/><br/>
+                    Dessa forma o MagnifiCourier, foi uma aplicação onde foi necessária toda prática de Product Design, com pesquisa de interesse público, ideação de produto, criação e conceituação de personas, pesquisa e desenvolvimento de estudo de curva de interesse, user flows, design de identidade visual, desenvolvimento de design system, design de interface, etc. Tendo sido eu, o único product designer envolvido no projeto, estive presente em todas as etapas até a entrega para produção.<br/><br/>
+                    O status atual desse projeto, é que ele não pôde ser desenvolvido, pois a empresa não conseguiria arcar com a preservação de área ambiental sugerida como contrapartida de uso do app, mesmo criando regras para o plantio, como por exemplo: "1 árvore a cada 10 usos de Courier bicicleteiro por apenas um usuário".
+                </p>
 
                 <Row className={styles.breakline}></Row>
                 
