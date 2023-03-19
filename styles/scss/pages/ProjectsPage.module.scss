@@ -85,6 +85,7 @@
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 1.2em;
+        font-weight: bold;
     }
     
     .sectionTopic{
@@ -396,10 +397,62 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: 30px auto;
     .IDImage{
         max-width: 200px;
         max-height: 100%;
     }
 }
 
+.compositionID{
+    p{
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;    
+        .compositionColor{
+            width: 100px ;
+            height: 100px;
+
+        }
+        .gray{
+            background-color: #707070;
+        }
+        .blue{
+            background-color: #37689a;
+        }
+        .lightgreen{
+            background-color: #90c944;
+        }
+        .darkgreen{
+            background-color: #0d4e31;
+        }
+    }
+}
+.galleryType{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .IDType{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.IDpurpose{
+    img{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+h5{
+    &.separationSubtitle{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
 }

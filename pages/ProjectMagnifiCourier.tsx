@@ -347,10 +347,83 @@ export default function ProjectMagnifiCourier(){
                         <img src='/images/projetos/magnificourier/identidade/id11.png' alt="Imagem de projeto" className={styles.IDImage} />
                         <img src='/images/projetos/magnificourier/identidade/id12.png' alt="Imagem de projeto" className={styles.IDImage} />
                     </div>
-
                 </Col>
+                <br/><br/>
+                <p>
+                    <strong>Processo de criação da identidade</strong>
+                   <br/>
+                   As cores mais preponderantes e deram sentido às ideias, foram tons de verde e azuis, e os itens que mais se fizeram presentes foram folhas, map markers e relógios.<br />
+A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passar um ar de leveza por conta do seu viés ambiental. Por isso, a opção por uma tipografia mais fina, elegante e arredondada , tanto para a logotipia como para o conteúdo
+                </p>
+                <Row className={styles.breakline}></Row>
+                <Row>
+                    <Col xxl='5' className={styles.compositionID}>
+                        <h5 className={styles.separationSubtitle}>
+                            <strong>Cores:</strong>
+                        </h5>
+
+                        <ul>
+                            <li className={styles.compositionColor +" "+ styles.gray}> </li>
+                            <li className={styles.compositionColor +" "+ styles.blue}> </li>
+                            <li className={styles.compositionColor +" "+ styles.lightgreen}> </li>
+                            <li className={styles.compositionColor +" "+ styles.darkgreen}> </li>
+                        </ul>
+                    </Col>
+                    <Col xxl='7'>
+                        <h5 className={styles.separationSubtitle}>
+                            <strong>Tipografia</strong>    
+                        </h5>
+                        <div className={styles.galleryType}>
+                            <label>Logotipo: Poiret one</label>
+                            <img src='/images/projetos/magnificourier/identidade/id13.png' alt="Imagem de projeto" className={styles.IDType} />
+                            <label>Conteúdo: Quicksand  </label>
+                        <img src='/images/projetos/magnificourier/identidade/id14.png' alt="Imagem de projeto" className={styles.IDType} />
+                        </div>
+                    </Col>
+                </Row>
+                <Row className={styles.breakline}></Row>
+                <Row>
+                    <Col xxl='7' className={styles.compositionID}>
+                        <h5 className={styles.separationSubtitle}>
+                            <strong>Itens formadores da Simbologia:</strong>
+                            
+                        </h5>
+                        <div className={styles.galleryID}>
+                        <img src='/images/projetos/magnificourier/identidade/id1.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id12.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id11.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        </div>
+                    </Col>
+                </Row>
+                <Row className={styles.breakline}></Row>
+                <Row>
+                    <Col xxl='12' className={styles.compositionID}>
+                    <h5 className={styles.separationSubtitle}>
+                            <strong>Proposta de identidade:</strong>
+                        </h5>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xxl='5' className={styles.IDpurpose}>
+                    <img src='/images/projetos/magnificourier/identidade/id15.png' alt="Imagem de projeto" className={styles.IDImage} />
+                    </Col>
+                    <Col xxl='7' className={styles.IDpurpose}>
+                    <img src='/images/projetos/magnificourier/identidade/id16.png' alt="Imagem de projeto" className={styles.IDImage} />
+                    <img src='/images/projetos/magnificourier/identidade/id17.png' alt="Imagem de projeto" className={styles.IDImage} />
+                    <img src='/images/projetos/magnificourier/identidade/id18.png' alt="Imagem de projeto" className={styles.IDImage} />
+                    </Col>
+                    
+                </Row>
             </Row>
 
+            <Row className={styles.sectionDivision}>
+                <h4 className={styles.sectionTitle}>O Projeto</h4>
+
+                <p>
+                    Agora, feitas as devidas apresentações, chega de falar, pode reclinar o seu assento e curtir algumas das telas propostas do projeto:
+
+                </p>
+            </Row>
 
                 <Row className={styles.breakline}></Row>
                 
