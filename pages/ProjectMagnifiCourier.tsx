@@ -417,13 +417,41 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
             </Row>
 
             <Row className={styles.sectionDivision}>
+                
+                <Col xxl="8">
                 <h4 className={styles.sectionTitle}>O Projeto</h4>
+                    <p>
+                        Agora, feitas as devidas apresentações, chega de falar, pode reclinar o seu assento e curtir algumas das telas propostas do projeto:
 
-                <p>
-                    Agora, feitas as devidas apresentações, chega de falar, pode reclinar o seu assento e curtir algumas das telas propostas do projeto:
-
-                </p>
+                    </p>
+                </Col>
+                <Col xxl="4">
+                    <img src='/images/projetos/magnificourier/telas/main-screen.png' alt="Imagem de projeto" className={styles.projImage} />
+                </Col>
+                
             </Row>
+
+            <div className={styles.imageList}>
+                <img src="/images/projetos/magnificourier/telas/s1.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s2.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s3.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s4.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s5.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s6.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s7.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s8.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s9.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s10.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s11.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s12.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s13.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s14.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s15.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s16.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                <img src="/images/projetos/magnificourier/telas/s17.png" width="470" height="945" alt="Tela Projeto Magnificourier"/>
+                
+                
+            </div>
 
                 <Row className={styles.breakline}></Row>
                 
