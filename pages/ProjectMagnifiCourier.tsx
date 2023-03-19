@@ -8,7 +8,7 @@ import SectionPortfolio from '../components/sections/SectionPortfolio'
 export default function ProjectMagnifiCourier(){
     return(
         <div>
-        <div className={styles.header +" "+ styles.alexa} >
+        <div className={styles.header +" "+ styles.magnificourier} >
             <Container>
                 <h2 className={styles.projectTitle}>MagnifiCourier</h2>
             </Container>
@@ -322,6 +322,35 @@ export default function ProjectMagnifiCourier(){
                     <img src='/images/projetos/magnificourier/fluxo/flow15.png' alt="Imagem de projeto" className={styles.flowImage} />
                 </Col>
             </Row>
+
+            <Row className={styles.breakline}></Row>
+            <Row className={styles.sectionDivision}>
+            <h4 className={styles.sectionTitle}>Identidade visual</h4>
+                <Col xxl="12" xs="12">
+                    <p>
+                    O aspecto mais importante dentro da MagnifiCourier, é a sua responsabilidade ambiental, a empresa quer fazer a diferença para o planeta, assim como para seus usuários. Conscientizar através do seus serviços, que o planeta precisa de atenção e mesmo o ato de realizar uma entrega, pode fazer diferença no resultado final, torcendo para que efeito borboleta seja efetivo nas mínimas ações.
+                    <br/>
+                    <br/>
+                    <strong>Brainstorm de identidade e construção do conceito de entregas com responsabilidade ambiental:</strong>
+                    </p>
+                    <div className={styles.galleryID}>
+                        <img src='/images/projetos/magnificourier/identidade/id1.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id2.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id3.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id4.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id5.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id6.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id7.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id8.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id9.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id10.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id11.png' alt="Imagem de projeto" className={styles.IDImage} />
+                        <img src='/images/projetos/magnificourier/identidade/id12.png' alt="Imagem de projeto" className={styles.IDImage} />
+                    </div>
+
+                </Col>
+            </Row>
+
 
                 <Row className={styles.breakline}></Row>
                 

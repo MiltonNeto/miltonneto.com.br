@@ -171,6 +171,11 @@
     background-size: cover;
 }
 
+.magnificourier{
+    background: url(/images/projetos/magnificourier/capa.jpg) center center;
+    background-size: cover;
+}
+
 .ada{
     background: url(/images/projetos/ada/thumb-ada.png) center center;
     background-size: cover;
@@ -385,5 +390,16 @@
 
 }
 
+.galleryID{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .IDImage{
+        max-width: 200px;
+        max-height: 100%;
+    }
+}
 
 }
