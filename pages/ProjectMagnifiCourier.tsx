@@ -215,9 +215,13 @@ export default function ProjectMagnifiCourier(){
                 </p>
                 <br/>
                 <br/>
-
+            </Row>
+            
+            <h5 className={styles.sectionSubtitle}>Versão User</h5>          
+            
+            <Row className={styles.cardPlanning}>            
                 <Col xxl="4" xs="12">
-                <h6 className={styles.sectionTopic}>Para Sprint 1 (MVP Versão User):</h6>
+                <h6 className={styles.sectionTopic}>Sprint 1 (MVP):</h6>
                     <ul className={styles.sectionTopicList}>
                         <li>Registro de origem</li>
                         <li>Registro de destino</li>
@@ -231,7 +235,7 @@ export default function ProjectMagnifiCourier(){
                     </ul>
                 </Col>
                 <Col xxl="4">
-                   <h6 className={styles.sectionTopic}>Para Sprint 2:</h6>
+                   <h6 className={styles.sectionTopic}>Sprint 2:</h6>
                    <ul className={styles.sectionTopicList}>
                         <li>Cadastro do tamanho do pacote</li>
                         <li>Cadastro do peso do pacote</li>
@@ -241,7 +245,7 @@ export default function ProjectMagnifiCourier(){
                     </ul>
                 </Col>
                 <Col xxl="4">
-                   <h6 className={styles.sectionTopic}>Para Sprint 3:</h6>
+                   <h6 className={styles.sectionTopic}>Sprint 3:</h6>
                    <ul className={styles.sectionTopicList}>
                         <li>Foto do comprovante de entrega</li>
                         <li>Duplicação de rota</li>
@@ -251,38 +255,71 @@ export default function ProjectMagnifiCourier(){
                         <li>Informações de saúde do item plantado</li>                        
                     </ul>
                 </Col>
+            </Row>
 
+            <h5 className={styles.sectionSubtitle}>Versão Driver</h5>          
+            
+            <Row className={styles.cardPlanning}>            
+                <Col xxl="6" xs="12">
+                <h6 className={styles.sectionTopic}>Sprint 1 (MVP):</h6>
+                    <ul className={styles.sectionTopicList}>
+                        <li>Recebimento de pedido ( notificação com detalhes do pedidos)</li>
+                        <li>Aceite(ou não) de coleta</li>
+                        <li>Valor que será recebido pela entrega</li>
+                        <li>Lista de entregas compartilhadas</li>
+                        <li>Bloqueio por deslocamento</li>
+                        <li>Lembrete de coleta</li>
+                        <li>Coleta realizada</li>
+                        <li>Coleta entregue</li>
+                        <li>Envio de confirmação de entrega</li>
+                    </ul>
+                </Col>
+                <Col xxl="6">
+                   <h6 className={styles.sectionTopic}>Sprint 2:</h6>
+                   <ul className={styles.sectionTopicList}>
+                        <li>Histórico de entregas com controle financeiro</li>
+                        <li>Carteira digital</li>
+                        <li>Valor em conta(total e comissionamento)</li>
+                        <li>Transferência financeira</li>
+                        <li>Configuração de meios de entrega disponíveis</li>
+                        <li>Configuração da área de atendimento</li>
+                        <li>Configuração do horário de disponibilidade</li>
+                        <li>Criação automatizada de recolhimento de entregas compartilhadas</li>
+                        <li>Inteligência permite coleta se ela estiver na rota de uma entrega</li>
+                        
+                        
+                    </ul>
+                </Col>
+            </Row>
 
+            <Row>
                 <h5 className={styles.sectionSubtitle}>Wireframes</h5>
                 <p>
                     O fluxo desenhado em wireframes:
                 </p>
 
                 <Col xxl="12" className={styles.cardFlow}>
-                    <img src='/images/projetos/magnificourier/fluxo/flow1.png' layout='responsive' alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow2.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow3.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow4.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow1.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow2.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow3.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow4.png' alt="Imagem de projeto" className={styles.flowImage} />
                 </Col>
-                
                 <Col xxl="12" className={styles.cardFlow}>
-                    <Image src='/images/projetos/magnificourier/fluxo/flow5.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow6.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow7.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow8.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow5.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow6.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow7.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow8.png' alt="Imagem de projeto" className={styles.flowImage} />
                 </Col>
-
                 <Col xxl="12" className={styles.cardFlow}>
-                    <Image src='/images/projetos/magnificourier/fluxo/flow9.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow10.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow11.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow12.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow9.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow10.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow11.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow12.png' alt="Imagem de projeto" className={styles.flowImage} />
                 </Col>
-                
                 <Col xxl="12" className={styles.cardFlow}>
-                    <Image src='/images/projetos/magnificourier/fluxo/flow13.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow14.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
-                    <Image src='/images/projetos/magnificourier/fluxo/flow15.png' width={360} height={640} alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow13.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow14.png' alt="Imagem de projeto" className={styles.flowImage} />
+                    <img src='/images/projetos/magnificourier/fluxo/flow15.png' alt="Imagem de projeto" className={styles.flowImage} />
                 </Col>
             </Row>
 

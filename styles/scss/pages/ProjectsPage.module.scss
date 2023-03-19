@@ -358,16 +358,32 @@
 
 .cardFlow{
     background-color:#0f172a;
-    margin-bottom: 30px;
-    padding: 50px;
+    margin-top: 30px;
+    padding: 50px 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     border-radius: 14px;
+    box-shadow: $DefaultShadow;
     .flowImage{
-        
+        max-width: 275px;
+        height: auto;
     }
 }
+
+.cardPlanning{
+    background-color: #FFF;
+    margin-top: 30px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 14px;
+    box-shadow: $DefaultShadow;
+
+}
+
 
 }
