@@ -14,7 +14,7 @@ export default function ProjectB2B(){
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>App Atacado B2B</h1>
-                    <p>Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX. Uso de técnicas de métodos ágeis, e pesquisa com usuários, não foram utilizados wireframes para organização do storytelling e arquitetura da informação</p>
+                    <p>Projeto de loja virtual por atacado. Com regras mínimas de compras, exposição de produtos, acompanhamento de número de itens sempre visível e timer de encerramento de período para aquisição de coleção</p>
                     </Col>
                 </Row>
             </Container>
@@ -43,18 +43,16 @@ export default function ProjectB2B(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                    <img src="/images/projetos/b2b/s1.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s2.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s3.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s4.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s5.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s6.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s7.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s8.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s9.png" alt="App Atacado b2b"/>
+                    <img src="/images/projetos/b2b/s10.png" alt="App Atacado b2b"/>
                 </div>
                 </Col>
             </Row>
