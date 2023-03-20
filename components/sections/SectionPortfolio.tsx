@@ -77,6 +77,22 @@ export default function SectionWhatIDo(){
                             <button className={styles.buttonAction}>Conheça o Projeto</button>
                             </div>
                         </Link>
+
+                        <Link href="/ProjectB2B" className={styles.card}>
+                            <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                             Projeto de app de atacado de marca de moda Fitness, focado em B2B com diversas regras de implementação
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Figma</li>
+                                <li>Entrevistas pessoais</li>
+                                <li>Figjam</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            </div>
+                        </Link>
+                        
                         <Link href="/ProjectRedesignFast" className={styles.card}>
                             <Image src='/images/projetos/fastcompras/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
@@ -131,20 +147,7 @@ export default function SectionWhatIDo(){
                             <button className={styles.buttonAction}>Veja as telas</button>
                             </div>
                         </Link>
-                        <Link href="/ProjectB2B" className={styles.card}>
-                            <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                             Projeto de app de atacado de marca de moda Fitness, focado em B2B com diversas regras de implementação
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Entrevistas pessoais</li>
-                                <li>Figjam</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
-                            </div>
-                        </Link>
+                        
                     </div>
             </Row>
 
