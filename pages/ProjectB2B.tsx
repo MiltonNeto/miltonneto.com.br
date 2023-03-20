@@ -25,16 +25,15 @@ export default function ProjectB2B(){
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
                     <label>Ferramentas:</label>
-                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>Figjam</li>
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Interface de voz</li>
-                    <li>Assistente Virtual</li>
-                    <li>Alexa</li>
-                    <li>Chatbot</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
+                    <li>Loja Virtual</li>
+                    <li>Loja por atacado</li>
+                    <li>Vendas condicionais</li>
+                    <li>Timer de coleção</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>

@@ -67,11 +67,10 @@ export default function SectionWhatIDo(){
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Adobe XD</li>
-                                <li>Entrevistas pessoais</li>
                                 <li>Miro</li>
                                 <li>Illustrator</li>
                                 <li>Photoshop</li>
-                                <li>Identidade visual</li>
+                                
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o Projeto</button>
@@ -93,7 +92,7 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         
-                        <Link href="/ProjectRedesignFast" className={styles.card}>
+                        {/*<Link href="/ProjectRedesignFast" className={styles.card}>
                             <Image src='/images/projetos/fastcompras/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
                              Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX
@@ -147,6 +146,7 @@ export default function SectionWhatIDo(){
                             <button className={styles.buttonAction}>Veja as telas</button>
                             </div>
                         </Link>
+                    */}
                         
                     </div>
             </Row>
