@@ -13,17 +13,18 @@ export default function SectionResume(){
                             <div className={styles.box}>
                                 <Image src='/images/logos/dbc.jfif' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
-                                    <h4 className={styles.JobPosition}>Analista UX UI-Especialista</h4>
+                                    <h4 className={styles.JobPosition}>UX UI Analyst- Specialist</h4>
                                     <h5 className={styles.CompanyName}>DBC Company</h5>
-                                    <span className="date">Fev 2022 - Atual </span>
+                                    <span className="date">Feb 2022 - Current </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                                <li>Locado no cliente Usaflex</li>
-                                <li>Desenvolvimento, documentação e curadoria do design system RUBI DS </li>
-                                <li>Design de loja virtual 3d</li>
-                                <li>Idealização de ferramentas e background de aplicativos da marca</li>
-                                <li>Design, funcionamento e manutenção de ferramentas de e-commerce</li>
+                                <li>Located on the Usaflex client</li>
+                                <li>Development, documentation and curation of the RUBI DS design system</li>
+                                <li>Creation and concepting of USA+ Design System</li>
+                                <li>3d webshop design</li>
+                                <li>Idealization of tools and background of brand applications</li>
+                                <li>Design, operation and maintenance of e-commerce tools</li>
                             </ul>
                         </li>
                     </Col>
@@ -35,15 +36,15 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                 <h4 className={styles.JobPosition}>Lead UX Designer</h4>
                                     <h5 className={styles.CompanyName}>Dentsu World Services Brazil</h5>
-                                    <span className="date">Ago 2021 - Dez 2022 </span>
+                                    <span className="date">Aug 2021 - Dec 2022 </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                                <li>Condução de entrevistas e testes com usuários de plataformas</li>
-                                <li>Desenvolvimento protótipos navegáveis de alta e baixa fidelidade (Figma, XD e Sketch)</li>
-                                <li>Análise de jornadas de usuários, melhoria contínua de produtos legados, planejamento e desenvolvimento de novas funcionalidades e produtos</li>
-                                <li>Desenvolvimento de estratégia de atuação em atendimento de produtos de clientes internacionais</li>
-                                <li>Atuação no laboratório de inovação dedicado</li>
+                                <li>Conducting interviews and tests with platform users</li>
+                                <li>Development of high and low fidelity navigable prototypes (Figma, XD and Sketch)</li>
+                                <li>Analysis of user journeys, continuous improvement of legacy products, planning and development of new features and products</li>
+                                <li>Development of a strategy for serving international customers products</li>
+                                <li>Working in the dedicated innovation laboratory</li>
                             </ul>
                         </li>
                     </Col>
@@ -55,13 +56,13 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>Lead UX Designer</h4>
                                     <h5 className={styles.CompanyName}>Getnet - PagoNxt Merchant Solutions</h5>
-                                    <span className="date">Abr 2021 - Ago 2021 </span>
+                                    <span className="date">Apr 2021 - Aug 2021 </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                            <li>UX Specialist, lead administrativo do chapter de UX, UI</li>
-                            <li>Gestão de ferramentas, montagem e dimensionamento de equipe</li>
-                            <li>Orientador de desenvolvimento de Design System</li>
+                            <li>UX Specialist, administrative UX, UI chapter lead</li>
+                            <li>Tools management, team assembly and sizing</li>
+                            <li>Design System development advisor</li>
                             </ul>
                         </li>
                     </Col>
