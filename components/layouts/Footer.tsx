@@ -15,7 +15,7 @@ export default function Footer(){
                 <section id="TalkToMe">
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/conversation-color.png" width="48" height="48" alt="sectionIcon" className="sectionTitleIcon"/>
-                    <span>Fale comigo!</span>
+                    <span>Let's chat!</span>
                 </h3>
                 
                 <Row className={styles.footerBoxes}>
@@ -24,7 +24,7 @@ export default function Footer(){
                         <Image src='/images/logos/linkedin.jpg' width='30' height='30' alt="Universidade Unisul" />
                         <div className={styles.boxRight}>
                             <h5 className={styles.lineTitle}>Linkedin</h5>
-                            <span className="Description">Lead UX Designer na Dentsu World Services | Estudante de Neurociência e Psicologia Aplicada</span>    
+                            <span className="Description">Lead UX Product Designer | Neuroscience and Applied Psychology Student</span>    
                         </div>
                     </div>
                     <a href='/downloads/MiltonNeto.pdf' target='_blank' className={styles.downloadCV}>Download CV</a>

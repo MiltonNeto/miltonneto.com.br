@@ -74,15 +74,15 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX designer Sênior | UX Lead</h4>
                                     <h5 className={styles.CompanyName}>UOL Edtech</h5>
-                                    <span className="date">Fev 2020 - Mar 2021 </span>
+                                    <span className="date">Feb 2020 - Mar 2021 </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                                <li>UX Sênior, lead técnico do time de UX, UI</li>
-                                <li>Organização e estruturação da equipe, ferramentas e fluxos de desenvolvimento</li>
-                                <li>Desenvolvimento de protótipos de alta fidelidade</li>
-                                <li>Interface central e gerenciamento dos fornecedores terceirizados</li>
-                                <li>Análise de jornadas de usuários, melhoria contínua de produtos legados, planejamento e desenvolvimento de novas funcionalidades e produtos.</li>
+                                <li>UX Sênior, UX UI team technical lead</li>
+                                <li>Organization and structuring of the team, tools and development flows</li>
+                                <li>High fidelity prototype development</li>
+                                <li>Central interface and third-party suppliers manager</li>
+                                <li>Analysis of user journeys, continuous improvement of legacy products, planning and development of new features and products.</li>
                             </ul>
                         </li>
                     </Col>
@@ -94,14 +94,14 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX UI Designer</h4>
                                     <h5 className={styles.CompanyName}>PMWeb</h5>
-                                    <span className="date">Ago 2019 - Dez 2019 </span>
+                                    <span className="date">Aug 2019 - Dec 2019 </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                                <li>Análise quantitativa e desenvolvimento de soluções baseadas em métricas de conversão</li>
-                                <li>Estudos de funis, réguas de relacionamento e micromomentos</li>
-                                <li>Desenvolvimento, análise de resultados e documentação de testes de usabilidade e conversão</li>
-                                <li>Condução e acompanhamento de testes com usuários para desenvolvimento de produtos</li>
+                                <li>Quantitative analysis and development of solutions based on conversion metrics</li>
+                                <li>Funnels studies, relationship rulers and micromoments</li>
+                                <li>Development, analysis of results and documentation of usability and conversion tests</li>
+                                <li>Conducting and monitoring user tests for product development</li>
                             </ul>
                         </li>
                     </Col>
@@ -111,16 +111,16 @@ export default function SectionResume(){
                             <div className={styles.box}>
                                 <Image src='/images/logos/les.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
-                                    <h4 className={styles.JobPosition}>UX / UI designer | Supervisor de Marketing</h4>
-                                    <h5 className={styles.CompanyName}>Grupo L&S</h5>
+                                    <h4 className={styles.JobPosition}>UX / UI designer | Marketing Supervisor</h4>
+                                    <h5 className={styles.CompanyName}>L&S Group</h5>
                                     <span className="date">Jun 2015 - Jan 2018</span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                            <li>Reorganização de arquitetura de informação baseada em pesquisa e entrevistas com usuários</li>
-                            <li>Redesign, montagem e automatização de produtos web</li>
-                            <li>Direção de arte de comunicação digital</li>
-                            <li>Supervisão do setor de Marketing</li>
+                            <li>Reorganization of information architecture based on user research and interviews</li>
+                            <li>Redesign, assembly and automation of web products</li>
+                            <li>Digital communication art direction</li>
+                            <li>Supervision of the Marketing sector</li>
                             </ul>
                         </li>
                     </Col>
@@ -132,14 +132,14 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX / UI (Web Designer)</h4>
                                     <h5 className={styles.CompanyName}>Fastcompras</h5>
-                                    <span className="date">Set 2009 - Jun 2015 </span>
+                                    <span className="date">Sep 2009 - Jun 2015 </span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                            <li>Desenvolvimento de sites e lojas virtuais</li>
-                            <li>Implementação e monitoria de célula de pesquisa e melhoria de ferramentas e processos</li>
-                            <li>Seleção e treinamento</li>
-                            <li>Membro da equipe de planejamento estratégico e liderança</li>
+                            <li>Design and frontend development of websites and online stores</li>
+                            <li>Implementation and monitoring of research cell and improvement of tools and processes</li>
+                            <li>Selection and training</li>
+                            <li>Member of the strategic planning and leadership team</li>
                             </ul>
                         </li>
                     </Col>
@@ -148,12 +148,12 @@ export default function SectionResume(){
                             <div className={styles.box}>
                                 <Image src='/images/icones/freelance-color.png' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
-                                    <h5 className={styles.CompanyName}>Consultoria UX UI · Autônomo</h5>
-                                    <span className="date">Desde 2018</span>
+                                    <h5 className={styles.CompanyName}>UX UI Consulting and mentoring · Self Employed</h5>
+                                    <span className="date">Since 2018</span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
-                            Atuei como UX/UI designer e diretor de arte, contratado como PJ em empresas como N49, Maria Gueixa, Innovea Hub Solutions, Zahl Investimentos e Uhuu.com. Responsável pela estruturação de setor de criação, gestão de projetos e equipes, evangelização de métodos ágeis e pelo de user design centered de apps, peças de marketing digital, lojas virtuais e outros
+                            I worked as a UX/UI designer and art director, hired as a JP in companies such as N49, Maria Gueixa, Innovea Hub Solutions, Zahl Investiments and Uhuu.com. Responsible for structuring the creative sector, managing projects and teams, evangelizing agile methods and user centered design of apps, digital marketing pieces, virtual stores and others
                             </ul>
                         </li>
                     </Col>
