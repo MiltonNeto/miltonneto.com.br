@@ -84,7 +84,7 @@ export default function SectionWhatIDo(){
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
-                                <li>Entrevistas pessoais</li>
+                                <li>Personal Interviews</li>
                                 <li>Figjam</li>
                             </ul>
                             <div className={styles.cardAction}>

@@ -63,7 +63,7 @@ export default function ProjectB2B(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros trabalhos</span>
+                    <span>See other of my works</span>
                 </h3>
                 <SectionPortfolio />
                 
