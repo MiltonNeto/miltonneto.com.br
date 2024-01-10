@@ -12,8 +12,8 @@ export default function MainContainer({children, ... props}:Props){
 
     return(
         <>
-        <SideNav/>
             <main>
+                <SideNav/>
                 <StickyMenu/>
                 {children}
                 <Footer/>

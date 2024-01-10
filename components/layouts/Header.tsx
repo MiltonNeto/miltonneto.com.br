@@ -1,5 +1,7 @@
 import styles from '../../styles/scss/components/layouts/Header.module.scss'
 import { Container } from 'reactstrap'
+import Image from "next/image"
+import Link from 'next/link'
 
 export default function Header(){
     return(
@@ -12,11 +14,25 @@ export default function Header(){
                         <p>Milton Neto</p>
                     </div>
                 
-                    <ul className={styles.SubjectHeader}>
-                        <li>Experience</li>
-                        <li>Interface</li>
-                        <li>Mentoria</li>
+                    {/*<ul className={styles.SubjectHeader}>
+                        
+                        <li>
+                            <Link href="./" className={styles.ActiveLanguage}>
+                                PT
+                            </Link>
+                        </li>
+                        <li>
+                        <Link href="./EN/">
+                            EN
+                        </Link>
+                        </li>
+                        <li>
+                        <Link href="./ES/">
+                            ES
+                        </Link>
+                        </li>
                     </ul>
+                    */}
             </Container>
         </header>
 

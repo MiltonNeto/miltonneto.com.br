@@ -26,9 +26,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            margin-bottom: 1em;
-            
-            
+            margin-bottom: 1em;            
         }
         .menuBox{
             display: flex;
@@ -50,14 +48,14 @@
                 height: 55px;
                 padding: 0;
                 &:hover{
-                    background: #b388ff;
+                    background: rgba(178, 136, 52, 0.6);
                 }
             }
         }
     }
 
     .tippyBox{
-        background: rgba(179, 136, 255,0.6);
+        background: rgba(178, 136, 52, 0.6);
         backdrop-filter: blur(3px);
         padding: 5px 20px;
         border-radius: 50px;
