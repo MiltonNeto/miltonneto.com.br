@@ -11,12 +11,6 @@ export default function Header(){
                     <div className={styles.siteTitle}>
                         <p>Milton Neto</p>
                     </div>
-                
-                    <ul className={styles.SubjectHeader}>
-                        <li>Experience</li>
-                        <li>Interface</li>
-                        <li>Mentoring</li>
-                    </ul>
             </Container>
         </header>
 

@@ -15,7 +15,7 @@ export default function SectionResume(){
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX UI Analyst- Specialist</h4>
                                     <h5 className={styles.CompanyName}>DBC Company</h5>
-                                    <span className="date">Feb 2022 - Current </span>
+                                    <span className="date">Feb 2022 - Oct 2023</span>
                                 </div>
                             </div>
                             <ul className={styles.tasks}>
