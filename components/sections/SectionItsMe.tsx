@@ -11,16 +11,16 @@ export default function SectionItsMe(){
                     <Col xs="12" xxl="3">
                         <h3 className="sectionTitle">
                             <Image src='/images/eu-mobile.png' width="100" height="100" alt='Oi, esse sou eu ' className={styles.contentImage}/>
-                        <span>Quem sou eu</span>
+                        <span>Who I am</span>
                     </h3>
                     </Col>
                     <Col xs="12" xxl={{ offset: 2, size: 7}} className={styles.contentText}>
                         <p>
-                            Sou designer e mentor de experiências e interfaces, ou se preferir UX e UI. Moro em Canoas no Rio Grande do Sul, mas trabalho remoto também para diversas partes do mundo, como Espanha, Argentina, Estados Unidos, e Portugal. Sente-se, fique a vontade e aproveite esse nosso bate-papo.
+                        I'm a designer and mentor of digital experiences and interfaces, or if you prefer UX and UI designer. I live in Canoas in Rio Grande do Sul, but I also work remotely to different parts of the world, such as Spain, Argentina, United States, and Portugal. Please sit back, make yourself comfortable and enjoy our chat.
                         </p>                      
                         
                         <Col xs="12" xxl="12" className="quote">
-                            "Evoluir a cada entrega é meu objetivo, por isso digo que meu melhor trabalho é sempre o próximo."
+                        "My goal is to evolve with each new delivery, that's why I say that my best work is always the next one."
                         </Col>
                     </Col>
                     

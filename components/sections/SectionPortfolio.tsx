@@ -12,7 +12,7 @@ export default function SectionWhatIDo(){
             <Row className="subcontent">
                 <h4 className="subtitle">
                     <Image src="/images/icones/portfolio-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
-                    <span>Meu portfolio</span>
+                    <span>My portfolio</span>
                 </h4>
 
                     <div className={styles.cards}>
@@ -21,7 +21,7 @@ export default function SectionWhatIDo(){
                             <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
                                 <p>
-                                Aplicação de voz, com objetivo principal de utilizar a Alexa como meio de aprendizado.
+                                Voice application, with the main objective of using Alexa devices as a means of learning.
                                 </p>
                             </div>
                             <ul className={styles.cardSkills}>
@@ -30,13 +30,13 @@ export default function SectionWhatIDo(){
                                 <li>Miro</li>
                             </ul>
                             <div className={styles.cardAction}>
-                                <button className={styles.buttonAction}>Conheça o Projeto</button>
+                                <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
                         <Link href="/ProjectAda" className={styles.card}>
                             <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                                Controle automatizado da diabetes, de forma rápida, fácil e confiável
+                            Automated diabetes management, quickly, easily and reliably
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
@@ -44,7 +44,7 @@ export default function SectionWhatIDo(){
                                 <li>XD</li>
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
                         {/*<Link href="/ProjectChapterUX" className={styles.card}>
@@ -63,7 +63,7 @@ export default function SectionWhatIDo(){
                         <Link href="/ProjectMagnifiCourier" className={styles.card}>
                             <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                             Proposta de projeto de app de entregas, com a exigência de incentivar sustentabilidade ecológica
+                            Delivery app project proposal, with the requirement to encourage ecological sustainability
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Adobe XD</li>
@@ -73,22 +73,22 @@ export default function SectionWhatIDo(){
                                 
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
 
                         <Link href="/ProjectB2B" className={styles.card}>
                             <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                             Projeto de app de atacado de marca de moda Fitness, focado em B2B com diversas regras de implementação
+                            Fitness fashion brand wholesale app project, focused on B2B with several implementation rules
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
-                                <li>Entrevistas pessoais</li>
+                                <li>Personal Interviews</li>
                                 <li>Figjam</li>
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
                         
@@ -154,34 +154,34 @@ export default function SectionWhatIDo(){
             <Row className="subcontent">
                 <h4 className="subtitle">
                     <Image src="/images/icones/article-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
-                    <span>Artigos</span>
+                    <span>Articles</span>
                 </h4>
                 <div className={styles.cards}>
                     <Link href="https://www.linkedin.com/pulse/o-boom-do-ux-mas-quem-%C3%A9-esse-profissional-milton-neto/" target='_blank' className={styles.card}>
                         <div className={styles.cardText}>
-                            <h6 className={styles.cardTextTitle}>O boom do UX, mas quem é esse profissional?</h6>
-                            <p>A busca de mercado pela posição de User Experience é crescente e notória, e de acordo com essa procura, aumenta junto, o número de profissionais...</p>
+                            <h6 className={styles.cardTextTitle}>The UX Designer boom, but who is this professional?</h6>
+                            <p>The market search for the User Experience position is growing and notorious, and according to this demand, the number of professionals increases along with it...</p>
                         </div>
                         <div className={styles.cardAction}>
-                        <button className={styles.buttonAction}>Ler o artigo completo</button>
+                        <button className={styles.buttonAction}>Read the full article</button>
                         </div>
                     </Link>
                     <Link href="https://www.linkedin.com/pulse/montando-portf%C3%B3lio-de-ux-milton-neto/" target="_blank" className={styles.card}>
                         <div className={styles.cardText}>
-                            <h6 className={styles.cardTextTitle}>Montando Portfólio de UX</h6>
-                            <p>Cada dia mais vemos oportunidades surgindo para a nossa profissão, mesmo em tempos de pandemia temos diariamente vagas e mais vagas sendo anunciadas...</p>
+                            <h6 className={styles.cardTextTitle}>Assembling a UX Portfolio</h6>
+                            <p>Every day we see more opportunities emerging for our profession, even in times of a pandemic we have vacancies and more vacancies being announced daily...</p>
                         </div>
                         <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Ler o artigo completo</button>
+                            <button className={styles.buttonAction}>Read the full article</button>
                         </div>
                     </Link>
                     <Link href="https://www.linkedin.com/pulse/o-encaixotamento-do-ux-milton-neto/" target="_blank" className={styles.card}>
                         <div className={styles.cardText}>
-                            <h6 className={styles.cardTextTitle}>O encaixotamento do UX</h6>
-                            <p>Há algum tempo atuo como UX Lead, estando a frente de equipes e desenvolvendo profissionais que me surpreendem diariamente e muitas vezes me fazem questionar...</p>
+                            <h6 className={styles.cardTextTitle}>The UX boxing</h6>
+                            <p>I've been working as a UX Lead for some time, leading teams and developing professionals who surprise me daily and often make me question...</p>
                         </div>
                         <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Ler o artigo completo</button>
+                            <button className={styles.buttonAction}>Read the full article</button>
                         </div>
                     </Link>
                     

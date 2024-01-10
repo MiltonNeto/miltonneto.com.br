@@ -18,7 +18,7 @@ export default function ProjectMagnifiCourier(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Adobe XD</li>
                     <li>Miro</li>
                     <li>Illustrator</li>
@@ -26,9 +26,9 @@ export default function ProjectMagnifiCourier(){
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Identidade Visual</li>
-                    <li>Entrevistas Pessoais</li>
-                    <li>Sustentabilidade Ecológica</li>
+                    <li>Visual Identidy</li>
+                    <li>Personal Interview</li>
+                    <li>Ecological Sustainability</li>
                     <li>Delivery App</li>
                     </ul>
                 </Col>
@@ -37,29 +37,29 @@ export default function ProjectMagnifiCourier(){
             <Row className={styles.sectionDivision}>
                 
                 <Col xxl="6">
-                <h4 className={styles.sectionTitle}>Descrição</h4>
-                <p>Proposta de projeto para um app de entregas, com a exigência de incentivar sustentabilidade ecológica.</p>
+                <h4 className={styles.sectionTitle}>Description</h4>
+                <p>Project proposal for a delivery app, with the requirement to encourage ecological sustainability.</p>
                 <br/>
                 <p>
-                    O MagnifiCourier é um app que alia a solução e a facilidade dos principais aplicativos de mobilidade urbana do mercado, facilitando a vida de usuários que necessitam de transporte de pequenos ou grandes objetos, oferecendo opções ecossustentáveis.
+                MagnifiCourier is an app that combines the solution and ease of the main urban mobility applications on the market, making life easier for users who need to transport small or large objects, offering eco-sustainable options.
                 </p>
                 </Col>
             
                 <Col xxl="6" xs="12">         
-                    <h4 className={styles.sectionTitle}>Como funciona</h4>
-                    <p>Através de um sistema de descontos, ele incentiva o uso de Couriers (entregadores) bicicleteiros, ou ainda a Entrega Compartilhada (que diminui a frequência do Courier em trânsito), levando diversas coletas ao mesmo tempo, através de uma rota que o próprio aplicativo traça como sendo a mais eficaz e menos poluente.<br/>
-                    Além de outras formas de incentivo, como o compromisso da empresa, no plantio de árvores de acordo com o uso do aplicativo.
+                    <h4 className={styles.sectionTitle}>How it works</h4>
+                    <p>Through a discount system, it encourages the use of bicycle couriers (deliveries), or even Shared Delivery (which reduces the frequency of the Courier in transit), taking several collections at the same time, through a route that the application itself outlines as being the most effective and least polluting.<br/>
+                    In addition to other forms of incentives, such as the company's commitment to planting trees according to the use of the application.
                     </p>
                 </Col>
             </Row>
             <Row className={styles.sectionDivision}>
-            <h4 className={styles.sectionTitle}>Usuários</h4>
+            <h4 className={styles.sectionTitle}>Users</h4>
                 <Col xxl="12" xs="12">
                     <p>
-                        Foram realizadas entrevistas com diferentes perfis de usuários, que responderam a algumas perguntas referente ao uso de serviços de entrega e o quanto isso facilitaria no seu cotidiano.
+                    Interviews were carried out with different user profiles, who answered some questions regarding the use of delivery services and how much easier this would be in their daily lives.
                     </p>
                     <div className="quote">
-                        Destaco aqui, como exemplo, duas personas que participaram destas pesquisas. E uma terceira, que participou como usuário do que seria a versão DRIVER do MagnifiCourier.
+                    I highlight here, as an example, two people who participated in these surveys. And a third, who participated as a user of what would be the DRIVER version of MagnifiCourier.
                     </div>
                 </Col>
                 <br/>
@@ -67,42 +67,42 @@ export default function ProjectMagnifiCourier(){
                     <Col xxl="3" className={styles.personaProfile}>
                         <Image src="/images/projetos/magnificourier/persona-daniela.png" width='200' height='200' alt="persona" className={styles.personaImage} />
                         
-                        <p className={styles.personaQuote}>"...por vezes me falta algum material, de produção e não posso sair para buscar, e ao mesmo tempo tenho prazos para entrega. Ao poonto que consigo me programar, algumas vezes preciso de algo com mais urgência. Imprevistos acontecem!"
+                        <p className={styles.personaQuote}>"...sometimes I lack some production material and I can't go out to get it, and at the same time I have deadlines for delivery. To the point that I can program myself, sometimes I need something more urgently. Unforeseen happen!"
                         </p>
 
                         <ul className={styles.personaInfo}>
                             <li>
-                                <label>Nome</label>
+                                <label>Name</label>
                                 <br/>
                                 Daniela
                             </li>
                             <li>
-                                <label>Idade</label>
+                                <label>Age</label>
                                 <br/>
-                                33 anos
+                                33 y.o.
                             </li>
                             <li> 
-                                <label>Ocupação</label>
-                                <br/>
-                                Profissional autônoma
+                                <label>Occupation</label>
+                                <br/>  
+                                    Self-employed professional
                             </li>
                         </ul>
                     </Col>
                     <Col xxl="9" className={styles.personaSurvey}>
                         <ul>
-                            <li className={styles.personaQuestion}>Já utilizou serviço de motoboy ou entrega?</li>
-                                <li className={styles.personaAnswer}>Sim, certamente</li>
+                            <li className={styles.personaQuestion}>Have you ever used a motoboy or delivery service?</li>
+                                <li className={styles.personaAnswer}>Yes, certainly</li>
                             <li className={styles.personaQuestion}>Utilizaria entrega através de um aplicativo?</li>
-                                <li className={styles.personaAnswer}>Sim, pra mim facilitaria muito</li>
-                            <li className={styles.personaQuestion}>O que mais pesaria na escolha utilizar do app?</li>
-                                <li className={styles.personaAnswer}>Ter dinamismo: agilidade, opções de entrega, cotações, informações claras e bem definidas (tempo e  opções de escolha de veículo a entregar) em tempo real e centralizadas em um único lugar</li>
-                            <li className={styles.personaQuestion}>O que se espera ver num app de entrega?</li>
-                                <li className={styles.personaAnswer}>Ponto de saída, ponto de entrega, tipos de entrega, confirmação de recebimento, de repente seria legal se soubesse o tamanho ou o peso do pacote que fosse receber, tem coisas que não dá pra carregar sozinha.</li>
-                            <li className={styles.personaQuestion}>Aceitaria o uso de entrega compartilhada no caso de essa entrega demorar um pouco mais para ser realizada?</li>
-                                <li className={styles.personaAnswer}>Sim, pois certamente o valor seria mais barato e, por não trabalhar com produtos perecíveis ou cargas vivas, não teria tanta pressa e poderia planejar e  aguardar.</li>
+                                <li className={styles.personaAnswer}>Would you use delivery through an app?</li>
+                            <li className={styles.personaQuestion}>What would weigh most in choosing to use the app?</li>
+                                <li className={styles.personaAnswer}>Have dynamism: agility, delivery options, quotes, clear and well-defined information (time and options for choosing the vehicle to be delivered) in real time and centralized in a single place</li>
+                            <li className={styles.personaQuestion}>What do you expect to see in a delivery app?</li>
+                                <li className={styles.personaAnswer}>Starting point, delivery point, types of delivery, confirmation of receipt, maybe it would be nice if you knew the size or weight of the package you were going to receive, there are things that you can't carry alone.</li>
+                            <li className={styles.personaQuestion}>Would you accept the use of shared delivery in case this delivery takes a little longer to be carried out?</li>
+                                <li className={styles.personaAnswer}>Yes, because the value would certainly be cheaper and, as I don't work with perishable products or live loads, I wouldn't be in such a hurry and could plan and wait.</li>
 
-                            <li className={styles.personaQuestion}>Acha que é possível uma empresa se preocupar com meio ambiente trabalhando com meios de transporte, que são poluentes de um modo geral?</li>
-                                <li className={styles.personaAnswer}>Se é possível, não consigo imaginar como, mas acho muito importante uma empresa seja qual for, se preocupar com meio ambiente, ter medidas internas talvez de coleta seletiva ou economia de papel, qualquer medida de preservação ambiental é bem vista.</li>
+                            <li className={styles.personaQuestion}>Do you think it is possible for a company to be concerned about the environment by working with means of transport, which are polluting in general?</li>
+                                <li className={styles.personaAnswer}>If it's possible, I can't imagine how, but I think it's very important for any company, whatever it is, to be concerned about the environment, to have internal measures, perhaps for selective collection or saving paper, any environmental preservation measure is well regarded.</li>
                         </ul>
                     </Col>
                 </Row>
@@ -110,41 +110,41 @@ export default function ProjectMagnifiCourier(){
                 <Row className={styles.cardPersona}>
                     <Col xxl="3" className={styles.personaProfile}>
                         <Image src="/images/projetos/magnificourier/persona-mauricio.png" width='200' height='200' alt="persona" className={styles.personaImage} />
-                        <p className={styles.personaQuote}>"Infelizmente alguns documentos ainda precisam ser assinados fisicamente, com essa história de pandemia, por mais que isso tenha agilizado a digitalização de muitos serviços, muita coisa ainda não é possível"
+                        <p className={styles.personaQuote}>"Unfortunately, some documents still need to be physically signed, with this pandemic story, as much as this has speeded up the digitization of many services, a lot is still not possible"
                         </p>
 
                         <ul className={styles.personaInfo}>
                             <li>
-                                <label>Nome</label>
+                                <label>Name</label>
                                 <br/>
                                 Alex
                             </li>
                             <li>
-                                <label>Idade</label>
+                                <label>Age</label>
                                 <br/>
-                                43 anos
+                                43 y.o.
                             </li>
                             <li> 
-                                <label>Ocupação</label>
+                                <label>Occupation</label>
                                 <br/>
-                                Gerente administrativo
+                                Administrative manager
                             </li>
                         </ul>
                     </Col>
                     <Col xxl="9" className={styles.personaSurvey}>
                         <ul>
-                            <li className={styles.personaQuestion}>Já utilizou serviço de motoboy ou entrega?</li>
-                                <li className={styles.personaAnswer}>Sim, mais do que deveria inclusive</li>
-                            <li className={styles.personaQuestion}>Utilizaria entrega através de um aplicativo?</li>
-                                <li className={styles.personaAnswer}>Já utilizo vários, de comida principalmente</li>
-                            <li className={styles.personaQuestion}>O que mais pesaria na escolha utilizar do app?</li>
-                                <li className={styles.personaAnswer}>Não precisar procurar o menor preço e saber o horário que minha entrega será feita</li>
-                            <li className={styles.personaQuestion}>O que se espera ver num app de entrega?</li>
-                                <li className={styles.personaAnswer}>Custo, Previsão de entrega, Confirmação de recebimento;</li>
-                            <li className={styles.personaQuestion}>Aceitaria o uso de entrega compartilhada no caso de essa entrega demorar um pouco mais para ser realizada?</li>
-                                <li className={styles.personaAnswer}>Dependeria muito da minha urgência, às vezes preciso de uma entrega mais urgente, ou com horário marcado, hoje já temos serviços de documentos online, mas ainda assim algumas coisas precisam ser assinadas fisicamente e essas precisam ser mais rápidas.</li>
-                                <li className={styles.personaQuestion}>Acha que é possível uma empresa se preocupar com meio ambiente trabalhando com meios de transporte, que são poluentes de um modo geral?</li>
-                                    <li className={styles.personaAnswer}>Parece difícil né. Mas sei lá, seria importante, aqui na empresa a gente tem energia solar, é pouco, mas é um começo agora, com veículos parece mais utópico. Veículos elétricos talvez.</li>
+                            <li className={styles.personaQuestion}>Have you ever used a motoboy or delivery service?</li>
+                                <li className={styles.personaAnswer}>Yes, more than I should</li>
+                            <li className={styles.personaQuestion}>Would you use delivery through an app?</li>
+                                <li className={styles.personaAnswer}>I already use several, mainly for food</li>
+                            <li className={styles.personaQuestion}>What would weigh most in choosing to use the app?</li>
+                                <li className={styles.personaAnswer}>No need to look for the lowest price and know the time my delivery will be made</li>
+                            <li className={styles.personaQuestion}>What do you expect to see in a delivery app?</li>
+                                <li className={styles.personaAnswer}>Cost, delivery forecast, delivery confirmation;</li>
+                            <li className={styles.personaQuestion}>Would you accept the use of shared delivery in case this delivery takes a little longer to be carried out?</li>
+                                <li className={styles.personaAnswer}>It would depend a lot on my urgency, sometimes I need a more urgent delivery, or with an appointment, today we already have online document services, but still some things need to be physically signed and these need to be faster.</li>
+                                <li className={styles.personaQuestion}>Do you think it is possible for a company to be concerned about the environment by working with means of transport, which are polluting in general?</li>
+                                    <li className={styles.personaAnswer}>It seems difficult, right? But I don't know, it would be important, here at the company we have solar energy, it's not much, but it's a start now, with vehicles it seems more utopian. Electric vehicles maybe.</li>
                         </ul>
                     </Col>
                 </Row>
@@ -152,22 +152,22 @@ export default function ProjectMagnifiCourier(){
                 <Row className={styles.cardPersona}>
                     <Col xxl="3" className={styles.personaProfile}>
                     <Image src="/images/projetos/magnificourier/persona-rodrigo.png" width='200' height='200' alt="persona" className={styles.personaImage} />
-                    <p className={styles.personaQuote}>"Quanto mais entregas eu puder fazer, mais eu ganho, se eu puder economizar na gasolina e na manutenção da moto, melhor ainda. Poder programar mais de uma entrega por vez então seria bem legal, fazer uma rota só com várias entregas."
+                    <p className={styles.personaQuote}>"The more deliveries I can make, the more I earn, if I can save on gas and bike maintenance, even better. Being able to schedule more than one delivery at a time so it would be really cool, making a single route with multiple deliveries."
                         </p>
 
                         <ul className={styles.personaInfo}>
                             <li>
-                                <label>Nome</label>
+                                <label>Name</label>
                                 <br/>
                                 Rodrigo
                             </li>
                             <li>
-                                <label>Idade</label>
+                                <label>Age</label>
                                 <br/>
-                                39 anos
+                                39 y.o.
                             </li>
                             <li> 
-                                <label>Ocupação</label>
+                                <label>Occupation</label>
                                 <br/>
                                 Motoboy
                             </li>
@@ -175,117 +175,116 @@ export default function ProjectMagnifiCourier(){
                     </Col>
                     <Col xxl="9" className={styles.personaSurvey}>
                         <ul>
-                            <li className={styles.personaQuestion}>Você utilizaria um app para receber chamados de entrega?</li>
-                                <li className={styles.personaAnswer}>Sim, hoje a maioria do serviço vem por app</li>
-                            <li className={styles.personaQuestion}>O que pesaria pra escolher trabalhar por app?</li>
-                                <li className={styles.personaAnswer}>Volume de entrega, e os ganhos, o percentual do aplicativo.</li>
-                            <li className={styles.personaQuestion}>Deixaria de fazer uma entrega de moto para fazer de bicicleta?</li>
-                                <li className={styles.personaAnswer}>Se não fosse uma distância grande e se valesse a pena financeiramente, ainda mais com o valor do combustível hoje.</li>
-                            <li className={styles.personaQuestion}>O que espera ver num app desse tipo?</li>
-                                <li className={styles.personaAnswer}>Quanto vou receber por corrida, tamanho do pacote, distância e um mapa.</li>
-                            <li className={styles.personaQuestion}>Uma empresa com responsabilidade ambiental, faz diferença na hora do profissional trabalhar?</li>
-                                <li className={styles.personaAnswer}>Acho que essa é uma questão que quem se preocupa mais é o usuário, quem vai contratar, não o trabalhador.</li>
+                            <li className={styles.personaQuestion}>Would you use an app to receive delivery calls?</li>
+                                <li className={styles.personaAnswer}>Yes, today most of the service comes via app</li>
+                            <li className={styles.personaQuestion}>What would help you to choose to work by app?</li>
+                                <li className={styles.personaAnswer}>Delivery volume, and earnings, the percentage of the application.</li>
+                            <li className={styles.personaQuestion}>Would you stop making a motorcycle delivery to do it by bicycle?</li>
+                                <li className={styles.personaAnswer}>If it wasn't a long distance and if it was financially worth it, even more so with today's fuel prices.</li>
+                            <li className={styles.personaQuestion}>What do you expect to see in an type of app?</li>
+                                <li className={styles.personaAnswer}>How much will I receive per delivery, package size, distance and a map.</li>
+                            <li className={styles.personaQuestion}>Does a company with environmental responsibility make a difference when a professional works?</li>
+                                <li className={styles.personaAnswer}>I think this is an issue that the user is most concerned about, who is going to hire, not the worker.</li>
                         </ul>
                     </Col>
                 </Row>
                 
-                    <h4 className={styles.sectionTitle}>Principais vantagens do App</h4>
+                    <h4 className={styles.sectionTitle}>Main advantages of the App</h4>
                     <Col xxl="12" xs="12">
                         <p>
-                        Considerando as respostas dos nossos entrevistados desenvolvemos um app que apliquem-se as seguintes vantagens:
+                        Considering the answers of our interviewees, we developed an app with the following advantages:
                         </p>
                         <ul className={styles.sectionTopicList}>
-                            <li>Centralização de serviços de courier e freteiros em um só aplicativo</li>
-                            <li>Valores acessíveis</li>
-                            <li>Incentivo a um sistema de entregas sustentável por meio de descontos</li>
-                            <li>Previsionamento de horário de entrega</li>
-                            <li>companhamento da rota de entrega</li>
-                            <li>A empresa se compromete a plantar uma muda de árvore em área de reflorestamento para cada entrega realizada por bicicleteiro ou entrega compartilhada</li>
-                            <li>Curva de aprendizado rápida, pois ele é baseado nos principais apps de mobilidade urbana do mercado</li>
+                            <li>Centralization of courier and freight services in a single application</li>
+                            <li>Affordable values</li>
+                            <li>Incentive to a sustainable delivery system through discounts</li>
+                            <li>Delivery time forecast</li>
+                            <li>Delivery route tracking</li>
+                            <li>The company undertakes to plant a tree seedling in a reforestation area for each delivery made by bike carrier or shared delivery</li>
+                            <li>Quick learning curve, as it is based on the main urban mobility apps on the market</li>
                         </ul>
                     </Col>
                     
             </Row>
 
             <Row className={styles.sectionDivision}>
-                <h4 className={styles.sectionTitle}>Planejamento e Wireframes</h4>
+                <h4 className={styles.sectionTitle}>Planning and Wireframes</h4>
 
                 <p>
-                    As entrevistas com possíveis usuários e com os stakeholders gerou o backlog de projeto, com o intuito de basear a criação em metodologia scrum:
+                Interviews with potential users and stakeholders generated the project backlog, with the aim of basing the creation on scrum methodology:
                 </p>
                 <br/>
                 <br/>
             </Row>
             
-            <h5 className={styles.sectionSubtitle}>Versão User</h5>          
+            <h5 className={styles.sectionSubtitle}>User Version:</h5>          
             
             <Row className={styles.cardPlanning}>            
                 <Col xxl="4" xs="12">
                 <h6 className={styles.sectionTopic}>Sprint 1 (MVP):</h6>
                     <ul className={styles.sectionTopicList}>
-                        <li>Registro de origem</li>
-                        <li>Registro de destino</li>
-                        <li>Seleção do meio de entrega</li>
-                        <li>Desconto por entrega compartilhada ou bicicleta</li>
-                        <li>Registro de deslocamento para busca</li>
-                        <li>Registro de deslocamento para entrega</li>
-                        <li>Confirmação de recebimento</li>
-                        <li>Avaliação do entregador</li>
-                        <li>Token de plantação</li>
+                        <li>Origin registration</li>
+                        <li>Destiny registration</li>
+                        <li>Delivery method selection</li>
+                        <li>Discount System for shared delivery or bike</li>
+                        <li>Search shift record</li>
+                        <li>Delivery shift record</li>
+                        <li>Delivery confirmation</li>
+                        <li>Courier rating</li>
+                        <li>Plantation token</li>
                     </ul>
                 </Col>
                 <Col xxl="4">
                    <h6 className={styles.sectionTopic}>Sprint 2:</h6>
                    <ul className={styles.sectionTopicList}>
-                        <li>Cadastro do tamanho do pacote</li>
-                        <li>Cadastro do peso do pacote</li>
-                        <li>Filtro de veículo pelo tamanho do pacote</li>
-                        <li>Histórico de pedidos</li>
-                        <li>Mapa do campo de plantação</li>                       
+                        <li>Packet size registration</li>
+                        <li>Package weight registration</li>
+                        <li>Vehicle filter by pack size</li>
+                        <li>Order History</li>
+                        <li>Plantation field map</li>                       
                     </ul>
                 </Col>
                 <Col xxl="4">
                    <h6 className={styles.sectionTopic}>Sprint 3:</h6>
                    <ul className={styles.sectionTopicList}>
-                        <li>Foto do comprovante de entrega</li>
-                        <li>Duplicação de rota</li>
-                        <li>Entregas com retorno (com pagamento por exemplo)</li>
-                        <li>Foto do comprovante de entrega</li>
-                        <li>Busca do token de plantação</li>
-                        <li>Informações de saúde do item plantado</li>                        
+                        <li>Photo of proof of delivery</li>
+                        <li>Route duplication</li>
+                        <li>Return deliveries (with payment for example)</li>
+                        <li>Farm Token Quest</li>
+                        <li>Planted item health information</li>                        
                     </ul>
                 </Col>
             </Row>
 
-            <h5 className={styles.sectionSubtitle}>Versão Driver</h5>          
+            <h5 className={styles.sectionSubtitle}>Courier Version</h5>          
             
             <Row className={styles.cardPlanning}>            
                 <Col xxl="6" xs="12">
                 <h6 className={styles.sectionTopic}>Sprint 1 (MVP):</h6>
                     <ul className={styles.sectionTopicList}>
-                        <li>Recebimento de pedido ( notificação com detalhes do pedidos)</li>
-                        <li>Aceite(ou não) de coleta</li>
-                        <li>Valor que será recebido pela entrega</li>
-                        <li>Lista de entregas compartilhadas</li>
-                        <li>Bloqueio por deslocamento</li>
-                        <li>Lembrete de coleta</li>
-                        <li>Coleta realizada</li>
-                        <li>Coleta entregue</li>
-                        <li>Envio de confirmação de entrega</li>
+                        <li>Order receiving (notification with order details)</li>
+                        <li>Collection Accept (or not) </li>
+                        <li>Amount to be received for delivery</li>
+                        <li>Shared delivery list</li>
+                        <li>Displacement lock</li>
+                        <li>collection reminder</li>
+                        <li>Collection carried out</li>
+                        <li>Collection delivered</li>
+                        <li>Sending Delivery Confirmation</li>
                     </ul>
                 </Col>
                 <Col xxl="6">
                    <h6 className={styles.sectionTopic}>Sprint 2:</h6>
                    <ul className={styles.sectionTopicList}>
-                        <li>Histórico de entregas com controle financeiro</li>
-                        <li>Carteira digital</li>
-                        <li>Valor em conta(total e comissionamento)</li>
-                        <li>Transferência financeira</li>
-                        <li>Configuração de meios de entrega disponíveis</li>
-                        <li>Configuração da área de atendimento</li>
-                        <li>Configuração do horário de disponibilidade</li>
-                        <li>Criação automatizada de recolhimento de entregas compartilhadas</li>
-                        <li>Inteligência permite coleta se ela estiver na rota de uma entrega</li>
+                        <li>Delivery history with financial control</li>
+                        <li>Digital wallet</li>
+                        <li>Account value (total and commission)</li>
+                        <li>Financial transfer</li>
+                        <li>Configuration of available means of delivery</li>
+                        <li>Service area setup</li>
+                        <li>Availability time setting</li>
+                        <li>Automated creation of shared delivery pickups</li>
+                        <li>Intelligence allows pickup if it is en route to a delivery</li>
                         
                         
                     </ul>
@@ -295,7 +294,7 @@ export default function ProjectMagnifiCourier(){
             <Row>
                 <h5 className={styles.sectionSubtitle}>Wireframes</h5>
                 <p>
-                    O fluxo desenhado em wireframes:
+                The flow drawn in wireframes:
                 </p>
 
                 <Col xxl="12" className={styles.cardFlow}>
@@ -325,13 +324,13 @@ export default function ProjectMagnifiCourier(){
 
             <Row className={styles.breakline}></Row>
             <Row className={styles.sectionDivision}>
-            <h4 className={styles.sectionTitle}>Identidade visual</h4>
+            <h4 className={styles.sectionTitle}>Visual Identity</h4>
                 <Col xxl="12" xs="12">
                     <p>
-                    O aspecto mais importante dentro da MagnifiCourier, é a sua responsabilidade ambiental, a empresa quer fazer a diferença para o planeta, assim como para seus usuários. Conscientizar através do seus serviços, que o planeta precisa de atenção e mesmo o ato de realizar uma entrega, pode fazer diferença no resultado final, torcendo para que efeito borboleta seja efetivo nas mínimas ações.
+                    The most important aspect within MagnifiCourier is its environmental responsibility, the company wants to make a difference for the planet, as well as for its users. Making people aware, through their services, that the planet needs attention and even the act of making a delivery, can make a difference in the final result, hoping that the butterfly effect will be effective in the smallest actions.
                     <br/>
                     <br/>
-                    <strong>Brainstorm de identidade e construção do conceito de entregas com responsabilidade ambiental:</strong>
+                    <strong>Identity brainstorm and construction of the concept of deliveries with environmental responsibility:</strong>
                     </p>
                     <div className={styles.galleryID}>
                         <img src='/images/projetos/magnificourier/identidade/id1.png' alt="Imagem de projeto" className={styles.IDImage} />
@@ -350,16 +349,16 @@ export default function ProjectMagnifiCourier(){
                 </Col>
                 <br/><br/>
                 <p>
-                    <strong>Processo de criação da identidade</strong>
+                    <strong>Identity creation process</strong>
                    <br/>
-                   As cores mais preponderantes e deram sentido às ideias, foram tons de verde e azuis, e os itens que mais se fizeram presentes foram folhas, map markers e relógios.<br />
-A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passar um ar de leveza por conta do seu viés ambiental. Por isso, a opção por uma tipografia mais fina, elegante e arredondada , tanto para a logotipia como para o conteúdo
+                   The most predominant colors that gave meaning to the ideas were shades of green and blue, and the items that were most present were leaves, map markers and clocks.<br />
+                   The company intends to be friendly, reliable and dynamic, in addition to conveying an air of lightness due to its environmental bias. Therefore, the option for a thinner, more elegant and rounded typography, both for the logo and for the content
                 </p>
                 <Row className={styles.breakline}></Row>
                 <Row>
                     <Col xxl='5' className={styles.compositionID}>
                         <h5 className={styles.separationSubtitle}>
-                            <strong>Cores:</strong>
+                            <strong>Colors:</strong>
                         </h5>
 
                         <ul>
@@ -371,12 +370,12 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
                     </Col>
                     <Col xxl='7'>
                         <h5 className={styles.separationSubtitle}>
-                            <strong>Tipografia</strong>    
+                            <strong>Typography</strong>    
                         </h5>
                         <div className={styles.galleryType}>
-                            <label>Logotipo: Poiret one</label>
+                            <label>Logotype: Poiret one</label>
                             <img src='/images/projetos/magnificourier/identidade/id13.png' alt="Imagem de projeto" className={styles.IDType} />
-                            <label>Conteúdo: Quicksand  </label>
+                            <label>Content: Quicksand  </label>
                         <img src='/images/projetos/magnificourier/identidade/id14.png' alt="Imagem de projeto" className={styles.IDType} />
                         </div>
                     </Col>
@@ -385,7 +384,7 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
                 <Row>
                     <Col xxl='7' className={styles.compositionID}>
                         <h5 className={styles.separationSubtitle}>
-                            <strong>Itens formadores da Simbologia:</strong>
+                            <strong>Items forming the Symbology:</strong>
                             
                         </h5>
                         <div className={styles.galleryID}>
@@ -399,7 +398,7 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
                 <Row>
                     <Col xxl='12' className={styles.compositionID}>
                     <h5 className={styles.separationSubtitle}>
-                            <strong>Proposta de identidade:</strong>
+                            <strong>Identity proposal:</strong>
                         </h5>
                     </Col>
                 </Row>
@@ -419,9 +418,9 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
             <Row className={styles.sectionDivision}>
                 
                 <Col xxl="8">
-                <h4 className={styles.sectionTitle}>O Projeto</h4>
+                <h4 className={styles.sectionTitle}>The Project</h4>
                     <p>
-                        Agora, feitas as devidas apresentações, chega de falar, pode reclinar o seu assento e curtir algumas das telas propostas do projeto:
+                    Now, with the proper introductions made, enough talking, you can recline your seat and enjoy some of the proposed screens of the project:
 
                     </p>
                 </Col>
@@ -455,19 +454,19 @@ A empresa tem o intuito de ser amigável, confiável e dinâmica, além de passa
 
             <Row className={styles.breakline}></Row>
 
-            <h4 className={styles.sectionTitle}>Atuação</h4>
-                <p>Nesse projeto, tive uma atuação praticamente autoral, visto que os parâmetros de conceito eram mínimos. O pitch do stakeholder do projeto foi:<br/>
-                    <strong>Precisamos de um projeto de app de serviços, que tenha um viés de preservação ambiental.</strong>
+            <h4 className={styles.sectionTitle}>My roles</h4>
+                <p>In this project, I had a practically authorial role, since the concept parameters were minimal. The project stakeholder pitch was:<br/>
+                    <strong>We need a service app project that has an environmental preservation bias.</strong>
                     <br/><br/>
-                    Dessa forma o MagnifiCourier, foi uma aplicação onde foi necessária toda prática de Product Design, com pesquisa de interesse público, ideação de produto, criação e conceituação de personas, pesquisa e desenvolvimento de estudo de curva de interesse, user flows, design de identidade visual, desenvolvimento de design system, design de interface, etc. Tendo sido eu, o único product designer envolvido no projeto, estive presente em todas as etapas até a entrega para produção.<br/><br/>
-                    O status atual desse projeto, é que ele não pôde ser desenvolvido, pois a empresa não conseguiria arcar com a preservação de área ambiental sugerida como contrapartida de uso do app, mesmo criando regras para o plantio, como por exemplo: "1 árvore a cada 10 usos de Courier bicicleteiro por apenas um usuário".
+                    In this way, MagnifiCourier was an application where all Product Design practice was necessary, with public interest research, product ideation, creation and conceptualization of personas, research and development of interest curve studies, user flows, visual identity design, system design development, interface design, etc. Since I was the only product designer involved in the project, I was present in all stages until delivery to production.<br/><br/>
+                    The current status of this project is that it could not be developed, as the company would not be able to afford the preservation of the suggested environmental area as a counterpart to using the app, even creating rules for planting, such as: "1 tree for every 10 uses of the Courier bike rack by just one user".
                 </p>
 
                 <Row className={styles.breakline}></Row>
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros trabalhos</span>
+                    <span>See other of my works</span>
                 </h3>
                 <SectionPortfolio />
                 

@@ -26,7 +26,9 @@
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            margin-bottom: 1em;            
+            margin-bottom: 1em;
+            
+            
         }
         .menuBox{
             display: flex;
@@ -48,7 +50,7 @@
                 height: 55px;
                 padding: 0;
                 &:hover{
-                    background: rgba(178, 136, 52, 0.6);
+                    background: #B28834;
                 }
             }
         }
