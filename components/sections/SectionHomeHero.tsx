@@ -8,7 +8,7 @@ export default function SectionHomeHero(){
                 <div className={styles.main}>
                     <Container>
                         <Row>
-                            <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                            <Col xxl={{ offset: 2, size: 8}}  className={styles.homeToolsList}>
                             <p className={styles.subject}>Milton Neto</p>
                             <h1 className={styles.projectTitle}>Experience, Interface & Product Designer</h1>
                             </Col>
