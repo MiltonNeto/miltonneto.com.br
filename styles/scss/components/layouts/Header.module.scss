@@ -39,7 +39,9 @@
         width: 100%;
         justify-content: space-between;
         height: 80px;
-        border-bottom: solid 1px #dddddd;
+        z-index: 9;
+        position: fixed;
+        background-color: rgba($color: #000000, $alpha: 0.6);
         .siteTitle{
             width: 20%;
             float: left;
@@ -47,11 +49,12 @@
             align-items: center;
             padding: 3px 0;
             p{
-            color: #202020;
+            color: $LightGray;
             font-size: 20px;
-            font-weight: 700;
+            font-weight: 100;
             height: auto;
             line-height: 1;
+            margin-left: 10px;
             }
         }
         .SubjectHeader{
@@ -73,7 +76,7 @@
                     transition: $DefaultTransition;
                     &.ActiveLanguage{
                         border: solid 1px #0f172a;
-                        color: #0f172a;
+                        color: $LightGray;
                         background-color: #FFF;
                     }
                     &:hover{

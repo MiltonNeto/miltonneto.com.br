@@ -1,5 +1,6 @@
 import styles from '../../styles/scss/components/layouts/Header.module.scss'
-import { Container } from 'reactstrap'
+import Image from 'next/image';
+import { Container, Row, Col } from 'reactstrap'
 
 export default function Header(){
     return(
@@ -7,8 +8,8 @@ export default function Header(){
 
         <header className={styles.TopHeader}>
             <Container>
-                
                     <div className={styles.siteTitle}>
+                        <Image src="/images/logo-milton.svg" width="30" height="30" alt="sectionIcon" className="sectionTitleIcon"/>
                         <p>Milton Neto</p>
                     </div>
             </Container>
