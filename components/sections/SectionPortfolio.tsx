@@ -19,22 +19,22 @@ export default function SectionWhatIDo(){
 
                         <Link href="/ProjectAlexa" className={styles.card}>
                             <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                                <p>
-                                Voice application, with the main objective of using Alexa devices as a means of learning.
-                                </p>
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Alexa</li>
-                                <li>Miro</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                                <button className={styles.buttonAction}>Know the project</button>
+                            <div className={styles.hoverContent}>
+                                <div className={styles.cardText}>
+                                    <p>
+                                    Voice application, with the main objective of using Alexa devices as a means of learning.
+                                    </p>
+                                </div>
+                                <ul className={styles.cardSkills}>
+                                    <li>Figma</li>
+                                    <li>Alexa</li>
+                                    <li>Miro</li>
+                                </ul>
                             </div>
                         </Link>
                         <Link href="/ProjectAda" className={styles.card}>
                             <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.hoverContent}>
                             <div className={styles.cardText}>
                             Automated diabetes management, quickly, easily and reliably
                             </div>
@@ -43,10 +43,10 @@ export default function SectionWhatIDo(){
                                 <li>Photoshop</li>
                                 <li>XD</li>
                             </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Know the project</button>
+                            
                             </div>
                         </Link>
+                            
                         {/*<Link href="/ProjectChapterUX" className={styles.card}>
                             <Image src='/images/projetos/chapter/thumb-chapter.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
@@ -62,6 +62,7 @@ export default function SectionWhatIDo(){
                         */}
                         <Link href="/ProjectMagnifiCourier" className={styles.card}>
                             <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.hoverContent}>
                             <div className={styles.cardText}>
                             Delivery app project proposal, with the requirement to encourage ecological sustainability
                             </div>
@@ -70,25 +71,21 @@ export default function SectionWhatIDo(){
                                 <li>Miro</li>
                                 <li>Illustrator</li>
                                 <li>Photoshop</li>
-                                
                             </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
 
                         <Link href="/ProjectB2B" className={styles.card}>
                             <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                            Fitness fashion brand wholesale app project, focused on B2B with several implementation rules
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Personal Interviews</li>
-                                <li>Figjam</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Know the project</button>
+                            <div className={styles.hoverContent}>
+                                <div className={styles.cardText}>
+                                Fitness fashion brand wholesale app project, focused on B2B with several implementation rules
+                                </div>
+                                <ul className={styles.cardSkills}>
+                                    <li>Figma</li>
+                                    <li>Personal Interviews</li>
+                                    <li>Figjam</li>
+                                </ul>
                             </div>
                         </Link>
                         
@@ -151,7 +148,7 @@ export default function SectionWhatIDo(){
                     </div>
             </Row>
 
-            <Row className="subcontent">
+            {/*<Row className="subcontent">
                 <h4 className="subtitle">
                     <Image src="/images/icones/article-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
                     <span>Articles</span>
@@ -187,7 +184,7 @@ export default function SectionWhatIDo(){
                     
                 </div>
                 
-            </Row>
+            </Row>*/}
           </>
     )
 }

@@ -9,9 +9,9 @@ export default function Footer(){
     return(
         
         <>
-        
-        <div className={styles.footer}>
-            <Container>
+        <Container>
+            <div className={styles.footer}>
+            
                 <section id="TalkToMe">
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/conversation-color.png" width="48" height="48" alt="sectionIcon" className="sectionTitleIcon"/>
@@ -56,8 +56,8 @@ export default function Footer(){
                     <Image src="/images/logo-milton.svg" width="25" height="25" alt="Milton Neto UX Designer" />
                 </section>
                 
-            </Container>
-        </div>
+            </div>
+        </Container>
 
         <div className={styles.MobileFooter}>
         <Container>

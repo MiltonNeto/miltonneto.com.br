@@ -2,10 +2,8 @@ import Script from 'next/script'
 import Head from 'next/head'
 import { Container } from 'reactstrap'
 import Header from '../components/layouts/Header'
-import SectionItsMe from '../components/sections/SectionItsMe'
+import SectionHomeHero from '../components/sections/SectionHomeHero'
 import SectionPortfolio from '../components/sections/SectionPortfolio'
-import SectionHowTo from '../components/sections/SectionHowTo'
-import SectionResume from '../components/sections/SectionResume'
 
 
 export default function Home() {
@@ -41,21 +39,14 @@ export default function Home() {
 
           <Header />
           
-          <Container>
-            <section id="ItsMe" className="itsme">
-                <SectionItsMe />
+          <section id="HomeHero" className="mainHomeBanner">
+              <SectionHomeHero/>
             </section>
-          
+
+          <Container>
             <section id="WhatIDo">
               <SectionPortfolio />
             </section>
-            <section id="HowTo">
-              <SectionHowTo/>
-            </section>
-            <section id="resume">
-              <SectionResume />
-            </section>
-
           </Container>
           
         </div>
