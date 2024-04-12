@@ -47,19 +47,6 @@ export default function SectionWhatIDo(){
                             <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
-                        {/*<Link href="/ProjectChapterUX" className={styles.card}>
-                            <Image src='/images/projetos/chapter/thumb-chapter.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                             Projeto de estudo, entendimento e evolução de Chapter de design em de time de Design Ops
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
-                            </div>
-                        </Link>
-                        */}
                         <Link href="/ProjectMagnifiCourier" className={styles.card}>
                             <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
@@ -84,7 +71,7 @@ export default function SectionWhatIDo(){
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
-                                <li>Personal Interviews</li>
+                                <li>Wholesale Store</li>
                                 <li>Figjam</li>
                             </ul>
                             <div className={styles.cardAction}>
@@ -92,61 +79,47 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         
-                        {/*<Link href="/ProjectRedesignFast" className={styles.card}>
+                        <Link href="/ProjectRedesignFast" className={styles.card}>
                             <Image src='/images/projetos/fastcompras/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                             Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX
+                                Institutional website redesign proposal, updating with the first UX studies
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Adobe Photoshop</li>
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Veja as telas</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
                         <Link href="/ProjectMedi" className={styles.card}>
                             <Image src='/images/projetos/medi/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                             Interface de controle de casa Smarthome, focado para tablet.
+                                Smarthome home control interface, focused on tablet screen.
                             </div>
                             <ul className={styles.cardSkills}>
                                 <li>Figma</li>
                                 <li>Illustrator</li>
-                                <li>Identidade visual</li>                                
+                                <li>Visual Identity</li>                                
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Veja as telas</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
-                        <Link href="/ProjectQB" className={styles.card}>
-                            <Image src='/images/projetos/qb/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                        
+                        <Link href="/ProjectEuroland" className={styles.card}>
+                            <Image src='/images/projetos/euroland/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                             Aplicação de desenvolvimento de surveys de forma automatizada
+                                Institutional website design
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Photoshop</li>
-                                <li>Prototyping</li>
-                                <li>Workflow</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o Projeto</button>
-                            </div>
-                        </Link>
-                        <Link href="/ProjectPiscilovers" className={styles.card}>
-                            <Image src='/images/projetos/piscilovers/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                            Design de interface de tela principal desenvolvido a partir de apanhado de ideias
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
+                                <li>Adobe XD</li>
                                 <li>Illustrator</li>
-                                <li>Identidade visual</li>                                
+                                <li>Visual Identity</li>                                
                             </ul>
                             <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Veja as telas</button>
+                            <button className={styles.buttonAction}>Know the project</button>
                             </div>
                         </Link>
-                    */}
                         
                     </div>
             </Row>

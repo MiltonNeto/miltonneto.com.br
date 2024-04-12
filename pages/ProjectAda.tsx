@@ -28,7 +28,7 @@ export default function ProjectAda(){
                     <ul className={styles.redPills}>
                     <label>Tags:</label>
                     <li>Virtual Assistent</li>
-                    <li>Acessibilidade</li> 
+                    <li>Accessibility</li> 
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -49,7 +49,7 @@ export default function ProjectAda(){
                 </p>
             </Col>
             <Col XXl="6">
-                <h4 className={styles.sectionTitle}>Objetivo</h4>
+                <h4 className={styles.sectionTitle}>Objectives</h4>
                 <p>The ADA serves as a companion for the person with diabetes, a virtual assistant that helps make the blood glucose control routine faster, lighter and without fraud, <strong>in addition to keeping your main contacts informed of your readings and sending notifications if necessary.</strong>
                 </p>
             </Col>

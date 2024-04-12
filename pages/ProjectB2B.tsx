@@ -30,10 +30,9 @@ export default function ProjectB2B(){
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Loja Virtual</li>
-                    <li>Loja por atacado</li>
-                    <li>Vendas condicionais</li>
-                    <li>Timer de coleção</li>
+                    <li>Virtual Store</li>
+                    <li>Wholesale store</li>
+                    <li>Conditional Sales</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>

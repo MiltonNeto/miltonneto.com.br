@@ -194,8 +194,8 @@
     background-size: cover;
 }
 
-.UXChapter{
-    background: url(/images/projetos/chapter/thumb-chapter.png) center center;
+.fastcompras{
+    background: url(/images/projetos/fastcompras/thumb.png) center center;
     background-size: cover;
 }
 
@@ -204,6 +204,15 @@
     background-size: cover;
 }
 
+.medi{
+    background: url(/images/projetos/medi/thumb.png) center center;
+    background-size: cover;
+}
+
+.Euroland{
+    background: url(/images/projetos/Euroland/thumb.png) center center;
+    background-size: cover;
+}
 
 .toolsList{
     display: flex;
@@ -211,14 +220,17 @@
     ul{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         margin-bottom: 20px;
         &.bluePills li{
             background-color: cornflowerblue;
             color: #FFF;
+            margin-bottom: 10px;
         }
         &.redPills li{
             background-color: #ffcdd2;
             color: #666;
+            margin-bottom: 10px;
         }
         li{
             margin-right: 15px;

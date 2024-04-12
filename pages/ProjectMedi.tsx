@@ -8,13 +8,13 @@ import SectionPortfolio from '../components/sections/SectionPortfolio'
 export default function ProjectMedi(){
     return(
         <div>
-        <div className={styles.header+" "+ styles.alexa} >
+        <div className={styles.header+" "+ styles.medi} >
             <Container>
                 <Row>
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Medi</h1>
-                    <p>Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX. Uso de técnicas de métodos ágeis, e pesquisa com usuários, não foram utilizados wireframes para organização do storytelling e arquitetura da informação</p>
+                    <p>Energy control tool, focused on fixed and mobile devices, where it will be possible to control all automation in the house, such as lights, energy consumption and production of solar plants. In addition to being integrated with Alexa and Google Home</p>
                     </Col>
                 </Row>
             </Container>
@@ -24,17 +24,20 @@ export default function ProjectMedi(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Photoshop</li>
+                    <li>Miro</li>
+                    <li>Illustrator</li>
+                    <li>Figma</li>
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Interface de voz</li>
-                    <li>Assistente Virtual</li>
-                    <li>Alexa</li>
-                    <li>Chatbot</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
+                    <li>Energy Efficiency</li>
+                    <li>Smarthouse Control</li>
+                    <li>Energy Consuption Control</li>
+                    <li>Voice assistents integration</li>
+                    <li>Artificial intelligence</li>
+                    <li>Acessibility</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -43,18 +46,10 @@ export default function ProjectMedi(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                    <img src="/images/projetos/medi/01.png" width="470" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/02.png" width="470" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/03.png" width="470" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/logo.png" width="470" height="945" alt="Medi Energy controller"/>                    
                 </div>
                 </Col>
             </Row>

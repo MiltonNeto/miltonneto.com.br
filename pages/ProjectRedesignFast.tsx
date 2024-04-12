@@ -8,13 +8,13 @@ import SectionPortfolio from '../components/sections/SectionPortfolio'
 export default function ProjectRedesignFast(){
     return(
         <div>
-        <div className={styles.header+" "+ styles.alexa} >
+        <div className={styles.header+" "+ styles.fastcompras} >
             <Container>
                 <Row>
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
-                    <h1 className={styles.projectTitle}>Redesign Institucional Site Fastcompras</h1>
-                    <p>Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX. Uso de técnicas de métodos ágeis, e pesquisa com usuários, não foram utilizados wireframes para organização do storytelling e arquitetura da informação</p>
+                    <h1 className={styles.projectTitle}>Institutional Redesign Fastcompras Website</h1>
+                    <p>Proposal for redesigning the institutional website, updating it with the first UX studies. Use of agile method techniques and user research, wireframes were not used to organize storytelling and information architecture</p>
                     </Col>
                 </Row>
             </Container>
@@ -24,18 +24,16 @@ export default function ProjectRedesignFast(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Photoshop</li>
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Interface de voz</li>
-                    <li>Assistente Virtual</li>
-                    <li>Alexa</li>
-                    <li>Chatbot</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
                     <li>Product Design</li>
+                    <li>User Interviews</li>
+                    <li>Visual identiy redesign</li>
+                    <li>Review Design Patterns</li>
+                    <li>Design system implementation</li>
                     </ul>
                 </Col>
             </Row>
@@ -43,18 +41,16 @@ export default function ProjectRedesignFast(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                    <img src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                    <img src="/images/projetos/fastcompras/01.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/02.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/03.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/04.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/05.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/06.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/07.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/08.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/09.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    
                 </div>
                 </Col>
             </Row>
