@@ -45,7 +45,6 @@ export default function ProjectEuroland(){
                     <img src="/images/projetos/euroland/01.png" width="470" height="945" alt="Euroland"/>
                     <img src="/images/projetos/euroland/02.png" width="470" height="945" alt="Euroland"/>
                     <img src="/images/projetos/euroland/03.png" width="470" height="945" alt="Euroland"/>                    
-                    <img src="/images/projetos/euroland/04.png" width="470" height="945" alt="Euroland"/>                    
                 </div>
                 </Col>
             </Row>

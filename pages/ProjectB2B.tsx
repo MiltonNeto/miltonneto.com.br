@@ -1,5 +1,5 @@
 import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
-import Lightbox from "react-awesome-lightbox";
+
 
 import { Container, Row, Col } from "reactstrap";
 
