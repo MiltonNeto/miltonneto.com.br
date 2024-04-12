@@ -16,7 +16,8 @@ export default function SectionItsMe(){
                     </Col>
                     <Col xs="12" xxl={{ offset: 2, size: 7}} className={styles.contentText}>
                         <p>
-                        I'm a designer and mentor of digital experiences and interfaces, or if you prefer UX and UI designer. I live in Canoas in Rio Grande do Sul, but I also work remotely to different parts of the world, such as Spain, Argentina, United States, and Portugal. Please sit back, make yourself comfortable and enjoy our chat.
+                        Hi! I am Milton Neto, User experience designer, passionate about creating digital solutions that are intuitive, enjoyable and effective. With 8 years of experience in UX design and approximately 18 in user interface (UI), I have worked on large-scale projects for companies in a variety of sectors, including educational technology, investment and retail.<br />
+                        <br />My approach is user-centered and data-driven. I believe that design should be inclusive and accessible to everyone, and I am always looking for ways to improve my skills and knowledge.
                         </p>                      
                         
                         <Col xs="12" xxl="12" className="quote">
