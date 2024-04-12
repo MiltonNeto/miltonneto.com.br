@@ -8,7 +8,7 @@ import SectionPortfolio from '../components/sections/SectionPortfolio'
 export default function ProjectEuroland(){
     return(
         <div>
-        <div className={styles.header+" "+ styles.Euroland} >
+        <div className={styles.header+" "+ styles.euroland} >
             <Container>
                 <Row>
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
