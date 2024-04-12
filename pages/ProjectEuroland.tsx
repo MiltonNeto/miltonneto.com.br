@@ -41,10 +41,12 @@ export default function ProjectEuroland(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/euroland/wf.png" width="470" height="945" alt="Euroland"/>
-                    <img src="/images/projetos/euroland/01.png" width="470" height="945" alt="Euroland"/>
-                    <img src="/images/projetos/euroland/02.png" width="470" height="945" alt="Euroland"/>
-                    <img src="/images/projetos/euroland/03.png" width="470" height="945" alt="Euroland"/>                    
+                    <img src="/images/projetos/euroland/wf.png" width="1300" height="1200" alt="Euroland"/>
+                    <img src="/images/projetos/euroland/01.png" width="600" height="945" alt="Euroland"/>
+                    <img src="/images/projetos/euroland/02.png" width="600" height="945" alt="Euroland"/>
+                    <img src="/images/projetos/euroland/03.png" width="600" height="945" alt="Euroland"/>
+                    
+                                        
                 </div>
                 </Col>
             </Row>

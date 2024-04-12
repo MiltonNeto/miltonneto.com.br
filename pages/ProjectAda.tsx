@@ -95,18 +95,18 @@ export default function ProjectAda(){
             </Col>
 
             <div className={styles.imageList}>
-                <Image src="/images/projetos/ada/screen-2.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-3.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-4.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-5.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-6.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-7.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-8.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-9.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-10.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-11.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-12.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                <Image src="/images/projetos/ada/screen-13.webp" width="470" height="945" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
+                <Image src="/images/projetos/ada/screen-2.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-3.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-4.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-5.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-6.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-7.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-8.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-9.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-10.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-11.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-12.webp" width="600" height="945" alt="A.D.A."/>
+                <Image src="/images/projetos/ada/screen-13.webp" width="600" height="945" alt="A.D.A."/>
             
             </div>
 

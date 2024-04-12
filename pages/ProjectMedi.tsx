@@ -46,10 +46,10 @@ export default function ProjectMedi(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/medi/01.png" width="470" height="945" alt="Medi Energy controller"/>
-                    <img src="/images/projetos/medi/02.png" width="470" height="945" alt="Medi Energy controller"/>
-                    <img src="/images/projetos/medi/03.png" width="470" height="945" alt="Medi Energy controller"/>
-                    <img src="/images/projetos/medi/logo.png" width="470" height="945" alt="Medi Energy controller"/>                    
+                    <img src="/images/projetos/medi/01.png" width="620" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/02.png" width="620" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/03.png" width="620" height="945" alt="Medi Energy controller"/>
+                    <img src="/images/projetos/medi/logo.png" width="620" height="945" alt="Medi Energy controller"/>                    
                 </div>
                 </Col>
             </Row>

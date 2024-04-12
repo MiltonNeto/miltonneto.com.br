@@ -41,15 +41,15 @@ export default function ProjectRedesignFast(){
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
-                    <img src="/images/projetos/fastcompras/01.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/02.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/03.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/04.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/05.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/06.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/07.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/08.jpg" width="470" height="945" alt="Institutional redesign"/>
-                    <img src="/images/projetos/fastcompras/09.jpg" width="470" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/01.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/02.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/03.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/04.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/05.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/06.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/07.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/08.jpg" width="620" height="945" alt="Institutional redesign"/>
+                    <img src="/images/projetos/fastcompras/09.jpg" width="620" height="945" alt="Institutional redesign"/>
                     
                 </div>
                 </Col>
