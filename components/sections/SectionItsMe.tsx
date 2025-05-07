@@ -14,10 +14,12 @@ export default function SectionItsMe(){
                         <span>Who I am</span>
                     </h3>
                     </Col>
-                    <Col xs="12" xxl={{ offset: 2, size: 7}} className={styles.contentText}>
+                    <Col xs="12" xxl="9" className={styles.contentText}>
                         <p>
-                        Hi! I am Milton Neto, User experience designer, passionate about creating digital solutions that are intuitive, enjoyable and effective. With 8 years of experience in UX design and approximately 18 in user interface (UI), I have worked on large-scale projects for companies in a variety of sectors, including educational technology, investment and retail.<br />
-                        <br />My approach is user-centered and data-driven. I believe that design should be inclusive and accessible to everyone, and I am always looking for ways to improve my skills and knowledge.
+                        Senior UX/UI Designer with over 9 years of experience in user-centered design and 18 years in UI Design, combining creativity and advanced technical skills to create innovative digital products. <br/>Experience in design systems, high-fidelity prototyping, information architecture, WCAG (accessibility), user research and usability testing.Highlighted in the creation of a skill for Alexa devices, nominated for the Claro Mobile Time 2021 award, and in-depth knowledge of tools such as Figma, Adobe XD, Sketch, HTML and CSS. Collaborated with cross-functional teams in agile environments to solve complex problems and improve the user experience.
+                        <br/>
+                        <br/>
+                        Highlighted in the creation of a skill for Alexa devices, nominated for the Claro Mobile Time 2021 award, and in-depth knowledge of tools such as Figma, Adobe XD, Sketch, HTML and CSS. Collaborated with cross-functional teams in agile environments to solve complex problems and improve the user experience.
                         </p>                      
                         
                         <Col xs="12" xxl="12" className="quote">
