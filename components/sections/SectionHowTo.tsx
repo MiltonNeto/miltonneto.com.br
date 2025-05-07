@@ -171,7 +171,7 @@ export default function SectionHowTo(){
                     
                 <Row>
                     <div className="quote">
-                    Sometimes in a project, we need to exercise a more macro vision. It's like a board game "GO BACK TWO HOMES" and try to see what might be missing!
+                    Sometimes in a project, we need to exercise a more macro vision. It's like a board game "TWO STEPS BACK" and try to see what might be missing!
                     </div>
                 </Row>
             </Row>
