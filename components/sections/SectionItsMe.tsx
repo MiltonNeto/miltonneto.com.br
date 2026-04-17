@@ -11,16 +11,20 @@ export default function SectionItsMe(){
                     <Col xs="12" xxl="3">
                         <h3 className="sectionTitle">
                             <Image src='/images/eu-mobile.png' width="100" height="100" alt='Oi, esse sou eu ' className={styles.contentImage}/>
-                        <span>Quem sou?</span>
+                        <span>Who I am</span>
                     </h3>
                     </Col>
                     <Col xs="12" xxl="9" className={styles.contentText}>
                         <p>
-                        Senior product designer com mais de 10 anos de experiência em concepção e evolução de produtos digitais. Atuação sólida em plataformas de alta complexidade, fintech, streaming, edtech e e-commerce. Experiência em criação  e implementação  de Design Systems escaláveis, integração entre design e desenvolvimento  (Sass, Next.js), definição de arquitetura de interface e melhoria contínua da experiência do usuário com base em dados comportamentais.
+                        Senior UX/UI Designer with over 9 years of experience in user-centered design and 18 years in UI Design, combining creativity and advanced technical skills to create innovative digital products. <br/>Experience in design systems, high-fidelity prototyping, information architecture, WCAG (accessibility), user research and usability testing.Highlighted in the creation of a skill for Alexa devices, nominated for the Claro Mobile Time 2021 award, and in-depth knowledge of tools such as Figma, Adobe XD, Sketch, HTML and CSS. Collaborated with cross-functional teams in agile environments to solve complex problems and improve the user experience.
                         <br/>
                         <br/>
-                        Vivência em liderança técnica, estruturação de Design Ops e colaboração com times multidisciplinares em ambientes ágeis.
+                        Highlighted in the creation of a skill for Alexa devices, nominated for the Claro Mobile Time 2021 award, and in-depth knowledge of tools such as Figma, Adobe XD, Sketch, HTML and CSS. Collaborated with cross-functional teams in agile environments to solve complex problems and improve the user experience.
                         </p>                      
+                        
+                        <Col xs="12" xxl="12" className="quote">
+                        "My goal is to evolve with each new delivery, that's why I say that my best work is always the next one."
+                        </Col>
                     </Col>
                     
                     

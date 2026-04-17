@@ -31,9 +31,9 @@ export default function ProjectB2B(){
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Loja Virtual</li>
-                    <li>Loja de atacado</li>
-                    <li>Vendas Condicionais</li>
+                    <li>Virtual Store</li>
+                    <li>Wholesale store</li>
+                    <li>Conditional Sales</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -63,7 +63,7 @@ export default function ProjectB2B(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros dos meus trabalhos</span>
+                    <span>See other of my works</span>
                 </h3>
                 <SectionPortfolio />
                 

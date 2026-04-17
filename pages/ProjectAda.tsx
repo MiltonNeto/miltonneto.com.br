@@ -20,15 +20,15 @@ export default function ProjectAda(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                     <ul className={styles.bluePills}>
-                        <label>Ferramentas:</label>
+                        <label>Tools:</label>
                         <li>Figma</li>
                         <li>Photoshop</li> 
                         <li>XD</li>
                     </ul>
                     <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Assistente virtual</li>
-                    <li>Acessibilidade</li> 
+                    <li>Virtual Assistent</li>
+                    <li>Accessibility</li> 
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -36,21 +36,21 @@ export default function ProjectAda(){
 
         <Row className={styles.sectionDivision}>
 
-        <h4 className={styles.sectionTitle}>Descrição</h4>
+        <h4 className={styles.sectionTitle}>Description</h4>
         <Col xxl='12'>
-        <p>Controle automatizado do diabetes, de forma rápida, fácil e confiável. Funciona como um centro de informações e suporte para o controle da glicemia, alimentação, medicamentos e para garantir o seu bem-estar.</p>
+        <p>Automated diabetes control, quickly, easily and reliably. It works as an information and support center for blood glucose control, food, medication and ensuring your well-being.</p>
         </Col>
         </Row>
 
         <Row className={styles.sectionDivision}>
             <Col xxl="6">
-                <h4 className={styles.sectionTitle}>Desafio</h4>
-                <p>Em geral, o controle da glicemia é feito manualmente. Isso leva em consideração o que o paciente considera apropriado ou não, podendo até gerar anotações incorretas para "burlar" a dieta e comer aquele doce em excesso.
+                <h4 className={styles.sectionTitle}>Challenge</h4>
+                <p>In general, blood glucose control is performed manually. Being subject to what the patient will consider should or should not be given as a point of attention, and may even make wrong notes to be able to 'cheat' your diet and eat THAT sweetie too much.
                 </p>
             </Col>
             <Col XXl="6">
-                <h4 className={styles.sectionTitle}>Objetivos</h4>
-                <p>A ADA serve como uma companheira para a pessoa com diabetes, uma assistente virtual que ajuda a tornar a rotina de controle da glicemia mais rápida, simples e segura, <strong>além de manter seus principais contatos informados sobre suas leituras e enviar notificações, se necessário.</strong>
+                <h4 className={styles.sectionTitle}>Objectives</h4>
+                <p>The ADA serves as a companion for the person with diabetes, a virtual assistant that helps make the blood glucose control routine faster, lighter and without fraud, <strong>in addition to keeping your main contacts informed of your readings and sending notifications if necessary.</strong>
                 </p>
             </Col>
         </Row>
@@ -61,17 +61,17 @@ export default function ProjectAda(){
             <Col xxl="12" className={styles.SideBySide}>
             <div className={styles.contentBox}>
                 <Image src="/images/projetos/ada/icon1.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                Suporte automático multiplataforma para medidores de glicemia
+                Automatic cross-platform support for diabetes meters
             </div>
             
             <div className={styles.contentBox}>
                 <Image src="/images/projetos/ada/icon2.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                Funções emparelhadas com o smartwatch, como lembretes e alarmes.
+                Smartwatch-paired functions such as reminders and alarms
             </div>
 
             <div className={styles.contentBox}>
                 <Image src="/images/projetos/ada/icon3.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                Função de emergência: notifica seus principais contatos, se necessário.
+                Emergency function, notifies your main contacts if necessary
             </div>
             </Col>
 
@@ -80,13 +80,13 @@ export default function ProjectAda(){
         <Row className={styles.sectionDivision}>
             <Col xxl="8">
                 <div className={styles.techBox}>
-                    <p>A ADA utiliza a API dos principais dispositivos automatizados de monitoramento de glicose no sangue disponíveis no mercado para gerar relatórios de variação dos níveis de açúcar no sangue.
+                    <p>The A.D.A. consumes the API of leading automated blood glucose monitoring devices on the market to generate blood sugar change reports.
                     </p>
                 </div>
                 <div className="quote">
-                    "Este aplicativo traz mais confiabilidade e segurança ao controle do diabetes. Ele realiza leituras automáticas com os principais dispositivos e notifica o usuário em casos de emergência. Vejo um grande potencial de benefícios para o usuário, além de uma alta probabilidade de adesão ao tratamento."<br />
+                    "This App brings more reliability and safety in diabetes control. Taking readings with the main devices automatically and notifying you in cases of emergency. I see a lot of potential benefit to the user, in addition to a very high potential for adherence"<br />
                     <span className='quoteSignature'>
-                    Opinião do avaliador da aplicação
+                    Application reviewer's opinion
                     </span>
                 </div>
             </Col>
@@ -114,7 +114,7 @@ export default function ProjectAda(){
             
             <h3 className="sectionTitle">
                   <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                  <span>Veja outros dos meus trabalhos</span>
+                  <span>See other of my works</span>
               </h3>
             <SectionPortfolio />
 

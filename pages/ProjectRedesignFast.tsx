@@ -13,8 +13,8 @@ export default function ProjectRedesignFast(){
                 <Row>
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
-                    <h1 className={styles.projectTitle}>Redesign Institucional do Site Fastcompras</h1>
-                    <p>Proposta para reformulação do website institucional, atualizando-o com os primeiros estudos de UX. Utilização de técnicas de metodologia ágil e pesquisa com usuários; não foram utilizados wireframes para organizar a narrativa e a arquitetura da informação.</p>
+                    <h1 className={styles.projectTitle}>Institutional Redesign Fastcompras Website</h1>
+                    <p>Proposal for redesigning the institutional website, updating it with the first UX studies. Use of agile method techniques and user research, wireframes were not used to organize storytelling and information architecture</p>
                     </Col>
                 </Row>
             </Container>
@@ -24,16 +24,16 @@ export default function ProjectRedesignFast(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Photoshop</li>
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
                     <li>Product Design</li>
-                    <li>Entrevistas com usuários</li>
-                    <li>Redesign de identidade visual</li>
-                    <li>Revisão dos padrões de design</li>
-                    <li>Implementação de Design System</li>
+                    <li>User Interviews</li>
+                    <li>Visual identiy redesign</li>
+                    <li>Review Design Patterns</li>
+                    <li>Design system implementation</li>
                     </ul>
                 </Col>
             </Row>
@@ -62,7 +62,7 @@ export default function ProjectRedesignFast(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros dos meus trabalhos</span>
+                    <span>Veja outros trabalhos</span>
                 </h3>
                 <SectionPortfolio />
                 

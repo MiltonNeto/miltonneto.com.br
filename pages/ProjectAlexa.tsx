@@ -10,7 +10,7 @@ export default function ProjectAlexa(){
         <div>
         <div className={styles.header +" "+ styles.alexa} >
             <Container>
-                <h2 className={styles.projectTitle}>Skill Educacional Alexa</h2>
+                <h2 className={styles.projectTitle}>Alexa's Educational Skill</h2>
             </Container>
         </div>
 
@@ -18,7 +18,7 @@ export default function ProjectAlexa(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Figma</li>
                     <li>Alexa</li>
                     <li>Miro</li>
@@ -26,11 +26,11 @@ export default function ProjectAlexa(){
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
                     <li>Voice Interface</li>
-                    <li>Assistente Virtual</li>
+                    <li>Virtual Assistent</li>
                     <li>Alexa</li>
                     <li>Chatbot</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Accessibility</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -38,63 +38,63 @@ export default function ProjectAlexa(){
 
             <Row className={styles.sectionDivision}>
                 
-                <h4 className={styles.sectionTitle}>Descrição</h4>
+                <h4 className={styles.sectionTitle}>Description</h4>
                 <Col xxl="12">
-                <p>Aplicativo de voz, com o objetivo principal de usar a Alexa como meio de aprendizado, facilitando e ampliando ainda mais o escopo da experiência de educação a distância.</p>
+                <p>Voice application, with the main objective of using Alexa as a means of learning, facilitating and covering even more the scope of the distance education experience.</p>
                 <br/>
                     <Image src="/images/projetos/alexa/LogoPremioSelecao.png" width="295" height="141" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
                     <br/>
-                    <p>Projeto finalista do prêmio Mobile Time Selection Award.</p>
+                    <p>Finalist project of the Mobile Time Selection Award</p>
                 </Col>
             </Row>
             <Row className={styles.sectionDivision}>
                 <Col xxl="6" xs="12">
-                    <h4 className={styles.sectionTitle}>Cenário</h4>
-                    <p>Por meio de uma parceria com a AWS, uma instituição de ensino viabilizou uma campanha de marketing na qual novos alunos ganhariam um dispositivo Alexa Echo Dot. Na apresentação dessa iniciativa, levantamos a hipótese de criar algo que fizesse sentido e agregasse valor ao presente.
+                    <h4 className={styles.sectionTitle}>Scenario</h4>
+                    <p>Through a partnership with AWS, an educational institution brought the possibility of a marketing campaign, where new students would win an Alexa Echo Dot device. In the presentation of this, we raised the hypothesis of doing something that would make sense and add value to the gift.
                     <br/>
-                    <strong>Em seguida, pensamos na possibilidade de criar uma funcionalidade para a Alexa que a integrasse ao ambiente de estudo da universidade.</strong>
+                    <strong>Then, we think about the possibility to create an Alexa's skill that would integrate it into the university's study environment.</strong>
                     </p>
                 </Col>
                 <Col xxl="6" xs="12">
-                    <h4 className={styles.sectionTitle}>Desafio</h4>
+                    <h4 className={styles.sectionTitle}>Challenge</h4>
                     <p>
-                    Criar para uma ferramenta ainda pouco explorada por desenvolvedores no Brasil, um aplicativo inovador que, segundo a própria Amazon, não há precedente de algo semelhante ao que estávamos planejando.
+                    Create for a tool still little explored by developers in Brazil, an innovative application that, according to Amazon itself, there is no previous case of something that resembles what we were planning.
                     <br/>
-                    <strong>Além disso, analisamos a "inviabilidade" técnica dos dispositivos para os recursos que estávamos mapeando.</strong>
+                    <strong>Also, going over device technical "unfeasibility" for features we were mapping.</strong>
                     </p>
                 </Col>
             </Row>
             <Row className={styles.sectionDivision}>
-            <h4 className={styles.sectionTitle}>Limitações</h4>
+            <h4 className={styles.sectionTitle}>Limitations</h4>
                 <Col xxl="12" xs="12" className={styles.SideBySide}>
                     <div className={styles.contentBox}>
                         <Image src="/images/projetos/alexa/desafio-dev.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                        Falta de desenvolvedores qualificados
+                        Lack of qualified devs
                     </div>
 
                     <div className={styles.contentBox}>
                         <Image src="/images/projetos/alexa/desafio-bench.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                        Sem benchmarks
+                        No Benchmarks
                     </div>
 
                     <div className={styles.contentBox}>
                         <Image src="/images/projetos/alexa/desafio-ferramenta.png" width="200" height="200" alt="Projeto finalista do Prêmio Seleção Mobile Time"/>  
-                        Ferramenta ainda pouco explorada
+                        Still underexplored tool
                     </div>
                 </Col>
             </Row>
 
             <Row className={styles.sectionDivision}>
-                <h4 className={styles.sectionTitle}>Acessibilidade</h4>
+                <h4 className={styles.sectionTitle}>Accessibility</h4>
                 <Col xxl="8" xs="12">
                     <p>
-                    Os dispositivos Echo nos permitiram explorar funcionalidades e beneficiar públicos que não alcançávamos antes. É o caso de pessoas com deficiência visual e também com limitações de movimento. Percebemos a necessidade de aprimorar o produto, inclusive durante o desenvolvimento.</p>
+                    Echo devices have allowed us to explore functionality and benefit audiences that we didn't have before. This is the case for people with visual impairments and also with movement limitations. We realized the need to improve even in the development.</p>
                         <ul className={styles.sectionTopicList}>
-                            <li>VOCABULÁRIO</li>
-                            <li>SINÔNIMOS</li>
-                            <li>MATERIAIS DE LEITURA ADICIONAL</li>
-                            <li>LEITURA DE IMAGENS</li>
-                            <li>REALIZAÇÃO DE PROVAS</li>
+                            <li>VOCABULARY</li>
+                            <li>SYNONYMS</li>
+                            <li>READING ADDITIONAL MATERIALS</li>
+                            <li>IMAGES READINGS</li>
+                            <li>COMPLETION OF TESTS</li>
                         </ul>
                 </Col>
                 <Col xxl="4" xs="12">
@@ -108,120 +108,120 @@ export default function ProjectAlexa(){
                 </Col>
             
                 <div className="quote">
-                    Conseguimos incluir e contar com o apoio da ACERGS (Associação dos Cegos do Rio Grande do Sul) para aprimorar ainda mais o projeto.
+                    We were able to include and count on the support of ACERGS (Association of the Blind People of Rio Grande do Sul) to further improve the project
                 </div>
             </Row>
 
             <Row className={styles.sectionDivision}>
-                <h4 className={styles.sectionTitle}>Conceito Técnico</h4>
+                <h4 className={styles.sectionTitle}>Technical Concept</h4>
             
-                <p>Antes do início do projeto, os aplicativos (Android e iOS) das instituições que receberiam as skills da Alexa já existiam. Eles haviam sido desenvolvidos há menos de um ano, portanto, sob parâmetros de desenvolvimento atuais e eficazes. Seguindo essa linha de raciocínio, optamos por reutilizar as APIs dos aplicativos para definir os endpoints que seriam nosso foco. Com base nas possibilidades técnicas da Alexa em comparação com os endpoints existentes, desenvolvemos primeiro a prova de conceito (POC) e, em seguida, o produto mínimo viável (MVP).
+                <p>Prior to the design of the project, the applications (Android and IOS) of the institutions that would receive the Alexa skills already existed. They had been developed less than 01 year ago, therefore, under current and effective development parameters. Following this line of reasoning, we chose to reuse the applications' APIs to define the endpoints that would be our focus. Based on the technical possibilities of Alexa versus the existing endpoints, we first developed the POC and then the MVP.
                 </p>
             
                 <div className="quote">
-                "Podemos afirmar que seria possível personalizar as funcionalidades das instituições, dentro das já existentes nos aplicativos, limitando-se apenas às disposições técnicas da Alexa."
+                "We can say that: It would be possible to customize the functionalities of the institutions, within the pre-existing ones in the applications, being limited only to the technical dispositions of Alexa"
                 </div>
             
 
-                <h5 className={styles.sectionSubtitle}>Processos</h5>
+                <h5 className={styles.sectionSubtitle}>Processes</h5>
 
-                <h6 className={styles.sectionTopic}>Idéia Básica</h6>
-                <p>Criar uma interface conversacional para interação com o ambiente acadêmico da instituição. Com base nessa ideia, nosso processo seguiu as seguintes etapas:</p>
+                <h6 className={styles.sectionTopic}>Basic Idea</h6>
+                <p>Create a conversational interface for interaction with the academic environment of the institution. Based on this idea, our process went through:</p>
 
                 <ul className={styles.sectionTopicList}>
-                    <li>Pesquisa sobre características nativas que poderiam ser incorporadas à habilidade (setembro de 2020)</li>
-                    <li>Definição de como usar esses recursos</li>
-                    <li>Design de produto da POC</li>
-                    <li>Elaboração da prova de conceito pela equipe de desenvolvimento.</li>
-                    <li>Validação das entregas pelas partes interessadas</li>
-                    <li>Validação do planejamento de testes</li>
-                    <li>O lançamento do MVP 1 está previsto para 30 de janeiro de 2021.</li>
-                    <li>Início da evolução para MVP 2</li>
+                    <li>Research of native features that could be incorporated into the skill (September 2020)</li>
+                    <li>Definition of how to use these resources</li>
+                    <li>POC's Product Design</li>
+                    <li>Elaboration of the POC by the DEV team</li>
+                    <li>Validation of deliveries by stakeholders</li>
+                    <li>Test planning validation</li>
+                    <li>MVP 1 release on January 30, 2021</li>
+                    <li>Beginning of evolution to MVP 2</li>
                 </ul>
 
                 <div className={styles.breakline}></div>
                 <Col xxl="4" xs="12">
-                <h6 className={styles.sectionTopic}>Design Product da POC</h6>
+                <h6 className={styles.sectionTopic}>POC Design Product</h6>
                     <ul className={styles.sectionTopicList}>
                         <li>Identify enrolled courses</li>
-                        <li>Reprodução de aulas</li>
-                        <li>Avance para a próxima turma.</li>
-                        <li>Voltar para a aula anterior</li>
-                        <li>Percentagem e conclusão do curso</li>
-                        <li>Informar dados pessoais registrados</li>
-                        <li>Verifique notificações de comunicação</li>
-                        <li>Ativação de perguntas frequentes</li>
-                        <li>Números de contato</li>
-                        <li>Reset de Senha</li>
+                        <li>Reproduction of classes</li>
+                        <li>Advance to the next class</li>
+                        <li>Return to previous class</li>
+                        <li>Percentage and course completion</li>
+                        <li>Inform registered personal data</li>
+                        <li>Check communication notifications</li>
+                        <li>FAQ Activation</li>
+                        <li>Contact numbers</li>
+                        <li>Password reset</li>
                     </ul>
 
                     <div className={styles.contentBox}>
-                    Tivemos 100% de comprovação da POC
+                    We had 100% proof of the POC
                     </div>
                 </Col>
                 <Col xxl="4">
-                   <h6 className={styles.sectionTopic}>MVP2 pre-mapeamento</h6>
+                   <h6 className={styles.sectionTopic}>MVP2 pre-mapping</h6>
                    <ul className={styles.sectionTopicList}>
-                        <li>Consumo de conteúdo contínuo</li>
-                        <li>Transferência de reprodução entre dispositivos Echo</li>
-                        <li>Disponibilidade das aulas conforme o cronograma.</li>
-                        <li>Leitura de material complementar</li>
-                        <li>Mudança na velocidade de reprodução</li>
-                        <li>Quiz da disciplina</li>
-                        <li>Datas e prazos automatizados</li>
-                        <li>Momentos favoritos da aula de reprodução</li>
-                        <li>Verificação das notas de avaliação</li>
-                        <li>Pesquise por disciplina e professor</li>
+                        <li>Continue consumption on another device</li>
+                        <li>Playback transfer between Echo devices</li>
+                        <li>Class availability according to schedule</li>
+                        <li>Existence and reading of complementary material</li>
+                        <li>Playback speed change</li>
+                        <li>Discipline quiz</li>
+                        <li>Automated dates and deadlines</li>
+                        <li>Favorite playback class moments</li>
+                        <li>Verification of evaluation notes</li>
+                        <li>Search by subject and teacher</li>
                     </ul>
                 </Col>
 
                 <Col xxl="4">
-                    <h6 className={styles.sectionTopic}>Testes Presenciais</h6>
+                    <h6 className={styles.sectionTopic}>In-person tests</h6>
                     <ul className={styles.sectionTopicList}>
-                        <li><strong>Pre-mapeamento:</strong> envio de um formulário digital para mapear as personas testadas.</li>
-                        <li><strong>Testes Individuais:</strong> os testadores receberam orientações e tarefas a serem executadas.</li>
-                        <li><strong>Dinâmicas de grupo 1:</strong> o confronto de ideias individuais apresentadas pelos usuários</li>
-                        <li><strong>Dinâmicas de grupo 2:</strong> exercício de valoração de características levantadas pelos usuários</li>
-                        <li><strong>Compilação dos resultados:</strong> validação dos dados coletados e apresentação dos resultados. Expansão da pesquisa digital para mapear mais perfis de usuários da instituição.</li>
+                        <li><strong>Pre-mapping:</strong> submission of a digital form to map the tested personas.</li>
+                        <li><strong>Individual tests:</strong> testers received guidance and tasks to be performed</li>
+                        <li><strong>Group dynamics 1:</strong> the confrontation of individual ideas presented by users</li>
+                        <li><strong>Group dynamics 2:</strong> exercise of valuing features raised by users</li>
+                        <li><strong>Compilation of results:</strong> validation of collected data and presentation of results. Expansion of the digital survey to map more user personas of the institution</li>
                     </ul>
                 </Col>
 
             <div className={styles.breakline}></div>
             
-            <h6 className={styles.sectionTopic}>Mapa de planejamento de testes</h6>
+            <h6 className={styles.sectionTopic}>Test Planning Map</h6>
             <Image src="/images/projetos/alexa/test-plan.jpg" layout='responsive' width={400}  height={400} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
             
             <div className={styles.breakline}></div>
-            <h6 className={styles.sectionTopic}>Matriz Relevância vs Esforço</h6>
-            <p>Um dos resultados mais importantes dos testes foi a matriz de prioridades. Ela foi gerada dinamicamente, por meio de exercícios de interesse e investimento, combinados com o esforço técnico de desenvolvimento.</p>
+            <h6 className={styles.sectionTopic}>RELEVANCE VS EFFORT Matrix</h6>
+            <p>One of the most important test results was the priority matrix. Generated in dynamics, through exercises of interest and investment, combined with the technical effort of development.</p>
             <Image src="/images/projetos/alexa/matriz-RE.png" layout='responsive' width={400}  height={400} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
 
             <div className={styles.breakline}></div>
-            <h6 className={styles.sectionTopic}>Inteligência conversacional aprimorada</h6>
-            <p>Criar uma interface conversacional não é tarefa fácil. É necessário pensar nas tarefas que a interface executará automaticamente e aprimorar o uso de sua inteligência. Isso vale tanto para assistentes virtuais e chatbots quanto para outras tecnologias cognitivas. Uma mudança na expressão facial pode aumentar a eficácia e resumir boa parte da jornada do usuário até atingir seu objetivo.</p>
+            <h6 className={styles.sectionTopic}>Improved conversational intelligence</h6>
+            <p>Creating a conversational interface is not an easy task. It is necessary to think about the tasks that the interface will do automatically, and improve the use of its intelligence. This goes for both virtual assistants and chatbots, and other cognitive technologies. A change of expression, can give more effectiveness, summarize a lot of a user's journey to their goal.</p>
 
             <div className={styles.breakline}></div>
             <Col xxl="6" xs="6">
                 <Image src="/images/projetos/alexa/Screenshot_9.png" layout='responsive' width={280}  height={200} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                Jornada Atual
+                Current Journey
             </Col>
 
             <Col xxl="6" xs="6">
                 <Image src="/images/projetos/alexa/Screenshot_1.png" layout='responsive' width={280}  height={200} alt="Projeto finalista do Prêmio Seleção Mobile Time"/>
-                Jornada aprimorada
+                Enhanced Journey
             </Col>
 
             </Row>
 
             
-                <h4 className={styles.sectionTitle}>Minhas contribuições</h4>
-                <p>Atuei como Líder de UX do projeto. Fui responsável pela idealização de funcionalidades, design de produto, gestão, definição e revisão das jornadas do usuário, estabelecimento de prioridades, realização de testes e pesquisas, levantamento de dados e elaboração de relatórios de resultados, suporte e interface com fornecedores terceirizados e recursos de pesquisa.</p>
+                <h4 className={styles.sectionTitle}>My roles</h4>
+                <p>I acted as UX Lead for the project. Responsible for skills ideation, product design, management, definition and review of user journeys, setting priorities, ideation, conducting tests and research, surveying and reporting results, support and interface of third-party vendors and research resources.</p>
 
                 <Row className={styles.breakline}></Row>
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros dos meus trabalhos</span>
+                    <span>See other of my works</span>
                 </h3>
                 <SectionPortfolio />
                 

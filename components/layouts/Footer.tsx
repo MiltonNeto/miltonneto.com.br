@@ -15,7 +15,7 @@ export default function Footer(){
                 <section id="TalkToMe">
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/conversation-color.png" width="48" height="48" alt="sectionIcon" className="sectionTitleIcon"/>
-                    <span>Fale Comigo!</span>
+                    <span>Let's chat!</span>
                 </h3>
                 
                 <Row className={styles.footerBoxes}>
@@ -24,7 +24,7 @@ export default function Footer(){
                         <Image src='/images/logos/linkedin.jpg' width='30' height='30' alt="Universidade Unisul" />
                         <div className={styles.boxRight}>
                             <h5 className={styles.lineTitle}>Linkedin</h5>
-                            <span className="Description">Product Designer | Especialista UX/UI | 20 anos em produtos digitais | Mentoria e Liderança Criativa</span>    
+                            <span className="Description">Lead UX Product Designer | Neuroscience and Applied Psychology Student</span>    
                         </div>
                     </div>
                     <a href='/downloads/MiltonNeto.pdf' target='_blank' className={styles.downloadCV}>Download CV</a>
@@ -52,7 +52,7 @@ export default function Footer(){
                 </section>
 
                 <section className={styles.footerSignature}>
-                    Todos direitos reservados. 2026
+                    All Rights Reserved. 2023
                     <Image src="/images/logo-milton.svg" width="25" height="25" alt="Milton Neto UX Designer" />
                 </section>
                 
@@ -97,7 +97,7 @@ export default function Footer(){
             </section>
 
             <section className={styles.footerSignature}>
-                Todos os direitos reservados. 2026
+                All Rights Reserved. 2023
                 <Image src="/images/logo-milton.svg" width="25" height="25" alt="Milton Neto UX Designer" />
             </section>
             

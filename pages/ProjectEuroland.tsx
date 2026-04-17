@@ -14,7 +14,7 @@ export default function ProjectEuroland(){
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Euroland</h1>
-                    <p>Conceito e design de website institucional para uma oficina mecânica de alto padrão, especializada em carros importados e de luxo. O projeto também incluiu, futuramente, o desenvolvimento de um aplicativo que permitirá o agendamento de serviços, bem como a comunicação sobre todas as etapas da manutenção do veículo.</p>
+                    <p>Concept and design of institutional website, for a high-end mechanical workshop, focused on imported and luxury cars. The project also included, in the future, the development of an application that would allow scheduling appointments for service, as well as communication about all steps of the vehicle during maintenance.</p>
                     </Col>
                 </Row>
             </Container>
@@ -24,16 +24,16 @@ export default function ProjectEuroland(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
+                    <label>Tools:</label>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
                     <li>Adobe XD</li>
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Serviços personalizados</li>
-                    <li>Marketing Institucional</li>
-                    <li>Serviços especializados</li>                    
+                    <li>Personalized Service</li>
+                    <li>Institutional Marketing</li>
+                    <li>Specialized Services</li>                    
                     </ul>
                 </Col>
             </Row>
@@ -58,7 +58,7 @@ export default function ProjectEuroland(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros dos meus trabalhos</span>
+                    <span>Veja outros trabalhos</span>
                 </h3>
                 <SectionPortfolio />
                 

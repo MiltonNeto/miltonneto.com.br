@@ -7,17 +7,17 @@ export default function SectionHowTo(){
     return(
         <>
             <Row className="contentText">
-            Trabalhar com design de experiência digital vai muito além de criar telas bonitas; muitas vezes, nem sequer envolve "criar telas". Nosso trabalho é criar soluções para serviços online e offline, guiados pelos desejos, necessidades e dificuldades dos usuários, para tornar o produto, serviço etc. mais fácil, familiar e agradável de usar.
+            Working with digital experience design is much more than making beautiful screens, many times it doesn't even involve "making screens". Our job is to create solutions for online and offline services, taking as direction, the desires, needs and "pains" of users to make the product, service, etc., easier, familiar or pleasant to use.
             </Row>
             <Row>
                 <div className={styles.boxList}>
                     <div className={styles.box}>
                         <Image src="/images/icones/experiencias.png" width={150} height={150} alt="Conheça meus trabalhos" className={styles.boxIcon}/>
-                        <h6 className="boxText">Experimentanto</h6>
+                        <h6 className="boxText">Experiencing</h6>
                     </div>
                     <div className={styles.box}>
                     <Image src="/images/icones/prototype.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Prototipando</h6>
+                        <h6 className="boxText">Prototyping</h6>
                     </div>
                     <div className={styles.box}>
                     <Image src="/images/icones/jornadas.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
@@ -26,7 +26,7 @@ export default function SectionHowTo(){
                 
                     <div className={styles.box}>
                     <Image src="/images/icones/strategy.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Estratégias</h6>
+                        <h6 className="boxText">Strategies</h6>
                     </div>
                     <div className={styles.box}>
                     <Image src="/images/icones/architecture.png"    width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
@@ -34,14 +34,14 @@ export default function SectionHowTo(){
                     </div>
                     <div className={styles.box}>
                     <Image src="/images/icones/mentoria.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Mentoria</h6>
+                        <h6 className="boxText">Mentoring</h6>
                     </div>
                 </div>
             </Row>
 
             <Row>
                 <div className="quote">
-                Trabalhar com inovação, facilitar a vida das pessoas, conceber ideias, testar e não tratar as pessoas apenas como números faz parte da nossa rotina.
+                Working on innovation, making people's lives easier, conceptualizing, testing, not treating people just like numbers are part of our routine.
                 </div>
             </Row>
 
@@ -49,7 +49,7 @@ export default function SectionHowTo(){
                 <Col xxl="6">
                     <h4 className="subtitle">
                         <Image src="/images/icones/tools-color.png" width="35" height="35" alt="subTitleIcon"/>
-                        <span>Ferramentas</span>
+                        <span>Tools</span>
                     </h4>
                     
                     <ul className={styles.verticalBoxList}>
@@ -116,7 +116,7 @@ export default function SectionHowTo(){
                 <Col xxl="6">
                     <h4 className="subtitle">
                         <Image src='/images/icones/skills-color.png' width="35" height="35" alt="subTitleIcon"/>
-                        <span>Habilidades</span>
+                        <span>Skills</span>
                     </h4>
                     
                     <ul className={styles.skillBoxList}>
@@ -137,11 +137,7 @@ export default function SectionHowTo(){
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={65} />
                         </li>
                         <li className={styles.skillBoxItem}>
-                            <span>Uso de IA para design</span>
-                            <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={70} />
-                        </li>
-                        <li className={styles.skillBoxItem}>
-                            <span>Arquitetura de informação</span>
+                            <span>Information architecture</span>
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={70} />
                         </li>
                         <li className={styles.skillBoxItem}>
@@ -153,15 +149,15 @@ export default function SectionHowTo(){
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={95} />
                         </li>
                         <li className={styles.skillBoxItem}>
-                            <span>Prototipando</span>
+                            <span>Prototyping</span>
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={80} />
                         </li>
                         <li className={styles.skillBoxItem}>
-                            <span>Gamificação</span>
+                            <span>Gamification</span>
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={70} />
                         </li>
                         <li className={styles.skillBoxItem}>
-                            <span>Métodos ágeis</span>
+                            <span>Agile Methods</span>
                             <Progress barClassName={styles.progressColor} style={{ height: '3px'}} value={65} />
                         </li>
                         <li className={styles.skillBoxItem}>
@@ -175,7 +171,7 @@ export default function SectionHowTo(){
                     
                 <Row>
                     <div className="quote">
-                    Às vezes, em um projeto, precisamos exercer uma visão mais macro. É como um jogo de tabuleiro chamado "DOIS PASSOS PARA TRÁS", onde tentamos identificar o que pode estar faltando!
+                    Sometimes in a project, we need to exercise a more macro vision. It's like a board game "TWO STEPS BACK" and try to see what might be missing!
                     </div>
                 </Row>
             </Row>
