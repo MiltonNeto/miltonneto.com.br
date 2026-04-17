@@ -54,7 +54,7 @@ export default function StickyMenu(){
         </div>
         <a href='/downloads/MiltonNeto.pdf' target='_blank' className='MobileDownload'>CV Download</a>
         <div className='MobileMenuSeparator'></div>
-        <div className='MobileSignature'>Milton Neto | UX UI Designer - 2023 All Rights Reserved</div>
+        <div className='MobileSignature'>Milton Neto | UX UI Designer - 2026 All Rights Reserved</div>
 
         
         </Offcanvas.Body>
