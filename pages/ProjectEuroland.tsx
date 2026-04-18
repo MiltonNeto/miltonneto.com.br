@@ -58,7 +58,7 @@ export default function ProjectEuroland(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros dos meus trabalhos</span>
+                    <span>Veja outros dos trabalhos</span>
                 </h3>
                 <SectionPortfolio />
                 
