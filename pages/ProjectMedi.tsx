@@ -14,7 +14,7 @@ export default function ProjectMedi(){
                     <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Medi</h1>
-                    <p>Energy control tool, focused on fixed and mobile devices, where it will be possible to control all automation in the house, such as lights, energy consumption and production of solar plants. In addition to being integrated with Alexa and Google Home</p>
+                    <p>Ferramenta de controle de energia, focada em dispositivos fixos e móveis, que permite controlar toda a automação da casa, como luzes, consumo de energia e produção de energia solar. Além disso, integra-se com Alexa e Google Home.</p>
                     </Col>
                 </Row>
             </Container>
@@ -24,7 +24,7 @@ export default function ProjectMedi(){
             <Row>
                 <Col xxl='12' className={styles.toolsList}>
                 <ul className={styles.bluePills}>
-                    <label>Tools:</label>
+                    <label>Ferramentas:</label>
                     <li>Photoshop</li>
                     <li>Miro</li>
                     <li>Illustrator</li>
@@ -32,12 +32,12 @@ export default function ProjectMedi(){
                 </ul>
                 <ul className={styles.redPills}>
                     <label>Tags:</label>
-                    <li>Energy Efficiency</li>
-                    <li>Smarthouse Control</li>
-                    <li>Energy Consuption Control</li>
-                    <li>Voice assistents integration</li>
-                    <li>Artificial intelligence</li>
-                    <li>Acessibility</li>
+                    <li>Eficiência Energática</li>
+                    <li>Controle de Smarthouse</li>
+                    <li>Controle de consumo de energia</li>
+                    <li>Integração com assistentes de voz</li>
+                    <li>Inteligência Artificial</li>
+                    <li>Acessibilidade</li>
                     <li>Product Design</li>
                     </ul>
                 </Col>
@@ -61,7 +61,7 @@ export default function ProjectMedi(){
                 
                 <h3 className="sectionTitle">
                     <Image src="/images/icones/plan-color.png" width='48' height='48' alt="O que eu faço" className="sectionTitleIcon" />
-                    <span>Veja outros trabalhos</span>
+                    <span>Veja outros dos meus trabalhos</span>
                 </h3>
                 <SectionPortfolio />
                 
