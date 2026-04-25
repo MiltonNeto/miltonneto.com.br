@@ -6,46 +6,53 @@ import Image from 'next/legacy/image';
 export default function SectionHowTo(){
     return(
         <>
-            <Row className="contentText">
-            Trabalhar com design de experiência digital vai muito além de criar telas bonitas; muitas vezes, nem sequer envolve "criar telas". Nosso trabalho é criar soluções para serviços online e offline, guiados pelos desejos, necessidades e dificuldades dos usuários, para tornar o produto, serviço etc. mais fácil, familiar e agradável de usar.
-            </Row>
             <Row>
-                <div className={styles.boxList}>
-                    <div className={styles.box}>
-                        <Image src="/images/icones/experiencias.png" width={150} height={150} alt="Conheça meus trabalhos" className={styles.boxIcon}/>
-                        <h6 className="boxText">Experiencing</h6>
+                <Col xs="12" xxl="12">
+                    <h3 className="sectionTitle">
+                        <span>Atuação</span>
+                    </h3>
+                    <div className={styles.boxList}>
+                        <div className={styles.box}>
+                            <h6 className="boxText">
+                                <Image src="/images/icones/compass.svg" width="23" height="23" alt="Ícone de Bússola" className={styles.iconList}/>
+                                <span>Direcionamento e definição de produto</span>
+                            </h6>
+                            <p>Apoio na definição de caminhos e construção de soluções, equilibrando necessidades de negócio, usuário e viabilidade técnica.</p>
+                        </div>
+                    
+                        <div className={styles.box}>
+                            <h6 className="boxText">
+                                <Image src="/images/icones/puzzle.svg" width="23" height="23" alt="Ícone de Bússola" className={styles.iconList}/>
+                                <span>Estruturação de Produto</span>
+                            </h6>
+                            <p>Organizo cenários complexos antes de partir para a solução, garantindo clareza sobre o que realmente precisa ser resolvido.</p>
+                        </div>
+                        <div className={styles.box}>
+                            <h6 className="boxText">
+                                <Image src="/images/icones/target.svg" width="23" height="23" alt="Ícone de Bússola" className={styles.iconList}/>
+                                <span>Experiência do Usuário</span>
+                            </h6>
+                            <p>Desenho fluxos e interações que reduzem fricção e tornam o uso mais intuitivo e previsível.</p>
+                        </div>
+                        <div className={styles.box}>
+                            <h6 className="boxText">
+                                <Image src="/images/icones/layers.svg" width="23" height="23" alt="Ícone de Bússola" className={styles.iconList}/>
+                                <span>Interface e Consistência</span>
+                            </h6>
+                            <p>Desenvolvo interfaces claras e consistentes, com foco em escalabilidade e manutenção ao longo do tempo.</p>
+                        </div>
+                        <div className={styles.box}>
+                            <h6 className="boxText">
+                                <Image src="/images/icones/users.svg" width="23" height="23" alt="Ícone de Bússola" className={styles.iconList}/>
+                                <span>Colaboração com Times</span>
+                            </h6>
+                            <p>Atuo de forma próxima com produto e tecnologia, participando das decisões e garantindo alinhamento ao longo do processo.</p>
+                        </div>
                     </div>
-                    <div className={styles.box}>
-                    <Image src="/images/icones/prototype.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Prototipando</h6>
-                    </div>
-                    <div className={styles.box}>
-                    <Image src="/images/icones/jornadas.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">User Journey</h6>
-                    </div>
-                
-                    <div className={styles.box}>
-                    <Image src="/images/icones/strategy.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Estratégias</h6>
-                    </div>
-                    <div className={styles.box}>
-                    <Image src="/images/icones/architecture.png"    width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Storytelling</h6>
-                    </div>
-                    <div className={styles.box}>
-                    <Image src="/images/icones/mentoria.png"   width={150} height={150} className={styles.boxIcon} alt="box Icon"/>
-                        <h6 className="boxText">Mentoria</h6>
-                    </div>
-                </div>
+                </Col>
             </Row>
 
-            <Row>
-                <div className="quote">
-                Trabalhar com inovação, facilitar a vida das pessoas, conceber ideias, testar e não tratar as pessoas apenas como números faz parte da nossa rotina.
-                </div>
-            </Row>
-
-            <Row className='subcontent'>
+           {/* <Row className='subcontent'>
                 <Col xxl="6">
                     <h4 className="subtitle">
                         <Image src="/images/icones/tools-color.png" width="35" height="35" alt="subTitleIcon"/>
@@ -178,7 +185,7 @@ export default function SectionHowTo(){
                     Às vezes, em um projeto, precisamos exercer uma visão mais macro. É como um jogo de tabuleiro chamado "DOIS PASSOS PARA TRÁS", onde tentamos identificar o que pode estar faltando!
                     </div>
                 </Row>
-            </Row>
+            </Row>*/}
         </>
     )
 }

@@ -34,22 +34,25 @@
 @media (min-width: 768px){
     .TopHeader{
         display: flex;
-        align-items: center;
+        align-items:flex-end;
         flex-direction: row;
         width: 100%;
         justify-content: space-between;
-        height: 80px;
-        border-bottom: solid 1px #dddddd;
+        height: 200px;
+        /*border-bottom: solid 1px #dddddd;*/
         .siteTitle{
-            width: 20%;
+            width: 100%;
             float: left;
             display: flex;
             align-items: center;
+            justify-content: center;
             padding: 3px 0;
-
-            p{
-            color: #202020;
-            font-size: 20px;
+            .mainLogo{
+                margin-right: 15px;
+            }
+            h1{
+            color: #898989;
+            font-size: 26px;
             font-weight: 700;
             height: auto;
             line-height: 1;

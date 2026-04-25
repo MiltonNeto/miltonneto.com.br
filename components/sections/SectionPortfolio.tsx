@@ -12,67 +12,66 @@ export default function SectionWhatIDo(){
             <Row className="subcontent">
                 <h4 className="subtitle">
                     <Image src="/images/icones/portfolio-color.png" layout='responsive' width={35} height={35} alt="Conheça meus trabalhos" />
-                    <span>Meu portfolio</span>
+                    <span>Projetos</span>
                 </h4>
 
                     <div className={styles.cards}>
+                        <Link href="/ProjectMagnifiCourier" className={styles.card}>
+                            <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                            App de entregas com foco em sustentabilidade
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Identidade Visual</li>
+                                <li>Sustentabilidade</li>
+                                <li>UX Research</li>                                
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o projeto</button>
+                            </div>
+                        </Link>
 
+                        <Link href="/ProjectAda" className={styles.card}>
+                            <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
+                            <div className={styles.cardText}>
+                            Plataforma de controle automatizado de diabetes
+                            </div>
+                            <ul className={styles.cardSkills}>
+                                <li>Product Design</li>
+                                <li>UI Design</li>
+                                <li>Assistente Virtual</li>
+                            </ul>
+                            <div className={styles.cardAction}>
+                            <button className={styles.buttonAction}>Conheça o projeto</button>
+                            </div>
+                        </Link>
+                        
                         <Link href="/ProjectAlexa" className={styles.card}>
                             <Image src='/images/alexa.jpg' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
                                 <p>
-                                Aplicativo de voz, com o objetivo principal de usar dispositivos Alexa como meio de aprendizado.
+                                Skill educacional Alexa
                                 </p>
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Alexa</li>
-                                <li>Miro</li>
+                                <li>UX Design</li>
+                                <li>ChatBot</li>
+                                <li>Acessibilidade</li>
                             </ul>
                             <div className={styles.cardAction}>
                                 <button className={styles.buttonAction}>Conheça o projeto</button>
                             </div>
                         </Link>
-                        <Link href="/ProjectAda" className={styles.card}>
-                            <Image src='/images/projetos/ada/thumb-ada.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                            Controle automatizado do diabetes, de forma rápida, fácil e confiável.
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Photoshop</li>
-                                <li>XD</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o projeto</button>
-                            </div>
-                        </Link>
-                        <Link href="/ProjectMagnifiCourier" className={styles.card}>
-                            <Image src='/images/projetos/magnificourier/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                            Proposta de projeto de aplicativo de entregas, com o requisito de promover a sustentabilidade ecológica.
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Adobe XD</li>
-                                <li>Miro</li>
-                                <li>Illustrator</li>
-                                <li>Photoshop</li>
-                                
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o projeto</button>
-                            </div>
-                        </Link>
-
+                        
                         <Link href="/ProjectB2B" className={styles.card}>
                             <Image src='/images/projetos/b2b/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                            Projeto de aplicativo atacadista para marca de moda fitness, focado em B2B com diversas regras de implementação.
+                            App B2B para atacado de moda fitness
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Loja de atacado</li>
-                                <li>Figjam</li>
+                                <li>E-commerce</li>
+                                <li>B2b</li>
+                                <li>Product Design</li>
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o projeto</button>
@@ -82,10 +81,12 @@ export default function SectionWhatIDo(){
                         <Link href="/ProjectRedesignFast" className={styles.card}>
                             <Image src='/images/projetos/fastcompras/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                                Proposta de reformulação do site institucional, atualizada com os primeiros estudos de UX.
+                                Redesign de site institucional com foco em UX
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Adobe Photoshop</li>
+                                <li>Design patterns</li>
+                                <li>Design System</li>
+                                <li>Marketing</li>
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o projeto</button>
@@ -94,12 +95,12 @@ export default function SectionWhatIDo(){
                         <Link href="/ProjectMedi" className={styles.card}>
                             <Image src='/images/projetos/medi/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
                             <div className={styles.cardText}>
-                                Interface de controle residencial inteligente, focada na tela do tablet.
+                                Interface para controle residencial inteligente
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Figma</li>
-                                <li>Illustrator</li>
-                                <li>Identidade Visual</li>                                
+                                <li>Product Design</li>
+                                <li>Interface Design</li>
+                                <li>Inteligência Artificial</li>                                
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o projeto</button>
@@ -112,9 +113,8 @@ export default function SectionWhatIDo(){
                                 Design de site institucional
                             </div>
                             <ul className={styles.cardSkills}>
-                                <li>Adobe XD</li>
-                                <li>Illustrator</li>
-                                <li>Identidade Visual</li>                                
+                                <li>Identidade Visual</li>
+                                <li>Marketing</li>
                             </ul>
                             <div className={styles.cardAction}>
                             <button className={styles.buttonAction}>Conheça o projeto</button>

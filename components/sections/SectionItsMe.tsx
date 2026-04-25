@@ -8,27 +8,24 @@ export default function SectionItsMe(){
             <>
                 <Row>
                     
-                    <Col xs="12" xxl="3">
+                    <Col xs="12" xxl="7">
                         <h3 className="sectionTitle">
-                            <Image src='/images/eu-mobile.png' width="100" height="100" alt='Oi, esse sou eu ' className={styles.contentImage}/>
-                        <span>Quem sou eu?</span>
-                    </h3>
-                    </Col>
-                    <Col xs="12" xxl="9" className={styles.contentText}>
-                        <p>
-                        Senior product designer com mais de 10 anos de experiência em concepção e evolução de produtos digitais. Atuação sólida em plataformas de alta complexidade, fintech, streaming, edtech e e-commerce. Experiência em criação  e implementação  de Design Systems escaláveis, integração entre design e desenvolvimento  (Sass, Next.js), definição de arquitetura de interface e melhoria contínua da experiência do usuário com base em dados comportamentais.
-                        <br/>
-                        <br/>
-                        Vivência em liderança técnica, estruturação de Design Ops e colaboração com times multidisciplinares em ambientes ágeis.
+                            <span>Sobre mim</span>
+                        </h3>
+                        <p className={styles.contentTextResume}>
+                            Sou Product Designer com mais de 10 anos de experiência em produtos digitais. Meu trabalho não começa na interface, começa na compreensão do problema.
+                            <br/>
+                            <br/>
+                            Prefiro organizar cenários complexos antes de desenhar soluções, garantindo que cada decisão tenha contexto e direção.
+                            <br/>
+                            <br/>
+                            Ao longo da minha trajetória, atuei em diferentes produtos digitais, sempre buscando equilibrar experiência, negócio e viabilidade técnica.
                         </p>                      
-                        
-                        {/*<Col xs="12" xxl="12" className="quote">
-                        "My goal is to evolve with each new delivery, that's why I say that my best work is always the next one."
-                        </Col>*/}
                     </Col>
-                    
-                    
+                    <Col xs="12" xxl="5" className={styles.contentImage}>
+                            <Image src='/images/milton-neto.jpg' width="320" height="420" alt='Milton Neto - Designer de produto, UX / UI'/>
+                    </Col>
                 </Row>
             </>
-    )
-}
+        )
+    }

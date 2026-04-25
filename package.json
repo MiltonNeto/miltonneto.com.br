@@ -19,6 +19,7 @@
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "isotope-layout": "^3.0.6",
+    "lucide-react": "^1.11.0",
     "next": "13.0.7",
     "react": "^18.2.0",
     "react-awesome-lightbox": "^1.8.1",

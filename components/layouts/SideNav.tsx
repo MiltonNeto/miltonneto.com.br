@@ -11,44 +11,51 @@ export default function SideNav(){
     return(
         
         <aside className={styles.mainMenu}> {/*<aside className={styles.mainMenu +".d-sm-none"}> usar este formato para adicionar classe simples com classe importada*/}
-            <Link href="./" className={styles.mainLogo}>
+            {/*<Link href="./" className={styles.mainLogo}>
                 <Image src="/images/logo-milton.svg" width="24" height="33" alt="Milton Neto - Product, UI UX Designer" />
-            </Link>
+            </Link>*/}
 
             <Nav vertical className={styles.menuBox}>
             
             <NavItem className={styles.menuItem} >
-                <NavLink href="./#ItsMe">
-                    <Tippy content="Quem sou?" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
-                        <Image src="/images/icones/alien-outline.png" alt="Who I am"  width="35" height="35" />
+                <NavLink href="./#">
+                    <Tippy content="Início" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
+                        <Image src="/images/icones/circle-dot.svg" alt="Ícone de início"  width="24" height="24" />
                     </Tippy>
                 </NavLink>
             </NavItem>
             <NavItem className={styles.menuItem}>
                 <NavLink href="./#WhatIDo">
-                    <Tippy content="Meu Portfolio" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
-                        <Image src="/images/icones/plan-outline.png" alt="What I do"  width="35" height="35"/>
-                    </Tippy>
-                </NavLink>
-            </NavItem>
-            <NavItem className={styles.menuItem}>
-                <NavLink href="./#HowTo">
-                    <Tippy content="Como eu faço" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
-                        <Image src="/images/icones/writing-outline.png" alt="My skills and academic formation"  width="35" height="35" className={styles.menuItemImage}/>
+                    <Tippy content="Projetos" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
+                        <Image src="/images/icones/folder-open-dot.svg" alt="Ícone de projetos"  width="24" height="24"/>
                     </Tippy>
                 </NavLink>
             </NavItem>
             <NavItem className={styles.menuItem}>
                 <NavLink href="./#resume">
-                    <Tippy content="Por onde eu passei" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
-                        <Image src="/images/icones/location-outline.png" alt="My professional way"  width="35" height="35" />
+                    <Tippy content="Experiências" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
+                        <Image src="/images/icones/waypoints.svg" alt="Ícone de experiências"  width="24" height="24" />
+                    </Tippy>
+                </NavLink>
+            </NavItem>
+            <NavItem className={styles.menuItem} >
+                <NavLink href="./#ItsMe">
+                    <Tippy content="Sobre mim" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
+                        <Image src="/images/icones/fingerprint-pattern.svg" alt="Ícone sobre mim"  width="24" height="24" />
+                    </Tippy>
+                </NavLink>
+            </NavItem>
+            <NavItem className={styles.menuItem}>
+                <NavLink href="./#HowTo">
+                    <Tippy content="Minha atuação" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
+                        <Image src="/images/icones/blocks.svg" alt="Link de minha atuação"  width="24" height="24" className={styles.menuItemImage}/>
                     </Tippy>
                 </NavLink>
             </NavItem>
             <NavItem className={styles.menuItem}>
                 <NavLink href="./#TalkToMe">
                     <Tippy content="Fale comigo" placement="right" animation="perspective-extreme" className={styles.tippyBox} >
-                        <Image src="/images/icones/conversation-outline.png" alt="Wanna talk with me? Let's chat."  width="35" height="35"/>
+                        <Image src="/images/icones/message-square-text.svg" alt="Fale comigo, vamos conversar"  width="24" height="24"/>
                     </Tippy>
                 </NavLink>
             </NavItem>

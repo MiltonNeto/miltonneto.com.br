@@ -1,21 +1,22 @@
 import styles from '../../styles/scss/components/sections/Resume.module.scss'
 
 import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
 
 export default function SectionResume(){
     return(
         <>
-            <Row>
+            <Row className="subcontent">
+                <h4 className="subtitle">
+                    <span>Experiência</span>
+                </h4>
                 <ul className={styles.resumeList}>
-                <Col xxl="6">
+                <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                            <Image src='/images/logos/ovni.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                     <h5 className={styles.JobPosition}>Consultoria e mentoria em UX/UI Design</h5>
-                                    <h5 className={styles.CompanyName}>OVNI Studio</h5>
-                                    <span className="date">Atualmente</span>
+                                    <h5 className={styles.CompanyName}>Nexia Hub - Autônomo</h5>
+                                    <span className={styles.date}>Nov 2023 - Atual</span>
                                 </div>
                             </div>
                             {/*{/*<ul className={styles.tasks}>
@@ -28,14 +29,13 @@ export default function SectionResume(){
                             </ul>*/}
                         </li>
                     </Col>
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/dbc.jfif' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>Analista UX UI - Especialista</h4>
                                     <h5 className={styles.CompanyName}>DBC Company</h5>
-                                    <span className="date">1 ano e 8 meses</span>
+                                    <span className={styles.date}>Fev 2022 - Out 2023</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
@@ -49,14 +49,13 @@ export default function SectionResume(){
                         </li>
                     </Col>
                     
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/dentsu.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                 <h4 className={styles.JobPosition}>Lead UX Designer</h4>
                                     <h5 className={styles.CompanyName}>Dentsu World Services Brazil</h5>
-                                    <span className="date">6 meses</span>
+                                    <span className={styles.date}>Ago 2021 - Fev 2022</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
@@ -69,14 +68,13 @@ export default function SectionResume(){
                         </li>
                     </Col>
 
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/pagonxt.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>Lead UX Designer</h4>
                                     <h5 className={styles.CompanyName}>Getnet - PagoNxt Merchant Solutions</h5>
-                                    <span className="date">4 meses</span>
+                                    <span className={styles.date}>Abr 2021 - Ago 2021</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
@@ -87,14 +85,13 @@ export default function SectionResume(){
                         </li>
                     </Col>
 
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/uol.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX designer Sênior | UX Lead</h4>
                                     <h5 className={styles.CompanyName}>UOL Edtech</h5>
-                                    <span className="date">1 anos e 2 meses</span>
+                                    <span className={styles.date}>Fev 2020 - Mar 2021</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
@@ -106,15 +103,33 @@ export default function SectionResume(){
                             </ul>*/}
                         </li>
                     </Col>
-    
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/les.jpg' width='30' height='30' alt="Universidade Unisul" />
+                                <div className={styles.boxRight}>
+                                    <h5 className={styles.JobPosition}>Consultoria e mentoria em UX/UI Design</h5>
+                                    <h5 className={styles.CompanyName}>Nexia Hub - Autônomo</h5>
+                                    <span className={styles.date}>Jan 2018 - Fev 2020</span>
+                                </div>
+                            </div>
+                            {/*{/*<ul className={styles.tasks}>
+                            Worked as a UX/UI and Product Designer, on demand for partner companies, such as N49, Maria Gueixa, Innovea Hub Solutions, Zahl Investments and Uhuu.com.
+                                {/*<ul className={styles.tasks}>
+                                    <li>Structuring of the creative design sector.</li>
+                                    <li>Implemented agile methodologies and user-centered design practices.</li>
+                                    <li>Developed app designs, digital marketing and e-commerce, and visual identity.</li>
+                                </ul>
+                            </ul>*/}
+                        </li>
+                    </Col>
+    
+                    <Col xxl="12">
+                        <li className={styles.resumeListItem}>
+                            <div className={styles.box}>
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX / UI designer | Marketing Supervisor</h4>
                                     <h5 className={styles.CompanyName}>L&S Group</h5>
-                                    <span className="date">3 anos</span>
+                                    <span className={styles.date}>Jul 2015 - Jan 2018</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
@@ -126,14 +141,13 @@ export default function SectionResume(){
                         </li>
                     </Col>
                     
-                    <Col xxl="6">
+                    <Col xxl="12">
                         <li className={styles.resumeListItem}>
                             <div className={styles.box}>
-                                <Image src='/images/logos/fastcompras.jpg' width='30' height='30' alt="Universidade Unisul" />
                                 <div className={styles.boxRight}>
                                     <h4 className={styles.JobPosition}>UX / UI (Web Designer)</h4>
                                     <h5 className={styles.CompanyName}>Fastcompras</h5>
-                                    <span className="date">6 anos</span>
+                                    <span className={styles.date}>Set 2009 - Jul 2015</span>
                                 </div>
                             </div>
                             {/*<ul className={styles.tasks}>
