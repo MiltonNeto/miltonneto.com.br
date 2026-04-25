@@ -13,18 +13,18 @@
     "@next/font": "13.0.7",
     "@tippyjs/react": "^4.2.6",
     "@types/node": "18.11.16",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "bootstrap": "^5.2.3",
     "eslint": "8.30.0",
-    "eslint-config-next": "13.0.7",
+    "eslint-config-next": "^16.2.4",
     "isotope-layout": "^3.0.6",
     "lucide-react": "^1.11.0",
-    "next": "13.0.7",
-    "react": "^18.2.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
     "react-awesome-lightbox": "^1.8.1",
     "react-bootstrap": "^2.7.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.2.5",
     "react-icons": "^4.7.1",
     "react-microsoft-clarity": "^1.1.2",
     "reactstrap": "^9.1.5",
@@ -38,5 +38,9 @@
   },
   "engines": {
     "node": "24.x"
+  },
+  "overrides": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
   }
 }
