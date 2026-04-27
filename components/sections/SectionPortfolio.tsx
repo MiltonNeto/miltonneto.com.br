@@ -1,6 +1,6 @@
 import styles from '../../styles/scss/components/sections/Portfolio.module.scss'
 
-import { Container, Row } from "reactstrap";
+import { Row } from 'react-bootstrap';
 import Image from "next/legacy/image";
 
 import Link from 'next/link';

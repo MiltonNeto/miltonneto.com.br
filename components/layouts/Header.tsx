@@ -1,5 +1,5 @@
 import styles from '../../styles/scss/components/layouts/Header.module.scss'
-import { Container } from 'reactstrap'
+import { Container } from 'react-bootstrap'
 import Link from "next/link"
 import Image from "next/image"
 

@@ -1,13 +1,12 @@
-import Script from 'next/script'
-import Head from 'next/head'
-import { Container } from 'reactstrap'
-import Header from '../components/layouts/Header'
-import SectionHero from '../components/sections/SectionHero'
-import SectionItsMe from '../components/sections/SectionItsMe'
-import SectionPortfolio from '../components/sections/SectionPortfolio'
-import SectionHowTo from '../components/sections/SectionHowTo'
-import SectionResume from '../components/sections/SectionResume'
-
+import Script from 'next/script';
+import Head from 'next/head';
+import { Container } from 'react-bootstrap';
+import Header from '../components/layouts/Header';
+import SectionHero from '../components/sections/SectionHero';
+import SectionItsMe from '../components/sections/SectionItsMe';
+import SectionPortfolio from '../components/sections/SectionPortfolio';
+import SectionHowTo from '../components/sections/SectionHowTo';
+import SectionResume from '../components/sections/SectionResume';
 
 export default function Home() {
  
@@ -18,6 +17,7 @@ export default function Home() {
       <meta name="description" content="Portfolio Digital de Milton Neto, Designer de interfaces digitais e especialista em experiência de usuário. Chega aí, vamos bater um papo sobre seu projeto!"/>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"></link>
       
     </Head>
       <>

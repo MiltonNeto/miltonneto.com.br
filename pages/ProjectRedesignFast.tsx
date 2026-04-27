@@ -1,7 +1,5 @@
 import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
-
-import { Container, Row, Col } from "reactstrap";
-
+import { Container, Row, Col } from "react-bootstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
 

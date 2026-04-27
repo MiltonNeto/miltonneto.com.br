@@ -1,7 +1,7 @@
 import styles from '../../styles/scss/components/sections/ItsMe.module.scss'
 
 import Image from "next/image";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "react-bootstrap";
 
 export default function SectionItsMe(){
     return(
