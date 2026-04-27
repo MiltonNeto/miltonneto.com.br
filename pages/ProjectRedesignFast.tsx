@@ -8,7 +8,7 @@ export default function ProjectRedesignFast(){
         <div className={styles.header+" "+ styles.fastcompras} >
             <Container>
                 <Row>
-                    <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                    <Col xxl={{ span: 8 ,offset: 2}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Redesign Website Institutional Fastcompras</h1>
                     <p>Proposta para reformulação do website institucional, atualizando-o com os primeiros estudos de UX. Utilização de técnicas de metodologia ágil e pesquisa com usuários; não foram utilizados wireframes para organizar a narrativa e a arquitetura da informação.</p>

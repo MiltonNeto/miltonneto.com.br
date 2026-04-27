@@ -9,7 +9,7 @@ export default function ProjectPiscilovers(){
         <div className={styles.header+" "+ styles.alexa} >
             <Container>
                 <Row>
-                    <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                    <Col xxl={{  span: 8 ,offset: 2}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Piscilovers</h1>
                     <p>Proposta de redesign de site institucional, atualizando com os primeiros estudos de UX. Uso de técnicas de métodos ágeis, e pesquisa com usuários, não foram utilizados wireframes para organização do storytelling e arquitetura da informação</p>

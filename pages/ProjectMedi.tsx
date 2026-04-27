@@ -8,7 +8,7 @@ export default function ProjectMedi(){
         <div className={styles.header+" "+ styles.medi} >
             <Container>
                 <Row>
-                    <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                    <Col xxl={{  span: 8 ,offset: 2}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Medi</h1>
                     <p>Ferramenta de controle de energia, focada em dispositivos fixos e móveis, que permite controlar toda a automação da casa, como luzes, consumo de energia e produção de energia solar. Além disso, integra-se com Alexa e Google Home.</p>

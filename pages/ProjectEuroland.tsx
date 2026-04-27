@@ -8,7 +8,7 @@ export default function ProjectEuroland(){
         <div className={styles.header+" "+ styles.euroland} >
             <Container>
                 <Row>
-                    <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                    <Col xxl={{  span: 8 ,offset: 2}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>Euroland</h1>
                     <p>Conceito e design de website institucional para uma oficina mecânica de alto padrão, especializada em carros importados e de luxo. O projeto também incluiu, futuramente, o desenvolvimento de um aplicativo que permitirá o agendamento de serviços, bem como a comunicação sobre todas as etapas da manutenção do veículo.</p>
