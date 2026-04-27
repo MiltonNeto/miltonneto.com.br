@@ -1,6 +1,5 @@
 import styles from '../../styles/scss/components/layouts/SideNav.module.scss'
 import { Nav, NavItem, NavLink} from "react-bootstrap"
-import Link from "next/link"
 import Image from "next/image"
 import Tippy from '@tippyjs/react';
 import 'tippy.js/animations/perspective-extreme.css';
@@ -9,10 +8,7 @@ export default function SideNav(){
     
     return(
         
-        <aside className={styles.mainMenu}> {/*<aside className={styles.mainMenu +".d-sm-none"}> usar este formato para adicionar classe simples com classe importada*/}
-            {/*<Link href="./" className={styles.mainLogo}>
-                <Image src="/images/logo-milton.svg" width="24" height="33" alt="Milton Neto - Product, UI UX Designer" />
-            </Link>*/}
+        <aside className={styles.mainMenu}> 
 
             <Nav className={`flex-column ${styles.menuBox}`}>
             

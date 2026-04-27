@@ -1,5 +1,4 @@
 import styles from '../../styles/scss/components/sections/ItsMe.module.scss'
-
 import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 

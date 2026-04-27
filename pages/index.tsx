@@ -1,4 +1,5 @@
 import Script from 'next/script';
+
 import Head from 'next/head';
 import { Container } from 'react-bootstrap';
 import Header from '../components/layouts/Header';

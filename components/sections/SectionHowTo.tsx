@@ -1,4 +1,5 @@
 import styles from '../../styles/scss/components/sections/HowTo.module.scss'
+
 import { Row, Col} from "react-bootstrap"
 import Image from 'next/legacy/image';
 

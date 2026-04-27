@@ -1,4 +1,5 @@
 import styles from '../../styles/scss/components/sections/ItsMe.module.scss'
+
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -9,7 +10,7 @@ export default function SectionHero(){
                     
                     <Col xs="12" xxl="12" className={styles.contentText}>
                         <Container>
-                            <h2 xs="12" xxl="12">
+                            <h2>
                                 Atuo na interseção entre UX, produto e estratégia,<br/>
                                 estruturando soluções que reduzem complexidade<br/>
                                 e tornam decisões mais claras.

@@ -1,5 +1,4 @@
 import styles from '../../styles/scss/components/layouts/StickyMenu.module.scss'
-
 import { Nav, Navbar, NavbarBrand, Button} from "react-bootstrap"
 import Link from 'next/link';
 import Image from 'next/image';

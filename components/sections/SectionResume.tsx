@@ -1,5 +1,4 @@
 import styles from '../../styles/scss/components/sections/Resume.module.scss'
-
 import { Row, Col } from "react-bootstrap";
 
 export default function SectionResume(){
