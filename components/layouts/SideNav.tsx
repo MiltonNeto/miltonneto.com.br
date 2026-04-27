@@ -15,7 +15,7 @@ export default function SideNav(){
                 <Image src="/images/logo-milton.svg" width="24" height="33" alt="Milton Neto - Product, UI UX Designer" />
             </Link>*/}
 
-            <Nav className={styles.menuBox}>
+            <Nav className={`flex-column ${styles.menuBox}`}>
             
             <NavItem className={styles.menuItem} >
                 <NavLink href="./#">
