@@ -60,7 +60,6 @@ export default function Footer(){
         <Container>
             <section id="TalkToMe">
             <h3 className="sectionTitle">
-                <Image src="/images/icones/conversation-color.png" width="48" height="48" alt="sectionIcon" className="sectionTitleIcon"/>
                 <span>Fale comigo!</span>
             </h3>
             

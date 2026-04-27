@@ -2,8 +2,76 @@
 @media (max-width: 767.98px){
     .contentImage{
         border-radius: 35px;
-        box-shadow: $DefaultShadow;
         margin-top: 20px;
+    }
+
+    .contentText{
+        line-height: 1.8em;
+        text-align: center;
+        margin-bottom: 60px;
+        h2{
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #171715;
+            margin-bottom: 40px;
+            margin-top: 100px;
+        }
+        h3{
+            margin: 30px auto -10px auto;
+            font-size: 1.5em;
+            line-height: 1.2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        h4{
+            margin-bottom: 30px;
+            font-size: 1.8em;
+            font-weight: 500;
+        }
+        .buttonAction{
+            background-color: #ffffff;
+            border: solid 1px #fff;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            font-size: 0.8em;
+            display: inline-flex;
+            align-items: center;
+            transition: $DefaultTransition;
+            &:hover{
+                border: solid 1px #bbb;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+            }
+            img{
+                margin-left: 5px;
+                margin-top: -3px;
+                opacity: .7;
+            }
+        }
+        p{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .contentTextResume{
+        line-height: 1.8em;
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .contentImage{
+        display: flex ;
+        justify-content: center;
+        margin-top: -8px;
+        & img{
+            border-radius: 12px;
+            filter: brightness(0.95) contrast(0.95);
+            opacity: 0.95;
+        }
     }
 }
 

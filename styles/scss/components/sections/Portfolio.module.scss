@@ -40,9 +40,11 @@
             }
         }
         .cardSkills{
-            display: flex;
+            display: none;
             flex-direction: row;
             margin: 1em;
+            text-align: center;
+            align-items: center;
             
             li{
                 background-color:cornflowerblue;
@@ -57,6 +59,8 @@
         .cardAction{
             border-top: solid 1px #eee;
             padding: 1em;
+            font-weight: bold;
+            text-align: center;
         }
     }
 }

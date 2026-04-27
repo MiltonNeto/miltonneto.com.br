@@ -37,12 +37,12 @@ export default function StickyMenu(){
           
         </Offcanvas.Header>
         <Offcanvas.Body>
-            <Image src='/images/miltonneto.webp' width="85" height="85" alt='Oi, esse sou eu ' className="MobileMenuImage" />
         <ul className='MobileMenuLinks'>
-            <li><Link href="./#ItsMe">Quem sou eu</Link></li>
-            <li><Link href="./#WhatIDo">Meu Portfolio</Link></li>
-            <li><Link href="./#HowTo">Como eu trabalho</Link></li>
-            <li><Link href="./#resume">Por onde eu passei</Link></li>            
+            <li><Link href="./#WhatIDo">Projetos</Link></li>
+            <li><Link href="./#resume">Experiências</Link></li>
+            <li><Link href="./#ItsMe">Sobre mim</Link></li>            
+            <li><Link href="./#HowTo">Minha atuação</Link></li>
+                        
         </ul>
         <div className='MobileMenuSeparator'></div>
         <div className='contactMobile'>
