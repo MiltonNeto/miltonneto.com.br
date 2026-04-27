@@ -1,5 +1,4 @@
 import styles from '../../styles/scss/components/layouts/SideNav.module.scss'
-
 import { Nav, NavItem, NavLink} from "react-bootstrap"
 import Link from "next/link"
 import Image from "next/image"
