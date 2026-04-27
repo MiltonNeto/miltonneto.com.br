@@ -8,7 +8,7 @@ export default function ProjectB2B(){
         <div className={styles.header+" "+ styles.b2b} >
             <Container>
                 <Row>
-                    <Col xxl={{ offset: 2, size: 8}}  className={styles.toolsList}>
+                    <Col xxl={{ offset: 2, span: 8}}  className={styles.toolsList}>
                     <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
                     <h1 className={styles.projectTitle}>App Atacado B2B</h1>
                     <p>Projeto de loja virtual por atacado. Com regras mínimas de compras, exposição de produtos, acompanhamento de número de itens sempre visível e timer de encerramento de período para aquisição de coleção</p>
