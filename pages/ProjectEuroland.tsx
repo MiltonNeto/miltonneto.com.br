@@ -2,8 +2,16 @@ import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
+import Head from "next/head";
 export default function ProjectEuroland(){
     return(
+        <>
+        <Head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+            <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+        </Head>
+
         <div>
         <div className={styles.header+" "+ styles.euroland} >
             <Container>
@@ -62,5 +70,6 @@ export default function ProjectEuroland(){
             </Container>
                 <div className={styles.breakline}></div>
         </div>
+    </>
     )
 }
