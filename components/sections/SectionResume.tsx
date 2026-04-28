@@ -18,14 +18,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Nov 2023 - Atual</span>
                                 </div>
                             </div>
-                            {/*{/*<ul className={styles.tasks}>
-                            Worked as a UX/UI and Product Designer, on demand for partner companies, such as N49, Maria Gueixa, Innovea Hub Solutions, Zahl Investments and Uhuu.com.
-                                {/*<ul className={styles.tasks}>
-                                    <li>Structuring of the creative design sector.</li>
-                                    <li>Implemented agile methodologies and user-centered design practices.</li>
-                                    <li>Developed app designs, digital marketing and e-commerce, and visual identity.</li>
-                                </ul>
-                            </ul>*/}
                         </li>
                     </Col>
                     <Col xxl="12">
@@ -37,14 +29,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Fev 2022 - Out 2023</span>
                                 </div>
                             </div>
-                            {/*<ul className={styles.tasks}>
-                                <li>Responsible for the development and curation of the design system, with a 75% gain in project delivery time.</li>
-                                <li>Development, documentation and curation of the RUBI DS design system</li>
-                                <li>Developed functionalities and user journeys for applications</li>
-                                <li>3d webshop design</li>
-                                <li>Idealization of tools and background of brand applications</li>
-                                <li>Created low and high fidelity prototyping.</li>
-                            </ul>*/}
                         </li>
                     </Col>
                     
@@ -57,13 +41,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Ago 2021 - Fev 2022</span>
                                 </div>
                             </div>
-                            {/*<ul className={styles.tasks}>
-                                <li>Led design projects from start to finish, including user research, prototyping, wireframing, and visual design.</li>
-                                <li>Conducted user research and developed internal platforms.</li>
-                                <li>Analysis of user journeys, continuous improvement of legacy products, planning and development of new features and products</li>
-                                <li>Developed navigable prototypes and performed usability testing.</li>
-                                <li>Worked in the dedicated innovation lab.</li>
-                            </ul>*/}
                         </li>
                     </Col>
 
@@ -75,12 +52,7 @@ export default function SectionResume(){
                                     <h5 className={styles.CompanyName}>Getnet - PagoNxt Merchant Solutions</h5>
                                     <span className={styles.date}>Abr 2021 - Ago 2021</span>
                                 </div>
-                            </div>
-                            {/*<ul className={styles.tasks}>
-                            <li>Administrative leader of teams in 4 countries, with 17 employees.</li>
-                            <li>Created and implemented design systems and structured the Chapter for a Design Ops team.</li>
-                            <li>Design System development advisor</li>
-                            </ul>*/}
+                            </div>                            
                         </li>
                     </Col>
 
@@ -93,13 +65,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Fev 2020 - Mar 2021</span>
                                 </div>
                             </div>
-                            {/*<ul className={styles.tasks}>
-                                <li>Technical leader in innovation projects for Alexa devices, reaching 1800 downloads in 7 days.</li>
-                                <li>Team mentor and creator of style guides and design systems.</li>
-                                <li>Planned and executed user interviews and usability tests.</li>
-                                <li>Central interface and third-party suppliers manager</li>
-                                <li>Analysis of user journeys, continuous improvement of legacy products, planning and development of new features and products.</li>
-                            </ul>*/}
                         </li>
                     </Col>
                     <Col xxl="12">
@@ -111,14 +76,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Jan 2018 - Fev 2020</span>
                                 </div>
                             </div>
-                            {/*{/*<ul className={styles.tasks}>
-                            Worked as a UX/UI and Product Designer, on demand for partner companies, such as N49, Maria Gueixa, Innovea Hub Solutions, Zahl Investments and Uhuu.com.
-                                {/*<ul className={styles.tasks}>
-                                    <li>Structuring of the creative design sector.</li>
-                                    <li>Implemented agile methodologies and user-centered design practices.</li>
-                                    <li>Developed app designs, digital marketing and e-commerce, and visual identity.</li>
-                                </ul>
-                            </ul>*/}
                         </li>
                     </Col>
     
@@ -131,12 +88,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Jul 2015 - Jan 2018</span>
                                 </div>
                             </div>
-                            {/*<ul className={styles.tasks}>
-                            <li>Reorganization of information architecture based on user research and interviews</li>
-                            <li>Redesign, assembly and automation of web products</li>
-                            <li>Digital communication art direction</li>
-                            <li>Supervision of the Marketing sector</li>
-                            </ul>*/}
                         </li>
                     </Col>
                     
@@ -149,12 +100,6 @@ export default function SectionResume(){
                                     <span className={styles.date}>Set 2009 - Jul 2015</span>
                                 </div>
                             </div>
-                            {/*<ul className={styles.tasks}>
-                            <li>Design and frontend development of websites and online stores</li>
-                            <li>Implementation and monitoring of research cell and improvement of tools and processes</li>
-                            <li>Selection and training</li>
-                            <li>Member of the strategic planning and leadership team</li>
-                            </ul>*/}
                         </li>
                     </Col>
                 </ul>

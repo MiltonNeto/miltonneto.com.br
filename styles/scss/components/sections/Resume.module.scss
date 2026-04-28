@@ -54,10 +54,10 @@
     }
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
     .resumeList{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         .resumeListItem{
             margin-right: 1em;
