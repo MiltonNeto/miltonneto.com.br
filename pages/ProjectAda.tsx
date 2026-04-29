@@ -13,29 +13,32 @@ export default function ProjectAda(){
         </Head>
         
         <div className={styles.header +" "+ styles.ada}>
-            <Container>
-                <h2 className={styles.projectTitle}>A.D.A.</h2>
-            </Container>
+            <div className={styles.headerOverlay}></div>
+                <div className={styles.headerContent}>
+                    <Container>
+                        <span className={styles.caseLabel}>Projeto</span>
+
+                        <h1 className={styles.projectTitle}>A.D.A.</h1>
+                        <p className={styles.caseSubline}>
+                                  Controle de diabetes não é só monitoramento, é tomada de decisão. O ADA foi projetado para tornar essas decisões mais rápidas, claras e seguras.
+                        </p>
+                        <div className={styles.caseMeta}>
+                            <span>Product Design</span>
+                            <span>UI Design</span>
+                            <span>Assistente Virtual</span>
+                            <span>Saúde Digital</span>
+                        </div>
+                        <p className={styles.caseContext}>
+                                  O desafio não era apenas organizar dados, mas estruturar uma experiência capaz de reduzir incerteza em um contexto onde cada decisão impacta diretamente a saúde do usuário.
+                        </p>
+                    </Container>
+                
+                
+                </div>
         </div>
         
-        <Container>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                    <ul className={styles.bluePills}>
-                        <label>Ferramentas:</label>
-                        <li>Figma</li>
-                        <li>Photoshop</li> 
-                        <li>XD</li>
-                    </ul>
-                    <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Assistente Virtual</li>
-                    <li>Acessibilidade</li> 
-                    <li>Product Design</li>
-                    </ul>
-                </Col>
-            </Row>
-
+        <Container  className={styles.projectsBody}>
+            
         <Row className={styles.sectionDivision}>
 
         <h4 className={styles.sectionTitle}>Descrição</h4>

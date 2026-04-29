@@ -13,33 +13,32 @@ export default function ProjectAlexa(){
         </Head>
         <div>
         <div className={styles.header +" "+ styles.alexa} >
-            <Container>
-                <h2 className={styles.projectTitle}>Skill Educacional Alexa</h2>
-            </Container>
+            <div className={styles.headerOverlay}></div>
+                <div className={styles.headerContent}>
+                    <Container>
+                        <span className={styles.caseLabel}>Projeto</span>
+
+                        <h1 className={styles.projectTitle}>Alexa: Skill Educacional</h1>
+                        <p className={styles.caseSubline}>
+                                  Experiência educacional baseada em voz, projetada para dispositivos Alexa, explorando interações sem interface visual e novos modelos de navegação.
+                        </p>
+                        <div className={styles.caseMeta}>
+                            <span>UX</span>
+                            <span>Conversational Design</span>
+                            <span>Voice Interface</span>
+                            <span>IA</span>
+                        </div>
+                        <p className={styles.caseContext}>
+                            O desafio era estruturar uma experiência onde não há interface visual, organizando fluxos, feedbacks e tomadas de decisão apenas por meio de comandos de voz.
+                        </p>
+                    </Container>
+                
+                
+                </div>
         </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Figma</li>
-                    <li>Alexa</li>
-                    <li>Miro</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Voice Interface</li>
-                    <li>Assistente Virtual</li>
-                    <li>Alexa</li>
-                    <li>Chatbot</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
-                    <li>Product Design</li>
-                    </ul>
-                </Col>
-            </Row>
-
+            
             <Row className={styles.sectionDivision}>
                 
                 <h4 className={styles.sectionTitle}>Descrição</h4>
