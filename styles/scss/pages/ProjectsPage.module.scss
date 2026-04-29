@@ -171,24 +171,47 @@
     }
 }
 
+.headerContent {
+  position: relative;
+  z-index: 1;
+}
+
 .alexa{
     background: url(/images/alexa.jpg) center center;
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .magnificourier{
     background: url(/images/projetos/magnificourier/capa.jpg) center center;
     background-size: cover;
+    background-position: center;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.9)
+        );
+    }
 }
 
 .ada{
     background: url(/images/projetos/ada/thumb-ada.png) center center;
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .fastcompras{
     background: url(/images/projetos/fastcompras/thumb.png) center center;
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .toolsList{

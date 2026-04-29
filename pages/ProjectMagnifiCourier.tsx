@@ -8,16 +8,21 @@ export default function ProjectMagnifiCourier(){
     return(
         <>
         <Head>
+            <title>Magnificourier | Milton Neto - Portfolio Digital</title>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
             <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
         </Head>
         
+
+
         <div>
         <div className={styles.header +" "+ styles.magnificourier} >
-            <Container>
-                <h2 className={styles.projectTitle}>MagnifiCourier</h2>
-            </Container>
+            <div className={styles.headerContent}>
+                <Container>
+                    <h2 className={styles.projectTitle}>MagnifiCourier</h2>
+                </Container>
+            </div>
         </div>
 
         <Container  className={styles.projectsBody}>
