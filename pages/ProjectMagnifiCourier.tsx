@@ -17,34 +17,34 @@ export default function ProjectMagnifiCourier(){
 
 
         <div>
-        <div className={styles.header +" "+ styles.magnificourier} >
-            <div className={styles.headerContent}>
-                <Container>
-                    <h2 className={styles.projectTitle}>MagnifiCourier</h2>
-                </Container>
+            <div className={styles.header +" "+ styles.magnificourier} >
+             <div className={styles.headerOverlay}></div>
+                <div className={styles.headerContent}>
+                    <Container>
+                        <span className={styles.caseLabel}>Projeto</span>
+
+                        <h1 className={styles.projectTitle}>MagnifiCourier</h1>
+                        <p className={styles.caseSubline}>
+                            Aplicativo de entregas com foco em sustentabilidade, estruturado para otimizar rotas, reduzir impacto ambiental e simplificar a tomada de decisão.
+                        </p>
+                        <div className={styles.caseMeta}>
+                            <span>Product Design</span>
+                            <span>Identidade Visual</span>
+                            <span>Sustentabilidade</span>
+                            <span>UX Research</span>
+                            <span>UI</span>
+                        </div>
+                        <p className={styles.caseContext}>
+                            O desafio era estruturar um serviço de entregas que equilibrasse eficiência operacional e impacto ambiental, organizando um sistema onde custo, tempo e sustentabilidade não competem entre si.
+                        </p>
+                    </Container>
+                
+                
+                </div>
             </div>
-        </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Adobe XD</li>
-                    <li>Miro</li>
-                    <li>Illustrator</li>
-                    <li>Photoshop</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Identidade Visual</li>
-                    <li>Entrevistas Pessoais</li>
-                    <li>Sustentabilidade Ecológica</li>
-                    <li>Delivery App</li>
-                    </ul>
-                </Col>
-            </Row>
-
+            
             <Row className={styles.sectionDivision}>
                 
                 <Col xxl="6">
