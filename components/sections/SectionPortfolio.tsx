@@ -106,20 +106,6 @@ export default function SectionWhatIDo(){
                             </div>
                         </Link>
                         
-                        <Link href="/ProjectEuroland" className={styles.card}>
-                            <Image src='/images/projetos/euroland/thumb-mini.png' layout='responsive' width={410} height={271} alt="Imagem de projeto" className={styles.cardImage} />
-                            <div className={styles.cardText}>
-                                Design de site institucional
-                            </div>
-                            <ul className={styles.cardSkills}>
-                                <li>Identidade Visual</li>
-                                <li>Marketing</li>
-                            </ul>
-                            <div className={styles.cardAction}>
-                            <button className={styles.buttonAction}>Conheça o projeto</button>
-                            </div>
-                        </Link>
-                        
                     </div>
             </Row>
 

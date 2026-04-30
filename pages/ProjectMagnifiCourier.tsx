@@ -48,16 +48,12 @@ export default function ProjectMagnifiCourier(){
             <Row className={styles.sectionDivision}>
                 
                 <Col xxl="6">
-                <h4 className={styles.sectionTitle}>Descrição</h4>
-                <p>Proposta de projeto para um aplicativo de entregas, com o requisito de promover a sustentabilidade ecológica.</p>
-                <br/>
-                <p>
-                O MagnifiCourier é um aplicativo que combina a praticidade e a facilidade dos principais aplicativos de mobilidade urbana do mercado, simplificando a vida dos usuários que precisam transportar objetos pequenos ou grandes, oferecendo opções ecossustentáveis.
-                </p>
+                <h4 className={styles.sectionTitle}>Contexto</h4>
+                <p>O MagnifiCourier surgiu da necessidade de repensar o modelo tradicional de entregas urbanas, equilibrando eficiência operacional com responsabilidade ambiental.</p>
                 </Col>
             
                 <Col xxl="6" xs="12">         
-                    <h4 className={styles.sectionTitle}>Como funciona</h4>
+                    <h4 className={styles.sectionTitle}>Desafio</h4>
                     <p>Por meio de um sistema de descontos, incentiva o uso de entregadores de bicicleta ou mesmo a Entrega Compartilhada (que reduz a frequência de deslocamento do entregador), realizando várias coletas simultaneamente, em uma rota que o próprio aplicativo indica como a mais eficiente e menos poluente.<br/>
                     Além de outras formas de incentivos, como o compromisso da empresa em plantar árvores de acordo com o uso do aplicativo.
                     </p>

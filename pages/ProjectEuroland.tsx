@@ -26,22 +26,7 @@ export default function ProjectEuroland(){
         </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>Adobe XD</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Serviços personalizados</li>
-                    <li>Marketing Institucional</li>
-                    <li>Serviços Especializados</li>                    
-                    </ul>
-                </Col>
-            </Row>
+            
 
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">

@@ -214,36 +214,6 @@
     background-size: cover;
 }
 
-.toolsList{
-    display: flex;
-    flex-direction: column;
-    ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-        &.bluePills li{
-            background-color: cornflowerblue;
-            color: #FFF;
-            margin-bottom: 10px;
-        }
-        &.redPills li{
-            background-color: #ffcdd2;
-            color: #666;
-            margin-bottom: 10px;
-        }
-        li{
-            margin-right: 15px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-radius: 50px;
-        }
-        label{
-            margin-right: 10px;
-        }
-    }
-}
-
 .breakline{
     width: 100%;
     height: 40px;

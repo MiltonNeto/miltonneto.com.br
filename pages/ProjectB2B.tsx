@@ -1,4 +1,4 @@
-import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
+import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
@@ -15,35 +15,36 @@ export default function ProjectB2B(){
 
         <div>
         <div className={styles.header+" "+ styles.b2b} >
-            <Container>
-                <Row>
-                    <Col xxl={{ offset: 2, span: 8}}  className={styles.toolsList}>
-                    <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
-                    <h1 className={styles.projectTitle}>App Atacado B2B</h1>
-                    <p>Projeto de loja virtual por atacado. Com regras mínimas de compras, exposição de produtos, acompanhamento de número de itens sempre visível e timer de encerramento de período para aquisição de coleção</p>
-                    </Col>
-                </Row>
-            </Container>
+            <div className={styles.headerOverlay}></div>
+
+                <Container className={styles.headerContent}>
+                    
+                    <span className={styles.caseLabel}>Projeto</span>
+
+                    <h1 className={styles.projectTitle}>
+                    Plataforma B2B
+                    </h1>
+
+                    <p className={styles.caseSubline}>
+                    Interface para gestão e conexão entre empresas, projetada para simplificar fluxos complexos e tornar processos comerciais mais claros e eficientes.
+                    </p>
+
+                    <div className={styles.caseMeta}>
+                    <span>UI Design</span>
+                    <span>UX</span>
+                    <span>B2B</span>
+                    <span>Plataforma Web</span>
+                    </div>
+
+                    <p className={styles.caseContext}>
+                    O desafio não era apenas criar uma interface, mas organizar um sistema com múltiplos fluxos, decisões e dependências, reduzindo fricção em um ambiente naturalmente complexo.
+                    </p>
+
+                </Container>
         </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Figma</li>
-                    <li>Figjam</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Loja Virtual</li>
-                    <li>Loja de atacado</li>
-                    <li>Vendas condicionais</li>
-                    <li>Product Design</li>
-                    </ul>
-                </Col>
-            </Row>
-
+            
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>

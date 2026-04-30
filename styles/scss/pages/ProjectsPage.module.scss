@@ -255,33 +255,20 @@
     position: relative;
 }
 
-.toolsList{
-    display: flex;
-    flex-direction: column;
-    ul{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
-        &.bluePills li{
-            background-color: cornflowerblue;
-            color: #FFF;
-        }
-        &.redPills li{
-            background-color: #ffcdd2;
-            color: #666;
-        }
-        li{
-            margin-right: 15px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-radius: 50px;
-        }
-        label{
-            margin-right: 10px;
-        }
-    }
+.b2b{
+    background: url(/images/projetos/b2b/thumb.png) center center;
+    background-size: cover;
 }
 
+.euroland{
+    background: url(/images/projetos/euroland/thumb.png) center center;
+    background-size: cover;
+}
+
+.medi{
+    background: url(/images/projetos/medi/thumb.png) center center;
+    background-size: cover;
+}
 
 .projectsBody{
     padding-left: 16px;

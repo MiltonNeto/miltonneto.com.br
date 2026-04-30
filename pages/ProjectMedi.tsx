@@ -1,4 +1,4 @@
-import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
+import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
@@ -14,48 +14,44 @@ export default function ProjectMedi(){
         </Head>
 
         <div>
-        <div className={styles.header+" "+ styles.medi} >
-            <Container>
-                <Row>
-                    <Col xxl={{  span: 8 ,offset: 2}}  className={styles.toolsList}>
-                    <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
-                    <h1 className={styles.projectTitle}>Medi</h1>
-                    <p>Ferramenta de controle de energia, focada em dispositivos fixos e móveis, que permite controlar toda a automação da casa, como luzes, consumo de energia e produção de energia solar. Além disso, integra-se com Alexa e Google Home.</p>
-                    </Col>
-                </Row>
+        <div className={`${styles.header} ${styles.medi}`}>
+            <div className={styles.headerOverlay}></div>
+
+            <Container className={styles.headerContent}>
+                
+                <span className={styles.caseLabel}>Projeto</span>
+
+                <h1 className={styles.projectTitle}>
+                Medi
+                </h1>
+
+                <p className={styles.caseSubline}>
+                Nem todo problema de design é visual. Este projeto foca em estruturar informação e comportamento em um sistema onde o usuário depende de clareza para tomar decisões.
+                </p>
+
+                <div className={styles.caseMeta}>
+                <span>UX</span>
+                <span>Produto</span>
+                <span>IoT</span>
+                <span>Sistema</span>
+                </div>
+
+                <p className={styles.caseContext}>
+                O desafio não estava na interface, mas na estrutura: transformar dados, eventos e interações em uma experiência compreensível e confiável para o usuário.
+                </p>
+
             </Container>
-        </div>
+            </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Photoshop</li>
-                    <li>Miro</li>
-                    <li>Illustrator</li>
-                    <li>Figma</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Eficiência Energática</li>
-                    <li>Controle de Smarthouse</li>
-                    <li>Controle de consumo de energia</li>
-                    <li>Integração com assistentes de voz</li>
-                    <li>Inteligência Artificial</li>
-                    <li>Acessibilidade</li>
-                    <li>Product Design</li>
-                    </ul>
-                </Col>
-            </Row>
+            
 
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
                     <img src="/images/projetos/medi/01.png" width="620" height="945" alt="Medi Energy controller"/>
                     <img src="/images/projetos/medi/02.png" width="620" height="945" alt="Medi Energy controller"/>
-                    <img src="/images/projetos/medi/03.png" width="620" height="945" alt="Medi Energy controller"/>
-                    <img src="/images/projetos/medi/logo.png" width="620" height="945" alt="Medi Energy controller"/>                    
+                    <img src="/images/projetos/medi/03.png" width="620" height="945" alt="Medi Energy controller"/>                 
                 </div>
                 </Col>
             </Row>

@@ -1,4 +1,4 @@
-import styles from "../styles/scss/pages/ProjectPageUI.module.scss"
+import styles from '../styles/scss/pages/ProjectsPage.module.scss'
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'next/legacy/image';
 import SectionPortfolio from '../components/sections/SectionPortfolio'
@@ -13,36 +13,37 @@ export default function ProjectRedesignFast(){
         </Head>
 
         <div>
-        <div className={styles.header+" "+ styles.fastcompras} >
-            <Container>
-                <Row>
-                    <Col xxl={{ span: 8 ,offset: 2}}  className={styles.toolsList}>
-                    <p className={styles.subject}><strong>PORTFOLIO</strong> - User Interface</p>
-                    <h1 className={styles.projectTitle}>Redesign Website Institutional Fastcompras</h1>
-                    <p>Proposta para reformulação do website institucional, atualizando-o com os primeiros estudos de UX. Utilização de técnicas de metodologia ágil e pesquisa com usuários; não foram utilizados wireframes para organizar a narrativa e a arquitetura da informação.</p>
-                    </Col>
-                </Row>
+        <div className={`${styles.header} ${styles.fastcompras}`}>
+            <div className={styles.headerOverlay}></div>
+
+            <Container className={styles.headerContent}>
+                
+                <span className={styles.caseLabel}>Projeto</span>
+
+                <h1 className={styles.projectTitle}>
+                Redesign Fast
+                </h1>
+
+                <p className={styles.caseSubline}>
+                Redesign de interface orientado à melhoria de usabilidade, com foco em reduzir fricção e tornar fluxos mais claros e eficientes.
+                </p>
+
+                <div className={styles.caseMeta}>
+                <span>UX</span>
+                <span>UI</span>
+                <span>Redesign</span>
+                <span>Usabilidade</span>
+                </div>
+
+                <p className={styles.caseContext}>
+                O ponto de partida foi uma experiência com inconsistências visuais e operacionais, onde usuários enfrentavam dificuldade para concluir tarefas de forma simples e previsível.
+                </p>
+
             </Container>
         </div>
 
         <Container  className={styles.projectsBody}>
-            <Row>
-                <Col xxl='12' className={styles.toolsList}>
-                <ul className={styles.bluePills}>
-                    <label>Ferramentas:</label>
-                    <li>Photoshop</li>
-                </ul>
-                <ul className={styles.redPills}>
-                    <label>Tags:</label>
-                    <li>Product Design</li>
-                    <li>Entrevistas com usuários</li>
-                    <li>Redesign da identidade visual</li>
-                    <li>Revisão dos Design Patterns</li>
-                    <li>Implementação de Design system</li>
-                    </ul>
-                </Col>
-            </Row>
-
+            
             <Row className={styles.sectionDivision}>
                 <Col xxl="12">
                 <div className={styles.imageList}>
